@@ -10,6 +10,7 @@ const config = {
   tagline: "A progressive toolkit for creating dApps",
   url: "https://gemunion.io",
   baseUrl: "/",
+  trailingSlash: true,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
