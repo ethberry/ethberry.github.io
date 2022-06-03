@@ -19,7 +19,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "gemunion", // Usually your GitHub org/user name.
   projectName: "gemunion.github.io", // Usually your repo name.
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
