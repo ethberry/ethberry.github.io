@@ -1,86 +1,98 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/** @type {import('@docusaurus/types').Config} */
+/** @type {import("@docusaurus/types").Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Gemunion Framework",
+  tagline: "A progressive toolkit for creating dApps",
+  url: "https://gemunion.io",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: "Gemunion", // Usually your GitHub org/user name.
+  projectName: "documentarius", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
-  presets: [
+  plugins: [
+    ["@docusaurus/plugin-content-pages", {}],
+    ["@docusaurus/theme-classic", {
+      customCss: require.resolve("./src/css/custom.css"),
+    }],
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "docs", // omitted => default instance
+        path: "docs",
+        routeBasePath: "docs",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "api",
+        path: "api",
+        routeBasePath: "api",
+      },
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'GEMUNION',
-        logo: {
-          alt: 'Gem Union Framework',
-          src: 'img/logo.png',
+  themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+    metadata: [{ name: "twitter:card", content: "summary" }],
+    navbar: {
+      title: "GEMUNION",
+      logo: {
+        alt: "Gem Union Framework",
+        src: "img/logo.png",
+      },
+      items: [
+        {
+          type: "doc",
+          docId: "overview",
+          docsPluginId: "docs",
+          label: "Docs",
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/GemunIon/framework',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} GENUNION. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        {
+          type: "doc",
+          docId: "installation",
+          docsPluginId: "api",
+          label: "API",
+        },
+        {
+          href: "https://github.com/GemunIon/framework",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [],
+      copyright: `Copyright © ${new Date().getFullYear()} GENUNION. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
 };
 
 module.exports = config;
