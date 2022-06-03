@@ -1,0 +1,8 @@
+{
+  "label": "ERC20",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "ERC20 - fungible tokens for DeFi."
+  }
+}
