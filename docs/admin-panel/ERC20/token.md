@@ -8,7 +8,7 @@ ERC20 token represents currency and is used for De(centralized) Fi(nance)
 
 ## Deployment
 
-ERC20 token contracts are being deployed using [Contract Manager](/docs/AdminPanel/ContractManager)
+ERC20 token contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
 
 ### Deployment options
 

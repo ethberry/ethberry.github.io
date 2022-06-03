@@ -8,7 +8,7 @@ ERC721 collection represents unique items such as simple images, in-game items o
 
 ## Deployment
 
-ERC721 collection contracts are being deployed using [Contract Manager](/docs/AdminPanel/ContractManager)
+ERC721 collection contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
 
 ### Deployment options
 

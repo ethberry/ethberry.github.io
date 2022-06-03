@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "ERC998 - non-fungible tokens that can own other tokens."
+    "description": "ERC998 - non-fungible composable token"
   }
 }
