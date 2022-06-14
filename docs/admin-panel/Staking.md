@@ -6,7 +6,7 @@ sidebar_position: 7
 
 Staking is a mechanic which allows user to deposit one kind of token and gain an interest in some other token over time. This could be compared with a bank. 
 
-On early stages of the project, when [ERC20](/docs/category/erc20/) token is just emitted it could be used to retain liquidity of this coin. So the project should configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [weapon in the box](/docs/AdminPanel/ERC721/dropbox/) as an interest.
+On early stages of the project, when [ERC20](/docs/category/erc20/) token is just emitted it could be used to retain liquidity of this coin. So the project should configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [weapon in the box](/docs/admin-panel/ERC721/dropbox/) as an interest.
 
 On middle and late stages it could be user for passive income
 
