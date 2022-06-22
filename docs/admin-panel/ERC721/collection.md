@@ -17,7 +17,7 @@ This information is passed directly to blockchain
 - **template** - Smart contract template with its unique functions
     - **SIMPLE** - Simple template includes all basic functions like _mint_, _burn_ and _transfer_
     - **GRADED** - Includes everything from SIMPLE template plus a metadata storage which can be used for updating level of the item
-    - **RANDOM** - Includes everything from SIMPLE template plus can get random number from [ChainLink](https://docs.chain.link/docs/chainlink-vrf/) service to set rarity based dispersion function
+    - **RANDOM** - Includes everything from GRADED template plus can get random number from [ChainLink](https://docs.chain.link/docs/chainlink-vrf/) service to set rarity based dispersion function
 - **name** - Token name in human-readable format
 - **symbol** - Token ticket to be displayed on markets
 - **base token url** - URL which points to server with metadata. most likely JSON server.
