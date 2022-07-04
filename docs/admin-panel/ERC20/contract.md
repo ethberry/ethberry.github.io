@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Token
+# Contract
 
 ERC20 token represents currency and is used for De(centralized) Fi(nance)
 

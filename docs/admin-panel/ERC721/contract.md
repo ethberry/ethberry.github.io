@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Collection
+# Contract
 
-ERC721 collection represents unique items such as simple images, in-game items or characters
+ERC721 contract represents unique items such as simple images, in-game items or characters
 
 ## Deployment
 
-ERC721 collection contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
+ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
 
 ### Deployment options
 
@@ -33,11 +33,11 @@ While deployment options are used as default values there are still things to co
 
 - **title** - This is how collection is displayed on site, especially on marketplace
 - **description** - General description in markdown format.
-- **collection status**
+- **status**
     - **NEW** - default status after contract deployment, should be manually changed to **ACTIVE**
     - **ACTIVE** - active token are displayed on site and available for selection for other actions
     - **INACTIVE** - inactive tokens are not available for selection and exists for references
-- **type** - collection type
+- **role** - collection role
     - **AIRDROP** - is a system collection which currently cannot be deployed by user. It is used in pair with staking to give the reward
     - **DROPBOX** - is a system collection which currently cannot be deployed by user. It is used for selling items which could have a random parameters
     - **TOKEN** - is a common collection which could be deployed in unlimited amount

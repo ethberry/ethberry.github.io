@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 ---
 
 # Staking
@@ -22,13 +22,13 @@ Staking contract is deployed by initial script.
 - **description** - General description, the story about unique weapon or mine/sawmill
 - **deposit token**
     - **token type** - One of possible token types.
-    - **collection** - desired collection from that type
+    - **contract** - desired collection from that type
     - **template** - exists only for ERC721/ERC998
     - **tokenId** - exists only for ERC1155
     - **amount** - exists only for ERC20/ERC1155
 - **deposit token**
     - **token type** - One of possible token types.
-    - **collection** - desired collection from that type
+    - **contract** - desired collection from that type
     - **template** - exists only for ERC721/ERC998, depending on collection type token would be minted as TOKEN, RANDOM TOKEN or DROPBOX
     - **tokenId** - exists only for ERC1155
     - **amount** - exists only for ERC20/ERC1155
