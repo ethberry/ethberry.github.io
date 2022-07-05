@@ -29,6 +29,9 @@ This information is passed directly to blockchain
 - **GRADED** - Splits duration in 4 equal period and unlocks funds by formula 10% -> 30% -> 60% -> 100%
 - **CLIFF** - Unlocks all funds in the end of vesting period.
 
+![](/img/vesting-schedule.png)
+
 ### References
 
 You can read more about how to create your own Vesting Template [here](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet)
+
