@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import("@docusaurus/types").Config} */
 const config = {
   title: "Gemunion Framework",
-  tagline: "A progressive toolkit for creating dApps",
+  tagline: "An advanced framework for building dApps",
   url: "https://gemunion.io",
   baseUrl: "/",
   trailingSlash: true,
@@ -37,7 +37,7 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "docs", // omitted => default instance
+        id: "docs",
         path: "docs",
         routeBasePath: "docs",
       },
@@ -62,7 +62,7 @@ const config = {
     navbar: {
       title: "GEMUNION",
       logo: {
-        alt: "Gem Union Framework",
+        alt: "Gemunion Framework",
         src: "img/logo.png",
       },
       items: [
