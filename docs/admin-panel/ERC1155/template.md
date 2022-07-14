@@ -21,5 +21,7 @@ To start selling tokens you have to configure them first
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces
 
+Template is an abstraction level to create a blueprint of the item, i.e. particular resources
+
 
 

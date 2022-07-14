@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Vesting
 
-Vesting is used to lock investors funds and unlock them using time-base function
+Vesting is usually used to lock investors funds and unlock them using time-base function
 
 ## Deployment
 
@@ -14,21 +14,15 @@ Vesting contracts are being deployed using [Contract Manager](/docs/admin-panel/
 
 This information is passed directly to blockchain
 
-- **template** - Smart contract template with its unique functions
+- **template** - Smart contract template with its unique functions. The key difference between template is unlocking schedule
   - **LINEAR** - Splits duration in 4 equal period and unlocks funds by 25% each period
   - **GRADED** - Splits duration in 4 equal period and unlocks funds by formula 10% -> 30% -> 60% -> 100%
-  - **CLIFF** - Unlocks all funds in the end of vesting period.
-- **contract template** - One of the available contract template. The key difference between template is unlocking schedule
+  - **CLIFF** - Unlocks 100% funds in the end of vesting period.
 - **beneficiary** - The address that can withdraw currency
 - **start time** - Starting date of vesting schedule
 - **duration** - Vesting duration
 
 ### Templates
-
-- **LINEAR** - Splits duration in 4 equal period and unlocks funds by 25% each period
-- **GRADED** - Splits duration in 4 equal period and unlocks funds by formula 10% -> 30% -> 60% -> 100%
-- **CLIFF** - Unlocks all funds in the end of vesting period.
-
 ![](/img/vesting-schedule.png)
 
 ### References

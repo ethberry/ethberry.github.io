@@ -6,7 +6,7 @@ sidebar_position: 7
 
 This is implementation of permission system base on lists
 
-There are two types of lists Blacklist and Whitelist.
+There are two types of lists **Blacklist** and **Whitelist**.
 
 ## Blacklist
 
@@ -20,4 +20,4 @@ Currently, Blacklist is implemented only for [ERC20](/docs/category/erc20/) and 
 
 In contrast to Blacklist, Whitelist allows operation with tokens only to accounts in the list
 
-Currently, Whitelist is not implemented for any type of tokens but exists as possibility
+Whitelist could be implemented for any type of token on request.
