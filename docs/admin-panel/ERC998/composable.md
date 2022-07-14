@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Composable
 
-Main feature of ERC998 is an ability to be composed. It means that ERC998 token can have another token (ERC20, ERC721,
+Main feature of ERC998 is an ability to be composed. It means that ERC998 token can hold another tokens (ERC20, ERC721,
 ERC998 and ERC1155) as a child.
 
 While it looks like a good idea to add each and every token as a potential child in real life application its most

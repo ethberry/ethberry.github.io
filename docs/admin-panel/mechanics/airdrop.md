@@ -10,4 +10,14 @@ Basically it is a wrapper NFT which acts like a factory and can produce another 
 airdropped NFT causes the original NFT to be burned while user receives a wrapped NFT from desired collection. This
 mechanic could be combined with getting [on-chain randomness](/docs/integrations/ChainLink/)
 
+## Configuration
+
+To start air-dropping items you have to create these items first, [see](/docs/admin-panel/ERC721/template/)
+
+### Configuration options
+
+- **account** - account that can claim an item
+- **item** - the item to be claimed, could contain any NFT
+
+
 

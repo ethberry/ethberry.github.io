@@ -4,4 +4,5 @@ sidebar_position: 6
 
 # Open Sea
 
-https://opensea.io/
+The biggest [NFT store](https://opensea.io/) in internet. Currently we are working on implementation of Seaport protocol
+to fuse our mechanics with auctions of all kind.

@@ -21,7 +21,7 @@ This information is passed directly to blockchain
 - **name** - Token name in human-readable format
 - **symbol** - Token ticket to be displayed on markets
 - **base token url** - URL which points to server with metadata. most likely JSON server.
-- **royalty** - Royalty is a fee paid to collection owner when items from his collection are being sold. Big marketplaces such as OpenSea pays royalty, but smaller marketplaces might not support [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981)
+- **royalty** - Royalty is a fee paid to collection owner when items from his collection are being sold. Big marketplaces such as OpenSea pays royalty, but smaller marketplaces might not support [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981) standard
 
 ## Configuration
 
@@ -29,7 +29,7 @@ After deployment information about smart contract is stored to database and requ
 
 ### Configuration options
 
-While deployment options are used as default values there are still things to configure
+While deployment options are used as default values, there are still things to configure
 
 - **title** - This is how collection is displayed on site, especially on marketplace
 - **description** - General description in markdown format.

@@ -24,7 +24,7 @@ After deployment information about smart contract is stored to database and requ
 
 ### Configuration options
 
-While deployment options are used as default values there are still things to configure
+While deployment options are used as default values, there are still things to configure
 
 - **title** - This is how collection is displayed on site, especially on marketplace
 - **description** - General description in markdown format.
