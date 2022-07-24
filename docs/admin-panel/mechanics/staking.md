@@ -13,7 +13,7 @@ On middle and late stages it could be used for passive income
 1. The project could configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [token in the box](/docs/admin-panel/mechanics/dropbox/) as an interest.
 
 2. Imagine user got 10 [Heroes](/docs/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 
-Of course, he can sell redundant NFTs, but he also makes them work in a mine and get passive income. 
+Of course, he can sell redundant NFTs, but he also can make them work in a mine to gain passive income. 
 Let's say project has configured mine to accept [Hero](/docs/category/erc998/) and give [metal ore](/docs/category/erc1155/) as an interest.
 5 metal ore per day per character, maximum 5 character per mine. 
 This will make user to want to have 10 Heroes instead of 5.

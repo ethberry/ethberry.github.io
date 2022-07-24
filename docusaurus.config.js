@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import("@docusaurus/types").Config} */
 const config = {
   title: "Gemunion Framework",
-  tagline: "An advanced framework for building dApps",
+  tagline: "An advanced framework for building decentralized games",
   url: "https://gemunion.io",
   baseUrl: "/",
   trailingSlash: true,

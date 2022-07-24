@@ -9,7 +9,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="A progressive toolkit for building dApps">
+      description="An advanced framework for building decentralized games">
       <main>
         <img src={require("@site/static/img/logo.png").default} alt="GEMUNION" className={styles.logo} />
       </main>
