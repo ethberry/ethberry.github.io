@@ -37,8 +37,10 @@ While deployment options are used as default values there are still things to co
   - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
   - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
   - **INACTIVE** - Inactive tokens are not available for selection
-- **role** - Collection role
-  - **TOKEN** - Common ERC721 collection which could be deployed in unlimited amount
-  - **AIRDROP** - Used in pair with staking to give the reward. (system collection, currently deployed by Admin only)
-  - **DROPBOX** - Used for selling items which could have a random parameters. (system collection, currently deployed by Admin only)
+- **features** - Contract features
+  - **BLACKLIST** - Extends **SIMPLE**, plus _blacklist_ function to ban any specific addresses
+  - **UPGRADEABLE** - Adds level attribute to contract
+  - **RANDOM** - Adds [ChainLink](/docs/integrations/ChainLink/) support and `rarity` attribute
+  - **SOULBOUND** - This type of token is bound to specific wallet because can't be transferred
+  - **MYSTERYBOX** - A token than can be `unpacked` to mint new token from RANDOM collection
 - **image** - Cover image, that is displayed on market

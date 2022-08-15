@@ -10,7 +10,7 @@ On early stages of the project, when [ERC20](/docs/category/erc20/) token is jus
 On middle and late stages it could be used for passive income
 
 ## Use case examples
-1. The project could configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [token in the box](/docs/admin-panel/mechanics/dropbox/) as an interest.
+1. The project could configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [token in the box](/docs/admin-panel/mechanics/mysterybox/) as an interest.
 
 2. Imagine user got 10 [Heroes](/docs/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 
 Of course, he can sell redundant NFTs, but he also can make them work in a mine to gain passive income. 
@@ -37,7 +37,7 @@ Staking rules are configured in Admin panel and later loaded to the Staking cont
 - **reward token**
     - **token type** - One of possible token types for reward.
     - **contract** - Selected collection from that type
-    - **template** - Used only for ERC721/ERC998, depending on collection type token would be minted as **_COMMON TOKEN_**, **_RANDOM TOKEN_** or **_DROPBOX_**
+    - **template** - Used only for ERC721/ERC998, depending on collection type token would be minted as **_COMMON TOKEN_**, **_RANDOM TOKEN_** or **_MYSTERYBOX_**
     - **tokenId** - Used only for ERC1155
     - **amount** - Used only for ERC20/ERC1155
 - **duration** - duration of the staking period, set in days

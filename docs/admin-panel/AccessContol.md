@@ -13,7 +13,7 @@ These roles later could be added or removed by your decision in Admin panel.
 
 - **DEFAULT_ADMIN_ROLE** - Automatically assigned to contract deployer and allows to assign other roles
 - **MINTER_ROLE** - Automatically assigned to [Marketplace](/docs/category/marketplace/) contract, so it could mint and sell new items
-- **PAUSER_ROLE** - Allows to pause some contracts, for example pause [Airdrop](/docs/admin-panel/mechanics/airdrop/) before it could be open
+- **PAUSER_ROLE** - Allows to pause some contracts, for example pause [Claim](/docs/admin-panel/mechanics/claim/) before it could be open
 - **SNAPSHOT_ROLE** - Makes a snapshot of [ERC20](/docs/admin-panel/ERC20/token/) owners
 - **PREDICATE_ROLE** - Specific to [Polygon network](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets/)
 - **DEPOSITOR_ROLE** - Specific to [Polygon network](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets/)

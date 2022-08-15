@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Lootbox
+# Mystery box
 
 Documentation coming soon...
