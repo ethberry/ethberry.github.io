@@ -4,21 +4,21 @@ sidebar_position: 2
 
 # Claim
 
-Claim is the simplest and thus first available mechanic for NFTs, it meant to be a reward for some sort of competition.
-Claimed tokens are given as a reward and usually free.
+Claim is the simplest and thus first available mechanic for NFTs. Claim meant to be a reward for some sort of marketing
+campaign and is given for free (for the cost of transaction), while other mechanics are in development.
 
-Basically it is a wrapper NFT which acts like a factory and can produce another NFT while being opened. Opening of
-claimed NFT causes the original NFT to be burned while user receives a wrapped NFT from desired collection. This
-mechanic could be combined with getting [on-chain randomness](/docs/integrations/ChainLink/)
+Basically claim is a pre-signed transaction that user can execute to receive a reward. One claim can contain multiple
+items of different types including [mystery box](/docs/admin-panel/mechanics/mysterybox/)
 
 ## Configuration
 
-To start air-dropping items you have to create these items first, [see](/docs/admin-panel/ERC721/template/)
+To start giving away items you have to create these items first, [see](/docs/admin-panel/hierarchy/ERC721/template/)
 
 ### Configuration options
 
-- **account** - account that can claim an item
-- **item** - the item to be claimed, could contain any NFT
+- **account** - The address of beneficiary
+- **item** - The item (or items) to be claimed (see [asset](/docs/admin-panel/misc/asset/))
+- **end date** - The expiration date
 
 
 

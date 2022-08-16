@@ -8,7 +8,7 @@ ERC721 contract for non-fungible tokens (NFTs). Represents unique items such as 
 
 ## Deployment
 
-ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
+ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/misc/contract-manager/)
 
 ### Deployment options
 
@@ -32,7 +32,7 @@ After deployment information about smart contract is stored to database and requ
 While deployment options are used as default values there are still things to configure
 
 - **title** - This is how collection is displayed on site or marketplace
-- **description** - General description. Supports Markdown format. Optional and present mostly for compatibility with other tokens
+- **description** - General description. Supports Markdown format.
 - **status**
   - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
   - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
@@ -40,7 +40,7 @@ While deployment options are used as default values there are still things to co
 - **features** - Contract features
   - **BLACKLIST** - Extends **SIMPLE**, plus _blacklist_ function to ban any specific addresses
   - **UPGRADEABLE** - Adds level attribute to contract
-  - **RANDOM** - Adds [ChainLink](/docs/integrations/ChainLink/) support and `rarity` attribute
+  - **RANDOM** - Adds [ChainLink](/docs/integrations/chain-link/) support and `rarity` attribute
   - **SOULBOUND** - This type of token is bound to specific wallet because can't be transferred
   - **MYSTERYBOX** - A token than can be `unpacked` to mint new token from RANDOM collection
 - **image** - Cover image, that is displayed on market

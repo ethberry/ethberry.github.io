@@ -21,8 +21,9 @@ This will make user to want to have 10 Heroes instead of 5.
 ## Deployment
 
 Staking contract is deployed as system contract by initial setup script.
-Each Staking contract could have multiple staking rules.
-Staking rules are configured in Admin panel and later loaded to the Staking contract.
+
+Staking contract could have multiple staking rules.
+Each rules is configured in Admin panel and later loaded to the Staking contract by executing transaction
 
 ### Configuration options
 

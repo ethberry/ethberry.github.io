@@ -8,7 +8,7 @@ ERC1155 contract represents semi-unique items (i.e. Game's resources or potions)
 
 ## Deployment
 
-ERC1155 contracts are being deployed using [Contract Manager](/docs/admin-panel/ContractManager)
+ERC1155 contracts are being deployed using [Contract Manager](/docs/admin-panel/misc/contract-manager/)
 
 ### Deployment options
 
