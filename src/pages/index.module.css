@@ -23,7 +23,7 @@
 }
 
 .logo {
-  width: 800px;
+  width: calc(100vh - 150px);
   margin: 0 auto;
   display: block;
 }
