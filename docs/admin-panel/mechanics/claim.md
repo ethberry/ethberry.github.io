@@ -12,13 +12,13 @@ items of different types including [mystery box](/docs/admin-panel/mechanics/mys
 
 ## Configuration
 
-To start giving away items you have to create these items first, [see](/docs/admin-panel/hierarchy/ERC721/template/)
+To start giving away items you have to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first.
 
 ### Configuration options
 
 - **account** - The address of beneficiary
-- **item** - The item (or items) to be claimed (see [asset](/docs/admin-panel/misc/asset/))
-- **end date** - The expiration date
+- **item** - The item (or items) to be claimed (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **end date** - The expiration date of the transaction
 
 
 

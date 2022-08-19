@@ -8,7 +8,7 @@ Vesting is usually used to lock investors funds and unlock them using time-base 
 
 ## Deployment
 
-Vesting contracts are being deployed using [Contract Manager](/docs/admin-panel/misc/contract-manager/).  
+Vesting contracts are being deployed using [Contract Manager](/docs/admin-panel/miscellaneous/contract-manager/).  
 
 ### Deployment options
 

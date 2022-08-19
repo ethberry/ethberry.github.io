@@ -11,7 +11,7 @@ items of different types
 
 ## Configuration
 
-To start using mystery boxes you have to create template first, [see](/docs/admin-panel/hierarchy/ERC721/template/)
+To start using mystery boxes you have to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first.
 
 You also have to fund a contract with [LINK](/docs/integrations/chain-link/) token to use ChainLink's Random Oracle.
 
@@ -19,7 +19,7 @@ You also have to fund a contract with [LINK](/docs/integrations/chain-link/) tok
 
 - **title** - This is how template is displayed on site, especially on marketplace
 - **description** - General description in markdown format.
-- **item** - The template (or templates) to be hidden inside the box (see [asset](/docs/admin-panel/misc/asset/))
-- **price** - The price on the marketplace (see [asset](/docs/admin-panel/misc/asset/))
+- **item** - The template (or templates) to be hidden inside the box (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **price** - The price on the marketplace (see [asset](/docs/admin-panel/miscellaneous/asset/))
 - **status** - Defines whether item is sellable on marketplace (only available for existing items)
 - **image** - Image to be shown on internal and external marketplaces

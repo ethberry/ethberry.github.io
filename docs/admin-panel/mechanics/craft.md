@@ -24,6 +24,6 @@ To start crafting items you have to create these items first, [see](/docs/admin-
 - **item** - An item to be crafted/dismantled
 - **ingredients** - A list of tokens that are required to craft (or produced from) the item. 
 
-NOTE: While you can add ETH and ERC20 to the ingredients mix or use only them, this mechanic is not meant for direct purchase
+NOTE: While you can add ETH and ERC20 as ingredients to the mix or use only them, this mechanic is not meant for direct purchase
 
 

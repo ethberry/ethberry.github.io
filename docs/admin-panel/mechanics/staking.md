@@ -10,6 +10,7 @@ On early stages of the project, when [ERC20](/docs/category/erc20/) token is jus
 On middle and late stages it could be used for passive income
 
 ## Use case examples
+
 1. The project could configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [token in the box](/docs/admin-panel/mechanics/mysterybox/) as an interest.
 
 2. Imagine user got 10 [Heroes](/docs/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 

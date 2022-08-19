@@ -8,7 +8,7 @@ ERC721 contract for non-fungible tokens (NFTs). Represents unique items such as 
 
 ## Deployment
 
-ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/misc/contract-manager/)
+ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/miscellaneous/contract-manager/)
 
 ### Deployment options
 

@@ -9,12 +9,12 @@ offer.
 
 ## Configuration
 
-To start using Drops you have to create template first, [see](/docs/admin-panel/hierarchy/ERC721/template/)
+To start using Drops you have to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first.
 
 ### Configuration options
 
-- **item** - The template to be dropped (see [asset](/docs/admin-panel/misc/asset/))
-- **price** - The price on the marketplace (see [asset](/docs/admin-panel/misc/asset/))
+- **item** - The template to be dropped (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **price** - The price on the marketplace (see [asset](/docs/admin-panel/miscellaneous/asset/))
 - **start date** - The start date of the drop, could be in the future
 - **end date** - The ed date of the drop, have to be after start date
 
