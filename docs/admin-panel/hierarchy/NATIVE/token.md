@@ -2,10 +2,9 @@
 sidebar_position: 1
 ---
 
-# Contract
+# Token
 
-Native token of the chain is a main utility token that could be used for all sorts of transaction. Of course, it does not
-require a contract and is placed here for unification with other tokes
+Native token of the chain is a main utility token that could be used for all sorts of transaction. 
 
 ## Creation
 
