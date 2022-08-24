@@ -1,0 +1,8 @@
+{
+  "label": "Authorization providers",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Authorization is a basic requirement and starting point of modern web applications. On one hand, it allows splitting users into groups and assigning them some permissions in the system, on the other hand, it allows the collection of personal data. So how to choose your auth strategy in the world of different platforms, protocols, and services?"
+  }
+}
