@@ -2,16 +2,27 @@
 sidebar_position: 4
 ---
 
-# Composable ERC998 Tokens
+# Composition
 
-The **ERC998** token is a valuable addition to the existing standards, and it enables a whole new range of use cases.
-Main feature of **ERC998** is an ability to be composed. It means that each **ERC998** token can own another tokens (
-ERC20, ERC721, ERC998 or ERC1155) as a child and traded using a single transfer of ownership.
+The **ERC998** token is a valuable addition to the existing standards, it enables a whole new range of use cases.
+Main feature of **ERC998** is an ability to be composed. This means each **ERC998** token can own another tokens (
+[ERC20](/docs/category/erc20/), [ERC721](/docs/category/erc721/), [ERC998](/docs/category/erc998/)
+or [ERC1155](/docs/category/erc1155/)) as a child. Composed tokens can be traded in a single transaction for a cost of
+transfer of parent token.
 
-# Notes
+## Configuration
 
-While it looks like a good idea to add each and every token as a potential child, in real life application its most
+While it looks like a good idea to add each and every token as a potential child, in real life application it is most
 likely impossible to wear CryptoKitty as a helmet of your character, because there is no such texture in the game.
-Another thing is about amount of children of the same type, i.e. wear 10 helmets at a time does not seem reasonable.
+Another thing is about amount of children of the same type, i.e. wearing 10 helmets at a time does not seem reasonable.
+
+### Configuration options
 
 We offer a filter to apply custom rules to restrict children.
+
+- **parent** - parent contract
+- **child** - child contract
+- **amount** - amount of child tokens
+
+NOTE: operations of adding and removing rules are performed directly on blockchain and reflected in database after
+transaction is complete

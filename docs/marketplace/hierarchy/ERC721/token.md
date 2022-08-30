@@ -4,4 +4,10 @@ sidebar_position: 5
 
 # Token
 
-A list of tokens in the user's wallet. Here user can sell, upgrade and compose his assets.
+## Token List
+
+A list of tokens that belongs to user
+
+## Token Page
+
+Here user can sell, upgrade and (de)compose his assets.

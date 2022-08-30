@@ -1,0 +1,8 @@
+{
+  "label": "NATIVE",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "NATIVE - native tokens of the chain."
+  }
+}
