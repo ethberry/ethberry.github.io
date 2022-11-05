@@ -5,7 +5,7 @@ sidebar_position: 1
 # Vesting
 
 Vesting is usually used to lock investors funds and unlock them using time-base function. This means investors still can
-use their bound to gain profit by selling it or by using it for [governance](/docs/admin-panel/mechanics/governance/)
+use their bound to gain profit by selling it or by using it for [governance](/docs/admin-panel/complex-mechanics/governance/)
 but can't just sell tokens on the market.
 
 ## Deployment

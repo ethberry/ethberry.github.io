@@ -11,4 +11,4 @@ The application can connect to the GAME-microservice using API key as a Bearer t
 Using gateway application can 
  - request user profile by user id.
  - request detailed token balance by user id.
- - create [Claim](/docs/admin-panel/mechanics/claim/)
+ - create [Claim](/docs/admin-panel/simple-mechanics/claim/)

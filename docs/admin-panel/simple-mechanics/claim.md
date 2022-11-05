@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Claim
@@ -8,7 +8,7 @@ Claim is the simplest and thus first available mechanic for NFTs. Claim meant to
 campaign and is given for free (for the cost of transaction), while other mechanics are in development.
 
 Basically claim is a pre-signed transaction that user can execute to receive a reward. One claim can contain multiple
-items of different types including [mystery box](/docs/admin-panel/mechanics/mysterybox/)
+items of different types including [mystery box](/docs/admin-panel/hierarchy/mystery/box)
 
 ## Configuration
 
