@@ -4,7 +4,9 @@ sidebar_position: 6
 
 # Grade
 
-Grade mechanic is used for leveling items and characters.
+Grade mechanic is used for updating token's parameters. 
+
+Grade level is displayed on [marketplaces](/api/components/json-microservice/marketplaces/)
 
 ## Configuration
 

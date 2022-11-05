@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Access Control
 
-This is implementation of permission system from [OpenZepplin](https://docs.openzeppelin.com/contracts/4.x/access-control#role-based-access-control)
+This is implementation of permission system from [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/access-control#role-based-access-control)
 
 In the process of deployment the [Contract Manager](/docs/admin-panel/miscellaneous/contract-manager/) assigns required roles to new contracts.
 These roles later could be added or removed by you in the Admin Panel.

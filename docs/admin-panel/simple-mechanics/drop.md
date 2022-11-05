@@ -5,11 +5,12 @@ sidebar_position: 4
 # Drop
 
 While all ACTIVE templates are available for purchase from the market at all times there is a way to create limited
-offer. 
+offer.
 
 ## Configuration
 
-To start using Drops you have to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first.
+To start using Drops you have to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first, then to create
+associated limited offer
 
 ### Configuration options
 
