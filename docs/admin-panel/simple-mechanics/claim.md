@@ -30,20 +30,14 @@ There are a few configuration options that you will need to specify.
 Claims are a great way to reward users for their participation in various activities. For example, 
 players can win rewards (kill the minion) in a game and the game server can communicate with our API to pre-sign the transaction so the player can claim their NFT. In another example, an admin can give out NFTs to users regardless of the stability of the web server. There are many other possible use cases for Claims, and this mechanic is an effective and flexible way to reward users.
 
-### How to pre-sign transaction for one/multiple accounts:
+### How to pre-sign transaction for signle/multiple accounts:
 
-#### Creating a Pre-Signed Transaction for a Single Account
+#### Creating a Pre-Signed Transaction for a single Account
 
 1. Navigate to the **Claim** section on the dashboard.
 2. Click on the **Create** button.
 3. Fill in the required information for the claim, including the beneficiary's address and the NFTs to be claimed. <br/>*(You can add multiple NFTs by clicking the **+** button).*
-4. Click the **Ok**"** button to complete the process.
-
-#### How to create pre-sgn transaction for one account:
-1. Go to dashboard and click to **Claim**  
-2. Click **Upload** button
-3. Insert CSV file with columns *(account,endTimestamp,tokenType,contractId,templateId,amount)*
-4. Click **Ok** button
+4. Click the **Ok** button to complete the process.
 
 #### Creating a Pre-Signed Transaction for Multiple Accounts
 
