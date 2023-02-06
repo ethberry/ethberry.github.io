@@ -8,11 +8,7 @@ Claim Mechanic Claim is a basic mechanic in the world of NFTs.
 Its primary purpose is to reward users for certain actions, such as participating in marketing campaigns. Claims are given out for free, with the only cost being the transaction fee.
 
 Claims are pre-signed transactions that users can execute to receive their reward. 
-A single claim can contain multiple items of different types, including [mystery boxes](/docs/admin-panel/hierarchy/mystery/box). This makes it an ideal solution for giving out rewards in various campaigns and promotions.
-
-## Eligibility Criteria 
-
-In order to be eligible to receive a reward through the claim mechanic, the user must meet the criteria defined in the pre-signed transaction. This may include requirements such as executing the transaction before a specified expiration date.
+A single claim can contain multiple items of different types, including [mystery boxes](/docs/admin-panel/hierarchy/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
 
 ## Configuration
 
@@ -49,18 +45,11 @@ players can win rewards (kill the minion) in a game and the game server can comm
 <br/>Note: Please refer to the attached screenshots for a visual representation of these steps. <br/>
 
 
-###### Dashboard -> Claim
-![](/img/dashboard_claim.jpeg)
-<!-- <img src="/img/dashboard_claim.jpeg" width="600"/> -->
-
 ###### Claim page
 ![](/img/claim_actions.jpeg)
-<!-- <img src="/img/claim_actions.jpeg" width="600"/> -->
 
 ###### Claim -> Create
 ![](/img/claim_create.jpeg)
-<!-- <img src="/img/claim_create.jpeg" width="600"/> -->
 
 ###### Claim -> Upload
 ![](/img/claim_upload.jpeg)
-<!-- <img src="/img/claim_upload.jpeg" width="600"/> -->
