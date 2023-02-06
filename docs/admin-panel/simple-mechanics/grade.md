@@ -10,8 +10,7 @@ The grade level of an NFT is displayed on [marketplaces](/api/components/json-mi
 
 #### Grade Properties on OpenSea Marketplace
 
-![](/img/grade_opensea_1.jpeg)
-![](/img/grade_opensea_2.jpeg)
+![](/img/grade_opensea.jpeg)
 
 ## Configuration
 
