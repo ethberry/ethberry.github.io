@@ -88,7 +88,7 @@ const config = {
     footer: {
       style: "dark",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} GENUNION. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GEMUNION. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
