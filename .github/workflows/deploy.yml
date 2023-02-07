@@ -1,0 +1,35 @@
+name: Docs Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Authenticate Registry & Configure Git User
+        run: |
+          echo "@gemunion:registry=https://npm.pkg.github.com/" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=$GITHUBTOKEN" >> .npmrc
+          git update-index --assume-unchanged .npmrc
+          npx npm-cli-login -u @gemunion -p $GITHUBTOKEN -e gemunion@gemunion.io -r https://npm.pkg.github.com -s @gemunion --config-path="./"
+          git config --global user.name '@gemunion'
+          git config --global user.email 'gemunion@gemunion.io'
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
+
+      - name: Authenticate check via npm
+        run: npm whoami --registry=https://npm.pkg.github.com/
+
+      - name: Install Packages
+        run: npm i
+
+      - name: Docusaurus deploy
+        run: npm run deploy
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
