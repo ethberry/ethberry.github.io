@@ -14,10 +14,10 @@ ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/m
 
 This information is passed directly to blockchain
 
-- **template** - see the feature comination [here](/docs/admin-panel/hierarchy/ERC721/features/)
+- **template** - see available features [here](/docs/admin-panel/hierarchy/ERC721/features/)
 - **name** - Token name in human-readable format
-- **symbol** - Token ticker  to be displayed on exchanges, markets, wallets etc.
-- **base token url** - URL which points to server with metadata. (usually a stand-alone JSON server)[JSON microservice](/api/category/json-microservice/).
+- **symbol** - Token ticker to be displayed on exchanges, markets, wallets etc.
+- **base token url** - URL which points to server with metadata. (usually a stand-alone [JSON microservice](/api/category/json-microservice/) server or IPFS).
 - **royalty** - Royalty (automatic payouts to the smart contract's owner made on secondary sales). Big marketplaces such as OpenSea pays royalty, but some smaller marketplaces might not support it [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981)
 
 ## Configuration
