@@ -15,9 +15,7 @@ The SIMPLE contract is a foundational component of all features offered by our p
 - **Enumerable** - allows the contract to be queried for a list of all token holders and their token balances _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Enumerable))_
 - **Royalty** - allows for a portion of the sale price to be paid to the original creator of the NFT each time it is resold
 - **BaseUrl** - allows the NFTs to have a URI pointing to a public location where additional information and resources can be stored
-- **MetaData Getter** - provides access to additional metadata associated with an NFT.
-
-<!-- The SIMPLE feature consists of several contracts, including **Access Control** (see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/access-control)), **Burnable** (see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Burnable)), **Enumerable** (see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Enumerable)), **Royalty**, **BaseUrl**, and **MetaData Getter**. The **Access Control** contract provides the ability to restrict or grant permission for specific addresses to interact with a smart contract, while the **Burnable** contract allows for NFTs to be destroyed, reducing the overall supply and potentially increasing the value of remaining tokens. The **Enumerable** contract enables the contract to be queried for a list of all token holders and their token balances, and the **Royalty** contract allows for a portion of the sale price to be paid to the original creator of the NFT each time it is resold. The **BaseUrl** contract enables NFTs to have a URI pointing to a public location where additional information and resources can be stored, and the **MetaData** Getter contract provides access to additional metadata associated with an NFT. -->
+- **MetaData** - provides tiny key/values storage for metadata associated with an NFT.
 
 Overall, the SIMPLE feature provides a comprehensive set of tools for the creation and management of NFTs, serving as the foundation for all other features offered by our platform.
 
@@ -42,13 +40,11 @@ Combining the RANDOM feature with the UPGRADABLE feature also provides new possi
 
 You can also combine RANDOM with other features such as GENES, MYSTERY BOX, and this can enhance the overall user experience and drive engagement. The use of RANDOM in NFT projects, such as in gaming, can greatly add to the value and desirability of the NFTs, leading to a more active and thriving community and economy.
 
-
 ### SOULBOUND
 
 The **SOULBOUND** feature is a valuable addition to NFTs, providing security and control to the distribution and ownership of these tokens. By tying ownership to a specific individual, the SOULBOUND feature ensures that the NFT remains in the hands of its intended owner, rather than being traded or passed on to others. This is particularly useful for NFTs with important or high-value attributes, such as **Governance tokens** used for voting purposes.
 
 The use of the SOULBOUND feature as a voting pass in governance systems ensures that each vote is **securely tied** to an individual voter, preventing fraudulent or duplicated voting. This provides a level of trust and accountability to the governance process, ensuring that the outcome accurately reflects the will of the voters.
-
 
 ### MYSTERY BOX
 
