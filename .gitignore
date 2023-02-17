@@ -1,5 +1,7 @@
 # IDE
 .idea
 .vscode
-.docusaurus/
+.docusaurus/**/*
 node_modules/
+.DS_Store
+build/
