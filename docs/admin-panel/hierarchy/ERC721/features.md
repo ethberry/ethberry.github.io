@@ -61,7 +61,7 @@ The **Genes** feature allows for the creation and management of unique, inherita
 
 ### RENTABLE
 
-**RENTABLE** feature is a popular way for individuals to access assets that they might not want to purchase outright. Rentable NFTs, as the name suggests, allow users to rent NFTs for a certain period of time, rather than having to purchase them outright. This is made possible through the use of the [ERC4907](https://eips.ethereum.org/EIPS/eip-4907) extension, which enables NFTs to be rented and leased out to other users.
+**RENTABLE** feature is a popular way for individuals to access assets that may not available for purchase or they might not want to purchase outright. Rentable NFTs, as the name suggests, allow users to rent NFTs for a certain period of time, rather than having to purchase them outright. This is made possible through the use of the [ERC4907](https://eips.ethereum.org/EIPS/eip-4907) extension, which enables NFTs to be rented and leased out to other users.
 
 One of the key benefits of the Rentable feature is that it enables NFT owners to generate additional income from their assets, while also giving users who may not be able to afford the full purchase price the ability to access and use the NFT for a limited time. For example, if a player mint an NFT, he can allow others to use it for a fee. This can help the player generate additional revenue from their NFT, while also making it more accessible to a wider audience.
 
