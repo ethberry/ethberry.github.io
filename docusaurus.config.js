@@ -37,17 +37,25 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "docs",
-        path: "docs",
-        routeBasePath: "docs",
+        id: "api",
+        path: "api",
+        routeBasePath: "api",
       },
     ],
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "api",
-        path: "api",
-        routeBasePath: "api",
+        id: "admin",
+        path: "admin",
+        routeBasePath: "admin",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "market",
+        path: "market",
+        routeBasePath: "market",
       },
     ],
   ],
@@ -69,8 +77,14 @@ const config = {
         {
           type: "doc",
           docId: "overview",
-          docsPluginId: "docs",
-          label: "Docs",
+          docsPluginId: "admin",
+          label: "Admin",
+        },
+        {
+          type: "doc",
+          docId: "overview",
+          docsPluginId: "market",
+          label: "Market",
         },
         {
           type: "doc",
