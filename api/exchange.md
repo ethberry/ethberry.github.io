@@ -6,11 +6,13 @@ Exchange is the main contract that serves the mechanics around the tokens.
 
 This contract enables the exchange of tokens in a flexible manner, with various exchange mechanics available such as **[Claim](/admin/simple-mechanics/claim/)**, **[Grade](/admin/simple-mechanics/grade/)**, **Purchase**, etc. This functionality allows users to exchange one or multiple assets. However, to prevent unauthorized transactions, a trusted source (Server) must sign the transaction before it can be executed on the blockchain. Once the signature and additional information from the Server response are obtained, they can be combined with the Asset information to execute the exchange on the blockchain.
 
-<!-- ### How Signing a Transaction Works Behind the Scenes: -->
-### Signing a Purchase Transaction on Marketplace:
+#### Workflow of Purchase mechanics.
+![](/img/exchange_diagram.jpeg)
 
-To sign any transaction, we use the standard [EIP-712](http://). This combines all parameters passed to the contract function into one string and hashes them. When executing the transaction, the address will be recovered from signature and contract will check this address for the appropriate minting rights. If the address has the necessary rights, the transaction is processed.
-<!-- the signature recovered the address that signed the transaction and check for the appropriate minting rights. If the address has the necessary rights, the transaction is processed. -->
+
+### Signing a Purchase Transaction:
+
+To sign any transaction, we use the standard [EIP-712](https://eips.ethereum.org/EIPS/eip-712). This combines all parameters passed to the contract function into one string and hashes them. When executing the transaction, the address will be recovered from signature and contract will check this address for the appropriate minting rights. If the address has the necessary rights, the transaction is processed.
 
 To sign a transaction via the Server endpoint, several arguments must be provided, including the **referral address** (if not applicable, pass '0x'), and the **templateId**.
 
@@ -30,17 +32,14 @@ To sign a transaction via the Server endpoint, several arguments must be provide
 Whenever a signature is available, the purchase can be executed on the blockchain.
 
 **First** of all need to check - ***ExchangeContract* have allowance** for all tokens in **price**. If not we have to **[approve](/market/miscellaneous/approve/) tokens**. 
-<!-- In order to create an instance of the token contract we need **contract address** of the token and **ABI** of the contract. -->
 
 **Second** we have call function that will perform the purchase. 
 In order to create an instance of the ***ExchangeContract*** we need **address** and **ABI** of ***ExchangeContract***.
 
 All contracts in our ecosystem use the same logic for exchange and have almost the same arguments for executing:
-<!-- - **externalId**    : A constant ID associated with the particular mechanic that remains the same for each mechanic, -->
 - **params**:
     - **nonce**         : Unique request ID,
     - **externalId**    : This is the **ID in the database** that applies to the specific mechanic. In the case of **Purchase**, the externalId would be equal to the **templateId** of the token being purchased. For **Craft**, the externalId would be equal to the **craftId** of the crafting recipe being used. 
-    <!-- - **externalId**    : ID in the database that applies to the specific mechanics, <br/>_(For example we can have different Grade mechanics - HealthUpgrade and PowerUpgrade. We assume that HealthUpgrade was added first so his ID would be 1, therefore PowerUpgrade ID will be 2)_ -->
     - **expiresAt**     : This parameter describes how long signature would be valid _(If equal to 0, don't have any time limitations)_,
     - **referrer**      : This is the **address** of the person who invited the account to the platform. If a referral program is not applicable, the value '0x' should be passed as the referrer. The referrer is used to track referrals and reward the person who made the referral.
 - **item**: [Asset](/admin/miscellaneous/asset/) that user will receive,
@@ -51,10 +50,6 @@ All contracts in our ecosystem use the same logic for exchange and have almost t
 #### Some notes:
 
 > If **Native tokens** are in the **"price"**, the transaction must be executed with the same value as in **price.amount**.
-
-<!-- > The Exchange functionality **supports ERC1363** transfer of ERC20 tokens. -->
-
-<!-- > Each exchange mechanic may have different arguments for **"item"** and **"price"**. For example, [Claim](/admin/simple-mechanics/claim/) exchanges don't require a **"price"** argument since the user does not need to transfer anything. Similarly, [Grade](/admin/simple-mechanics/grade/) exchanges don't require an **"item"** argument as they only upgrade the metadata of the token. Some mechanics may have an array of **"item"**, this will allow to receive more than one [asset](/admin/miscellaneous/asset/). -->
 
 > If the Exchange functionality (Purchase, Grade, etc.)  **accepts an array** of **"item"** or **"price"**, **unlimited [assets](/admin/miscellaneous/asset/) can be passed** for transfer or received as long as there is enough gas in the transaction.
 
