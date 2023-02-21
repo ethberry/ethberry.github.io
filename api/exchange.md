@@ -29,22 +29,23 @@ To sign a transaction via the Server endpoint, several arguments must be provide
 
 Whenever a signature is available, the purchase can be executed on the blockchain.
 
-**First** of all need to check - does the ***ExchangeContract*** (contract that will execute Purchase) **have allowance** for all tokens in **price**. If not we have to create an instance of the **token contract** and **[approve](/market/miscellaneous/approve/) tokens** for ***ExchangeContract***. 
+**First** of all need to check - ***ExchangeContract* have allowance** for all tokens in **price**. If not we have to **[approve](/market/miscellaneous/approve/) tokens**. 
 <!-- In order to create an instance of the token contract we need **contract address** of the token and **ABI** of the contract. -->
 
-**Second** we have to **create an instance** of the ***ExchangeContract*** and execute function that will perform the purchase. 
+**Second** we have call function that will perform the purchase. 
 In order to create an instance of the ***ExchangeContract*** we need **address** and **ABI** of ***ExchangeContract***.
 
-All contracts in our ecosystem using the same logic for exchange and have almost the same arguments for executing:
+All contracts in our ecosystem use the same logic for exchange and have almost the same arguments for executing:
 <!-- - **externalId**    : A constant ID associated with the particular mechanic that remains the same for each mechanic, -->
 - **params**:
-    - **nonce**         : Unique request ID. This parameter must be retrieved from the **sign response**,
-    - **externalId**    : Line number in the database that describes the specific mechanics, <br/>_(For example we can have different Grade mechanics - one for Healt, one for Power and each of them have their own external ID)_
-    - **expiresAt**     : This parameter describes how long signature would be valid _(If equal to 0, don't have any time limitations)_. <br/>Must be retrieved from the **sign response**,
-    - **referrer**      : Use the same referrer that was used to sign the transaction.
+    - **nonce**         : Unique request ID,
+    - **externalId**    : This is the **ID in the database** that applies to the specific mechanic. In the case of **Purchase**, the externalId would be equal to the **templateId** of the token being purchased. For **Craft**, the externalId would be equal to the **craftId** of the crafting recipe being used. 
+    <!-- - **externalId**    : ID in the database that applies to the specific mechanics, <br/>_(For example we can have different Grade mechanics - HealthUpgrade and PowerUpgrade. We assume that HealthUpgrade was added first so his ID would be 1, therefore PowerUpgrade ID will be 2)_ -->
+    - **expiresAt**     : This parameter describes how long signature would be valid _(If equal to 0, don't have any time limitations)_,
+    - **referrer**      : This is the **address** of the person who invited the account to the platform. If a referral program is not applicable, the value '0x' should be passed as the referrer. The referrer is used to track referrals and reward the person who made the referral.
 - **item**: [Asset](/admin/miscellaneous/asset/) that user will receive,
 - **price**: an array of [Assets](/admin/miscellaneous/asset/) that user must transfer,
-- **sign**: signature taken from **sign response**.
+- **sign**: This is a hash of all the arguments listed above but is was generated on the server and must contain the same parameters as listed above, with the exception of signature itself. The signature ensures the authenticity of the transaction and prevents tampering or modification of the transaction data during transmission.
 
 
 #### Some notes:
