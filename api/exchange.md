@@ -14,7 +14,7 @@ This contract enables the exchange of tokens in a flexible manner, with various 
 
 To sign any transaction, we use the standard [EIP-712](https://eips.ethereum.org/EIPS/eip-712). This combines all parameters passed to the contract function into one string and hashes them. When executing the transaction, the address will be recovered from signature and contract will check this address for the appropriate minting rights. If the address has the necessary rights, the transaction is processed.
 
-To sign a transaction via the Server endpoint, several arguments must be provided, including the **referral address** (if not applicable, pass '0x'), and the **templateId**.
+To sign a transaction via the Server endpoint, several arguments must be provided, including the **account address**, the **referral address** (if not applicable, pass '0x'), and the **templateId**.
 
 > Different mechanics mey require different input. For Excample **Craft** require only **craftId**.
 
