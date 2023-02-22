@@ -6,16 +6,16 @@ sidebar_position: 1
 
 Staking is a mechanic which allows user to deposit one kind of token and gain an interest over time in some other token. This could be compared with a bank deposit. 
 
-On early stages of the project, when [ERC20](/docs/category/erc20/) token is just emitted it could be used to retain liquidity of this coin.
+On early stages of the project, when [ERC20](/admin/category/erc20/) token is just emitted it could be used to retain liquidity of this coin.
 On middle and late stages it could be used for passive income
 
 ## Use case examples
 
-1. The project could configure Staking contract to accept [ERC20](/docs/category/erc20/) and give unique [token in the box](/docs/admin-panel/hierarchy/mystery/box) as an interest.
+1. The project could configure Staking contract to accept [ERC20](/admin/category/erc20/) and give unique [token in the box](/admin/hierarchy/mystery/box) as an interest.
 
-2. Imagine user got 10 [Heroes](/docs/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 
+2. Imagine user got 10 [Heroes](/admin/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 
 Of course, he can sell redundant NFTs, but he also can make them work in a mine to gain passive income. 
-Let's say project has configured mine to accept [Hero](/docs/category/erc998/) and give [metal ore](/docs/category/erc1155/) as an interest.
+Let's say project has configured mine to accept [Hero](/admin/category/erc998/) and give [metal ore](/admin/category/erc1155/) as an interest.
 5 metal ore per day per character, maximum 5 character per mine. 
 This will make user to want to have 10 Heroes instead of 5.
 

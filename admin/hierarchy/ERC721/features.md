@@ -46,7 +46,7 @@ In a gaming platform, for example, players can upgrade their NFTs to improve the
 
 ### RANDOM
 
-The **RANDOM** feature is an important aspect of the ERC721 contract, as it provides a way to randomly generate events within a blockchain application. To ensure the fairness and transparency of the random number generation process, we use the popular decentralized oracle service, [ChainLink](/docs/integrations/chain-link/).
+The **RANDOM** feature is an important aspect of the ERC721 contract, as it provides a way to randomly generate events within a blockchain application. To ensure the fairness and transparency of the random number generation process, we use the popular decentralized oracle service, [ChainLink](/admin/integrations/chain-link/).
 
 Combining the RANDOM feature with the **UPGRADABLE** feature also provides new possibilities for NFT-based gaming experiences. Players can be surprised by the rarity of the NFT they receive and can then work to upgrade it and increase its value. This creates a unique and dynamic NFT economy, where the value of NFTs is determined by both player effort and luck.
 
@@ -68,14 +68,14 @@ One of the key benefits of the Rentable feature is that it enables NFT owners to
 ### VOTING
 
 **VOTING** is a powerful and essential feature that can greatly enhance the functionality and value of blockchain projects. Most common case of usage **VOTING** feature is in 
-[governance](/docs/admin-panel/complex-mechanics/governance/), where users are given the ability to directly participate in the decision-making process of a project, making it more democratic and community-driven. By enabling users to vote on important issues, such as changes to the protocol, new features, and even funding proposals, projects can benefit from a wide range of perspectives and ideas, leading to more informed and equitable decisions.
+[governance](/admin/complex-mechanics/governance/), where users are given the ability to directly participate in the decision-making process of a project, making it more democratic and community-driven. By enabling users to vote on important issues, such as changes to the protocol, new features, and even funding proposals, projects can benefit from a wide range of perspectives and ideas, leading to more informed and equitable decisions.
 
-One of the main benefits of voting is that it can greatly improve the [governance](/docs/admin-panel/complex-mechanics/governance/) of a project. By enabling users to participate in decision-making, projects can benefit from a more diverse range of opinions and ideas, leading to more equitable and effective decisions. Additionally, by making the voting process transparent and auditable, projects can build trust and confidence with their community, leading to a more engaged and committed user base.
+One of the main benefits of voting is that it can greatly improve the [governance](/admin/complex-mechanics/governance/) of a project. By enabling users to participate in decision-making, projects can benefit from a more diverse range of opinions and ideas, leading to more equitable and effective decisions. Additionally, by making the voting process transparent and auditable, projects can build trust and confidence with their community, leading to a more engaged and committed user base.
 
 
 ### SOULBOUND
 
 The **SOULBOUND** feature is a valuable addition to NFTs, providing security and control to the distribution and ownership of these tokens. By tying ownership to a specific individual, the SOULBOUND feature ensures that the NFT remains in the hands of its intended owner, rather than being traded or passed on to others. This is particularly useful for NFTs with important or high-value attributes, such as **Governance tokens** used for voting purposes.
 
-The use of the **SOULBOUND** feature with **VOTING** feature, where NFT is a voting pass in [governance](/docs/admin-panel/complex-mechanics/governance/) systems ensures that each vote is **securely tied** to an individual voter, preventing fraudulent or duplicated voting. This provides a level of trust and accountability to the [governance](/docs/admin-panel/complex-mechanics/governance/) process, ensuring that the outcome accurately reflects the will of the voters.
+The use of the **SOULBOUND** feature with **VOTING** feature, where NFT is a voting pass in [governance](/admin/complex-mechanics/governance/) systems ensures that each vote is **securely tied** to an individual voter, preventing fraudulent or duplicated voting. This provides a level of trust and accountability to the [governance](/admin/complex-mechanics/governance/) process, ensuring that the outcome accurately reflects the will of the voters.
 

@@ -8,17 +8,17 @@ Claim Mechanic Claim is a basic mechanic in the world of NFTs.
 Its primary purpose is to reward users for certain actions, such as participating in marketing campaigns. Claims are given out for free, with the only cost being the transaction fee.
 
 Claims are pre-signed transactions that users can execute to receive their reward. 
-A single claim can contain multiple items of different types, including [mystery boxes](/docs/admin-panel/hierarchy/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
+A single claim can contain multiple items of different types, including [mystery boxes](/admin/hierarchy/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
 
 ## Configuration
 
-In order to start using Claims, you will need to create [templates](/docs/admin-panel/hierarchy/ERC721/template/) first. 
+In order to start using Claims, you will need to create [templates](/admin/hierarchy/ERC721/template/) first. 
 There are a few configuration options that you will need to specify. 
 
 ### Configuration options
 
 - **account** - The address of beneficiary
-- **item** - The item (or items) to be claimed (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **item** - The item (or items) to be claimed (see [asset](/admin/miscellaneous/asset/))
 - **end date** - The expiration date of the transaction
 
 ## Example of usage

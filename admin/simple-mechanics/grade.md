@@ -31,7 +31,7 @@ The cost of upgrading to the next level is calculated using a formula specific t
     > **cost = amount * level**
     - **EXPONENTIAL** - the cost rises exponentially using a growth rate. The cost formula for this strategy is
     > **cost = amount * (1 + rate / 100) ^ level**
-- **price** - The price for the upgrade from level 1 to 2 (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **price** - The price for the upgrade from level 1 to 2 (see [asset](/admin/miscellaneous/asset/))
 
 
 

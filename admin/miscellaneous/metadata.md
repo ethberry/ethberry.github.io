@@ -14,4 +14,4 @@ For now only 3 types of data is stored on-chain:
 2. **Grade** refers to a level of the item. Grade attribute can be increased by paying certain amount of resources, coins
    or ETH using [Upgrade mechanics](/)
 3. **Rarity** refers to an item quality of being rare and is obtained on-chain
-   from [ChainLink](/docs/integrations/chain-link/) service. This attribute is not meant to be changed ever.
+   from [ChainLink](/admin/integrations/chain-link/) service. This attribute is not meant to be changed ever.

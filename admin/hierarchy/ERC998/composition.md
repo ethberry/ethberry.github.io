@@ -6,8 +6,8 @@ sidebar_position: 4
 
 The **ERC998** token is a valuable addition to the existing standards, it enables a whole new range of use cases.
 Main feature of **ERC998** is an ability to be composed. This means each **ERC998** token can own another tokens (
-[ERC20](/docs/category/erc20/), [ERC721](/docs/category/erc721/), [ERC998](/docs/category/erc998/)
-or [ERC1155](/docs/category/erc1155/)) as a child. Composed tokens can be traded in a single transaction for a cost of
+[ERC20](/admin/category/erc20/), [ERC721](/admin/category/erc721/), [ERC998](/admin/category/erc998/)
+or [ERC1155](/admin/category/erc1155/)) as a child. Composed tokens can be traded in a single transaction for a cost of
 transfer of parent token.
 
 ## Configuration

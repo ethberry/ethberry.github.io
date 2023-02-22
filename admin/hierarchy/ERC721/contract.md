@@ -8,13 +8,13 @@ ERC721 contract for non-fungible tokens (NFTs). Represents unique items such as 
 
 ## Deployment
 
-ERC721 contracts are being deployed using [Contract Manager](/docs/admin-panel/miscellaneous/contract-manager/)
+ERC721 contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/)
 
 ### Deployment options
 
 This information is passed directly to blockchain
 
-- **template** - see available features [here](/docs/admin-panel/hierarchy/ERC721/features/)
+- **template** - see available features [here](/admin/hierarchy/ERC721/features/)
 - **name** - Token name in human-readable format
 - **symbol** - Token ticker to be displayed on exchanges, markets, wallets etc.
 - **base token url** - URL which points to server with metadata. (usually a stand-alone [JSON microservice](/api/category/json-microservice/) server or IPFS).

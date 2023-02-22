@@ -4,4 +4,4 @@ sidebar_position: 2
 
 # Template
 
-See [ERC721](/docs/marketplace/hierarchy/ERC721/template/)
+See [ERC721](/market/hierarchy/ERC721/template/)

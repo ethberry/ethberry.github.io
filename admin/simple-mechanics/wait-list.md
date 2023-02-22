@@ -25,5 +25,5 @@ Simple list management. After the list is uploaded there is no way to add new wa
 
 ### Upload options
 
-- **item** - The item (or items) to be airdropped (see [asset](/docs/admin-panel/miscellaneous/asset/))
+- **item** - The item (or items) to be airdropped (see [asset](/admin/miscellaneous/asset/))
 - **list** - List 

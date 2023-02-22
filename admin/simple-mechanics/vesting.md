@@ -5,12 +5,12 @@ sidebar_position: 1
 # Vesting
 
 Vesting is usually used to lock investors funds and unlock them using time-base function. This means investors still can
-use their bound to gain profit by selling it or by using it for [governance](/docs/admin-panel/complex-mechanics/governance/)
+use their bound to gain profit by selling it or by using it for [governance](/admin/complex-mechanics/governance/)
 but can't just sell tokens on the market.
 
 ## Deployment
 
-Vesting contracts are being deployed using [Contract Manager](/docs/admin-panel/miscellaneous/contract-manager/).
+Vesting contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/).
 
 ### Deployment options
 
@@ -28,8 +28,8 @@ This information is passed directly to blockchain
 ### Fund
 
 After contract is deployed you have to manually fund it with tokens. There is a `FUND` button next to each vesting
-contract that helps to perform this operation using all system's [NATIVE](/docs/category/native/)
-and [ERC20](/docs/category/erc20/) tokens
+contract that helps to perform this operation using all system's [NATIVE](/admin/category/native/)
+and [ERC20](/admin/category/erc20/) tokens
 
 ### Templates
 

@@ -8,8 +8,8 @@ Pyramid is a gambling mechanic based on Ponzi scheme.
 
 ## Deployment
 
-See [Staking](/docs/admin-panel/complex-mechanics/staking#deployment)
+See [Staking](/admin/complex-mechanics/staking#deployment)
 
 ### Configuration options
 
-See [Staking](/docs/admin-panel/complex-mechanics/staking#configuration-options)
+See [Staking](/admin/complex-mechanics/staking#configuration-options)

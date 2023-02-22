@@ -12,9 +12,9 @@ There are two types of lists **Blacklist** and **Whitelist**.
 
 Disallows certain account to execute transactions with tokens. Owned token would be just blocked on account until account is removed from list.
 
-`Add to blacklist` and `Remove from blacklist` buttons are available from contract action menu for contracts with template [BLACKLIST](/docs/admin-panel/hierarchy/ERC20/contract/)
+`Add to blacklist` and `Remove from blacklist` buttons are available from contract action menu for contracts with template [BLACKLIST](/admin/hierarchy/ERC20/contract/)
 
-Currently, Blacklist is implemented only for [ERC20](/docs/category/erc20/) and could be implemented for any type of token on request
+Currently, Blacklist is implemented only for [ERC20](/admin/category/erc20/) and could be implemented for any type of token on request
 
 ## Whitelist
 
