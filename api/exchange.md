@@ -1,6 +1,6 @@
 # Exchange
 
-Exchange is the main contract that serves the mechanics around the tokens.
+Exchange is the one of core contracts that serves the mechanics around the tokens.
 
 ### Overview of Exchange Functionality:
 
@@ -39,19 +39,19 @@ In order to create an instance of the ***ExchangeContract*** we need **address**
 All contracts in our ecosystem use the same logic for exchange and have almost the same arguments for executing:
 - **params**:
     - **nonce**         : Unique request ID,
-    - **externalId**    : This is the **ID in the database** that applies to the specific mechanic. In the case of **Purchase**, the externalId would be equal to the **templateId** of the token being purchased. For **Craft**, the externalId would be equal to the **craftId** of the crafting recipe being used. 
+    - **externalId**    : This is the **ID in the database** that applies to the specific mechanic. In the case of **Purchase**, the externalId would be equal to the **templateId** of the [template](/admin/hierarchy/ERC721/template) being purchased. For **Craft**, the externalId would be equal to the **craftId** of the crafting recipe being used. 
     - **expiresAt**     : This parameter describes how long signature would be valid _(If equal to 0, don't have any time limitations)_,
-    - **referrer**      : This is the **address** of the person who invited the account to the platform. If a referral program is not applicable, the value '0x' should be passed as the referrer. The referrer is used to track referrals and reward the person who made the referral.
+    - **referrer**      : This is the **address** of the person who invited the account to the platform. If a referral program is not installed, the value '0x' should be passed as the referrer. The referrer is used to track referrals and reward the person who made the referral.
 - **item**: [Asset](/admin/miscellaneous/asset/) that user will receive,
-- **price**: an array of [Assets](/admin/miscellaneous/asset/) that user must transfer,
+- **price**: [Assets](/admin/miscellaneous/asset/) that user must transfer,
 - **sign**: This is a hash of all the arguments listed above but is was generated on the server and must contain the same parameters as listed above, with the exception of signature itself. The signature ensures the authenticity of the transaction and prevents tampering or modification of the transaction data during transmission.
 
 
 #### Some notes:
 
-> If **Native tokens** are in the **"price"**, the transaction must be executed with the same value as in **price.amount**.
+> If **Native tokens** are in the **"price"**, the transaction must be executed with the same value as a sum of all **price.amount**.
 
-> If the Exchange functionality (Purchase, Grade, etc.)  **accepts an array** of **"item"** or **"price"**, **unlimited [assets](/admin/miscellaneous/asset/) can be passed** for transfer or received as long as there is enough gas in the transaction.
+> If the Exchange functionality (Purchase, Grade, etc.)  **accepts an array** of **"item"** or **"price"**, **multiple [assets](/admin/miscellaneous/asset/) can be passed** for transfer or received as long as there is enough gas in the transaction.
 
 > The arguments for signing a transaction and executing an exchange must be **exactly the same** (params, item, price).
 > The exchange function on contract requires a combination of the **signature response params** and **asset information** (item, price).

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-Exchange contract allow users to exchange their items for other items or assets, depending on the specific mechanics used in the contract. The table below provides an overview of several common mechanics that use exchange functionality:
+Exchange contract allows users to exchange their [assets](/admin/miscellaneous/asset) for other [assets](/admin/miscellaneous/asset), depending on the specific mechanics used in the contract. The table below provides an overview of several common mechanics that use exchange functionality:
 
 | Mechanics       | CLAIM | GRADE | CRAFT | PURCHASE | Staking |
 |-----------------|-------|-------|-------|----------|---------|
