@@ -1,0 +1,8 @@
+{
+  "label": "Exchange",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "This section explain the main concept for exchanging items between User and the System by different mechanics like Exchange(marketplace), Staking, etc."
+  }
+}
