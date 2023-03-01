@@ -10,14 +10,10 @@ ERC20 token represents currency and is used for De-Fi(decentralized-finance)
 
 ERC20 token contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/)
 
+
 ### Deployment options
 
-This is the way to deploy new contract yourself, params are passed directly to blockchain
-
-- **features** - Smart contract template with its unique functions
-- **name** - Token name in human-readable format
-- **symbol** - Token ticker to be displayed on exchanges, markets, wallets etc.
-- **cap** - Token cap, which limits amount of emitted tokens (use [MaxUint256](https://docs.ethers.io/v5/api/utils/constants/) to remove limits)
+The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc20).
 
 ## Configuration
 
