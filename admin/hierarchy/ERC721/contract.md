@@ -12,13 +12,7 @@ ERC721 contracts are being deployed using [Contract Manager](/admin/miscellaneou
 
 ### Deployment options
 
-This information is passed directly to blockchain
-
-- **template** - see available features [here](/admin/hierarchy/ERC721/features/)
-- **name** - Token name in human-readable format
-- **symbol** - Token ticker to be displayed on exchanges, markets, wallets etc.
-- **base token url** - URL which points to server with metadata. (usually a stand-alone [JSON microservice](/api/category/json-microservice/) server or IPFS).
-- **royalty** - Royalty (automatic payouts to the smart contract's owner made on secondary sales). Big marketplaces such as OpenSea pays royalty, but some smaller marketplaces might not support it [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981)
+The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc20).
 
 ## Configuration
 

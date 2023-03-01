@@ -15,7 +15,7 @@ To start selling tokens you have to configure them first
 - **title** - This is how template is displayed on site, especially on marketplace
 - **description** - General description in markdown format.
 - **attributes** - attributes from the game such as durability, hit points, physical/magical attack/defence
-- **price** - a price on marketplace
+- **price** - The price of the NFT on the marketplace, represented as an array of [assets](/admin/miscellaneous/asset). 
 - **amount** - amount of similar token to be sold on marketplace
 - **status** - 
   - **ACTIVE** - Active templates are available for purchase on marketplace
