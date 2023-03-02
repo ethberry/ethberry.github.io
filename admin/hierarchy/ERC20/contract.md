@@ -5,7 +5,7 @@ sidebar_position: 1
 # Contract
 
 <!-- ERC20 token represents currency and is used for De-Fi(decentralized-finance) -->
-An ERC20 token represents a currency or utility token and is widely used in DeFi (decentralized finance) applications for purposes such as trading, lending, and borrowing. ERC20 tokens provide a standard set of rules for creating and managing tokens, making it easier for developers to create new tokens that are compatible with existing wallets and exchanges. They are also the most commonly used type of token in ICOs (Initial Coin Offerings) and other token sales.
+An ERC20 token represents a currency or utility token and is widely used in DeFi (decentralized finance) applications for purposes such as trading, lending, and borrowing. ERC20 tokens provide a standard set of rules for creating and managing tokens, making it easier for managers to create new tokens that are compatible with existing wallets and exchanges. They are also the most commonly used type of token in ICOs (Initial Coin Offerings) and other token sales.
 
 ## Deployment
 
@@ -37,7 +37,8 @@ While deployment options are used as default values, there are still things to c
 
 ## Creation
 
-As an alternative you can use already deployed 3rd party contracts like USDT
+As an alternative you can use already deployed 3rd party contracts like USDT, BUSD, WETH. 
+<!-- TODO Add additiona description for verified coins as USDT, BUSD, WETH -->
 
 ### Creation options
 
@@ -57,10 +58,12 @@ Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-
 
 - **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
 - **Snapshot** - Creates a snapshot of the current state of the contract and its variables.
-- **Grant role** - Grants a specific role to a specified Ethereum address. The caller must have Admin role.
-- **Revoke role** - Revokes a specific role from a specified Ethereum address. The caller must have Admin role.
-- **Renounce role** - Removes a specific role from the Ethereum address that currently holds it. The caller must have a Role that is being relinquished
+- **Grant role** - Grants a specific role to a specified Ethereum address. (The caller must have Admin role)
+- **Revoke role** - Revokes a specific role from a specified Ethereum address. (The caller must have Admin role)
+- **Renounce role** - Removes a specific role from the Ethereum address that currently holds it. (The caller must have a Role that is being relinquished)
+- **Add to blacklist**: Adds a specified Ethereum address to the blacklist. (Available only if contract hafe Blacklist feature)
+- **Remove from blacklist** - Removes a specified Ethereum address from the blacklist. (Available only if contract hafe Blacklist feature)
 - **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for developers)
 - **Remove ETH listeners** - Disables the ETH listener feature on the contract. (Only for developers)
 
-![](/img/hierarchy/erc20/erc20_contract_options_dropdown.png)
+![](/img/hierarchy/erc20/erc20_contract_actions.png)
