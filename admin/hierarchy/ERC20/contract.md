@@ -54,7 +54,10 @@ As an alternative you can use already deployed 3rd party contracts like USDT, BU
 
 ## Contracts actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
+ERC20 Contracts have extra actions that can be performed from admin panale. <br/>You can find more details for all actions [here](/admin/hierarchy/contract-actions).
+
+![](/img/hierarchy/erc20/erc20_contract_actions.png)
+<!-- Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
 
 - **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
 - **Snapshot** - Creates a snapshot of the current state of the contract and its variables.
@@ -66,4 +69,4 @@ Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-
 - **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for developers)
 - **Remove ETH listeners** - Disables the ETH listener feature on the contract. (Only for developers)
 
-![](/img/hierarchy/erc20/erc20_contract_actions.png)
+![](/img/hierarchy/erc20/erc20_contract_actions.png) -->

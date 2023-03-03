@@ -26,4 +26,4 @@ To start crafting items you have to create these items first, [see](/admin/hiera
 
 NOTE: While you can add ETH and ERC20 as ingredients to the mix or use only them, this mechanic is not meant for direct purchase
 
-
+![](/img/simple-mechanics/craft_create.png)

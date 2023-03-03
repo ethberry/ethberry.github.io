@@ -16,3 +16,5 @@ sidebar_position: 8
 - **token**:  specifies the contract **address** of the token,
 - **tokenId**: is used to identify the specific token being exchanged, and is only relevant for non-fungible tokens,
 - **amount**: represents the quantity of tokens being exchanged, and is only relevant for fungible tokens,
+
+![](/img/miscellaneous/asset.png)

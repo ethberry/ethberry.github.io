@@ -18,12 +18,18 @@ Simple list management. After the list is uploaded there is no way to add new wa
 - **title** - This is how token is displayed on marketplace
 - **description** - General description. Supports Markdown format.
 
+![](/img/simple-mechanics/waitlist_create.png)
+
 ### Item Configuration options
 
 - **account** - The address of beneficiary
 - **list** - List
 
+![](/img/simple-mechanics/waitlist_account_create.png)
+
 ### Upload options
 
 - **item** - The item (or items) to be airdropped (see [asset](/admin/miscellaneous/asset/))
 - **list** - List 
+
+![](/img/simple-mechanics/waitlist_upload.png)

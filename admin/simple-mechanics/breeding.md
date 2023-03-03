@@ -12,3 +12,4 @@ Genes are displayed on [marketplaces](/api/components/json-microservice/marketpl
 
 We support 6 genes or better to call them DND attributes: strength, dexterity, constitution, intelligence, wisdom, charisma
 
+![](/img/simple-mechanics/breeds.png)

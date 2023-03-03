@@ -17,3 +17,7 @@ These roles later could be added or removed by you in the Admin Panel.
 - **SNAPSHOT_ROLE** - Makes a snapshot of [ERC20](/admin/hierarchy/ERC20/contract/) owners
 - **PREDICATE_ROLE** - Specific to [Polygon network](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets/)
 - **DEPOSITOR_ROLE** - Specific to [Polygon network](https://docs.polygon.technology/docs/develop/ethereum-polygon/mintable-assets/)
+
+You can add or revoke any role for specific contract via [contract actions](/admin/hierarchy/contract-actions).
+
+![](/img/miscellaneous/grant_role.png)

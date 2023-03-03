@@ -23,3 +23,5 @@ You also have to fund a contract with [LINK](/admin/integrations/chain-link/) to
 - **price** - The price on the marketplace (see [asset](/admin/miscellaneous/asset/))
 - **status** - Defines whether item is sellable on marketplace (only available for existing items)
 - **image** - Image to be shown on internal and external marketplaces
+
+![](/img/simple-mechanics/mystery/mystery_boxes_create.png)

@@ -23,3 +23,5 @@ To start selling tokens you have to configure them first
   - **INACTIVE** - Deleted templates exists for reference and history purposes
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces
+
+![](/img/hierarchy/erc721/erc721_template_edit_modal.png)
