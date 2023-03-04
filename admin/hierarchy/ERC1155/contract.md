@@ -29,8 +29,6 @@ While deployment options are used as default values, there are still things to c
   - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
   - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
   - **INACTIVE** - Inactive tokens are not available for selection
-- **role** - collection role
-  - **TOKEN** - Common ERC721 collection which could be deployed in unlimited amount
 - **image** - Cover image, that is displayed on market
 
 ![](/img/hierarchy/erc1155/erc1155_contract_edit_modal.png)
