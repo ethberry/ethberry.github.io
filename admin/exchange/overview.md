@@ -22,3 +22,7 @@ This list is not exhaustive, but it provides an idea of how exchange functionali
 - **STAKING** - mechanics are similar to craft and exchange mechanics, but users receive something after a certain period of time.
 
 > **It's important to note** that if the user receives an **ERC721**, **ERC1155**, or **ERC998** token, it will be **minted**, while if they receive **Native** or **ERC20** tokens, it will be **deducted** from the mechanic contract's balance.
+
+### Security
+
+All transactions must be signed by the server and validated before being executed on the blockchain. The server creates a signature containing the specific exchange details, including what the user should receive and what they should pay. The Exchange contract then verifies the signature and ensures that the signer has the necessary permissions and that the input arguments match the signature. If any of these checks fail, the transaction will be reverted. 

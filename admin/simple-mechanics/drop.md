@@ -19,3 +19,4 @@ associated limited offer
 - **start date** - The start date of the drop, could be in the future
 - **end date** - The ed date of the drop, have to be after start date
 
+![](/img/simple-mechanics/drop_create.png)

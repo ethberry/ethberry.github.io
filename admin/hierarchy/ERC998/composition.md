@@ -24,5 +24,7 @@ We offer a filter to apply custom rules to restrict children.
 - **child** - child contract
 - **amount** - amount of child tokens
 
+
 NOTE: operations of adding and removing rules are performed directly on blockchain and reflected in database after
 transaction is complete
+![](/img/hierarchy/erc998/erc998_composition_create.png)

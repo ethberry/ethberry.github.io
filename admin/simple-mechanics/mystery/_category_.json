@@ -1,6 +1,6 @@
 {
   "label": "Mystery",
-  "position": 5,
+  "position": 7,
   "link": {
     "type": "generated-index",
     "description": "Mystery Box - is an extension of ERC721 tokens"

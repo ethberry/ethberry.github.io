@@ -4,20 +4,17 @@ sidebar_position: 1
 
 # Contract
 
-ERC20 token represents currency and is used for De-Fi(decentralized-finance)
+<!-- ERC20 token represents currency and is used for De-Fi(decentralized-finance) -->
+An ERC20 token represents a currency or utility token and is widely used in DeFi (decentralized finance) applications for purposes such as trading, lending, and borrowing. ERC20 tokens provide a standard set of rules for creating and managing tokens, making it easier for managers to create new tokens that are compatible with existing wallets and exchanges. They are also the most commonly used type of token in ICOs (Initial Coin Offerings) and other token sales.
 
 ## Deployment
 
 ERC20 token contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/)
 
+
 ### Deployment options
 
-This is the way to deploy new contract yourself, params are passed directly to blockchain
-
-- **features** - Smart contract template with its unique functions
-- **name** - Token name in human-readable format
-- **symbol** - Token ticker to be displayed on exchanges, markets, wallets etc.
-- **cap** - Token cap, which limits amount of emitted tokens (use [MaxUint256](https://docs.ethers.io/v5/api/utils/constants/) to remove limits)
+The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc20).
 
 ## Configuration
 
@@ -34,16 +31,14 @@ While deployment options are used as default values, there are still things to c
     - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
     - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
     - **INACTIVE** - Inactive tokens are not available for selection
-- **features** - Contract features
-    - **BLACKLIST** - <u>Comming soon</u>
-    - **EXTERNAL** - <u>Comming soon</u> 
-        *, can connect already existing token (USDT, BUSD), and can get payments in MarketPlace on this currency*
-    - **OWNER** - <u>Comming soon</u> (ERC20, ERC1155) 
-        *This kind of feature allow for ERC20 ownable on onaother tokens. Without this feature they can ownable only ERC721 and ERC998*
-        *The main benefit of this feature that you can send all this tokens in one transaction so it would be m*
+
+![](/img/hierarchy/erc20/erc20_contract_edit_modal.png)
+
+
 ## Creation
 
-As an alternative you can use already deployed 3rd party contracts like USDT
+As an alternative you can use already deployed 3rd party contracts like USDT, BUSD, WETH. 
+<!-- TODO Add additiona description for verified coins as USDT, BUSD, WETH -->
 
 ### Creation options
 
@@ -52,3 +47,26 @@ As an alternative you can use already deployed 3rd party contracts like USDT
 - **title** - This is how token is displayed on marketplace
 - **description** - General description. Supports Markdown format.
 - **address** - Address of the existing token
+
+![](/img/hierarchy/erc20/erc20_contract_create.png)
+![](/img/hierarchy/erc20/erc20_contract_create_modal.png)
+
+
+## Contracts actions
+
+ERC20 Contracts have extra actions that can be performed from admin panale. <br/>You can find more details for all actions [here](/admin/hierarchy/contract-actions).
+
+![](/img/hierarchy/erc20/erc20_contract_actions.png)
+<!-- Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
+
+- **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
+- **Snapshot** - Creates a snapshot of the current state of the contract and its variables.
+- **Grant role** - Grants a specific role to a specified Ethereum address. (The caller must have Admin role)
+- **Revoke role** - Revokes a specific role from a specified Ethereum address. (The caller must have Admin role)
+- **Renounce role** - Removes a specific role from the Ethereum address that currently holds it. (The caller must have a Role that is being relinquished)
+- **Add to blacklist**: Adds a specified Ethereum address to the blacklist. (Available only if contract hafe Blacklist feature)
+- **Remove from blacklist** - Removes a specified Ethereum address from the blacklist. (Available only if contract hafe Blacklist feature)
+- **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for developers)
+- **Remove ETH listeners** - Disables the ETH listener feature on the contract. (Only for developers)
+
+![](/img/hierarchy/erc20/erc20_contract_actions.png) -->

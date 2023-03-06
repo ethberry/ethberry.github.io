@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Contract
 
-ERC1155 contract represents semi-unique items (i.e. Game's resources or potions) 
+ERC1155 contract is designed for semi-unique items, such as game resources or potions. It allows for the creation of fungible and non-fungible tokens within the same contract, making it a flexible option for game developers and other use cases.
 
 ## Deployment
 
@@ -12,11 +12,8 @@ ERC1155 contracts are being deployed using [Contract Manager](/admin/miscellaneo
 
 ### Deployment options
 
-This information is passed directly to blockchain
+The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc1155).
 
-- **template** - Smart contract template with its unique functions
-    - **SIMPLE** - Simple template includes all basic functions like _mint_, _burn_ and _transfer_ ant their batch versions
-- **base token url** - URL which points to server with metadata. (usually a stand-alone JSON server)[JSON microservice](/api/category/json-microservice/).
 
 ## Configuration
 
@@ -32,6 +29,12 @@ While deployment options are used as default values, there are still things to c
   - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
   - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
   - **INACTIVE** - Inactive tokens are not available for selection
-- **role** - collection role
-  - **TOKEN** - Common ERC721 collection which could be deployed in unlimited amount
 - **image** - Cover image, that is displayed on market
+
+![](/img/hierarchy/erc1155/erc1155_contract_edit_modal.png)
+
+## Contracts actions
+
+ERC1155 Contracts have extra actions that can be performed from admin panale. <br/>You can find more details for all actions [here](/admin/hierarchy/contract-actions).
+
+![](/img/hierarchy/erc1155/erc1155_contract_actions.png)

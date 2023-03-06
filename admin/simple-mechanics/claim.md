@@ -46,10 +46,10 @@ players can win rewards (kill the minion) in a game and the game server can comm
 
 
 ###### Claim page
-![](/img/claim_actions.jpeg)
+![](/img/simple-mechanics/claim/claim_actions.jpeg)
 
 ###### Claim -> Create
-![](/img/claim_create.jpeg)
+![](/img/simple-mechanics/claim/claim_create.jpeg)
 
 ###### Claim -> Upload
-![](/img/claim_upload.jpeg)
+![](/img/simple-mechanics/claim/claim_upload.jpeg)
