@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Contract actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
 
 - **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
 - **Snapshot** - Creates a snapshot of the current state of the contract and its variables.

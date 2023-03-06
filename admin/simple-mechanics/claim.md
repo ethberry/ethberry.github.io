@@ -8,7 +8,7 @@ Claim Mechanic Claim is a basic mechanic in the world of NFTs.
 Its primary purpose is to reward users for certain actions, such as participating in marketing campaigns. Claims are given out for free, with the only cost being the transaction fee.
 
 Claims are pre-signed transactions that users can execute to receive their reward. 
-A single claim can contain multiple items of different types, including [mystery boxes](/admin/hierarchy/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
+A single claim can contain multiple items of different types, including [mystery boxes](/admin/simple-mechanics/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
 
 ## Configuration
 
