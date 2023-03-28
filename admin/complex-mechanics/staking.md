@@ -19,7 +19,7 @@ Let's say project has configured mine to accept [Hero](/admin/category/erc998/) 
 5 metal ore per day per character, maximum 5 character per mine. 
 This will make user to want to have 10 Heroes instead of 5.
 
-3. Staking can also be used to offer users off-chain benefits in addition to on-chain rewards. For example, in a game, a user could deposit game tokens into a Staking contract and receive a bonus off-chain, such as a higher drop of ingame resources. The Staking contract would only modify on-chain data to record the deposit and emit an event, while the off-chain benefits would be handled by the game server. This allows for more flexible rewards and a better user experience.
+3. Staking can also be used to offer users off-chain benefits in addition to on-chain rewards. For example, a user could deposit game tokens into a Staking contract and receive a bonus off-chain, such as a higher drop of ingame resources. The Staking contract would only modify on-chain data to record the deposit and emit an event, while the off-chain benefits would be handled by the game server. This allows for more flexible rewards and a better user experience.
 
 ## Deployment
 
