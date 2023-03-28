@@ -26,7 +26,7 @@ and [ERC20](/admin/category/erc20/) tokens
 
 ### Vesting Balance
 
-To check the amount of tokens on a Vesting Contract, click the `WALLET` button next to the contract. From there, you can view the total amount of [NATIVE](/admin/category/native/) or [ERC20](/admin/category/erc20/) tokens in the contract. If you want to know the amount available for release, you can click the `CHECK RELEASABLE AMOUNT` button. Once you have checked the releasable amount, you can then click `RELEASE` button to release this funds.
+To check the amount of tokens on a Vesting Contract, click the `WALLET` button next to the contract. From there, you can view the total amount of [NATIVE](/admin/category/native/) or [ERC20](/admin/category/erc20/) on contract balance. If you want to know the amount available for release, you can click the `CHECK RELEASABLE AMOUNT` button. Once you have checked the releasable amount, you can then click `RELEASE` button to release this funds.
 
 ![](/img/simple-mechanics/vesting/vesting-wallet.png)
 
