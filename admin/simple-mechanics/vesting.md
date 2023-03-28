@@ -22,9 +22,11 @@ After contract is deployed you have to manually fund it with tokens. There is a 
 contract that helps to perform this operation using all system's [NATIVE](/admin/category/native/)
 and [ERC20](/admin/category/erc20/) tokens
 
+![](/img/simple-mechanics/vesting/vesting-fund.png)
+
 ### Templates
 
-![](/img/vesting-schedule.png)
+![](/img/simple-mechanics/vesting/vesting-schedule.png)
 
 ### References
 
