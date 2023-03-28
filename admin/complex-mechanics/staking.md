@@ -19,12 +19,18 @@ Let's say project has configured mine to accept [Hero](/admin/category/erc998/) 
 5 metal ore per day per character, maximum 5 character per mine. 
 This will make user to want to have 10 Heroes instead of 5.
 
+3. Staking can also be used to offer users off-chain benefits in addition to on-chain rewards. For example, a user could deposit game tokens into a Staking contract and receive a bonus off-chain, such as a higher drop of ingame resources. The Staking contract would only modify on-chain data to record the deposit and emit an event, while the off-chain benefits would be handled by the game server. This allows for more flexible rewards and a better user experience.
+
 ## Deployment
 
-Staking contract is deployed as system contract by initial setup script.
+Staking contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/). If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/staking).
+
+
+### Configuration
 
 Staking contract can have multiple staking rules.
 Each rule is configured in Admin panel and later loaded to the Staking contract by executing transaction
+
 
 ### Configuration options
 
@@ -34,15 +40,14 @@ Each rule is configured in Admin panel and later loaded to the Staking contract 
     - **token type** - One of possible token types for deposit.
     - **contract** - Selected collection from that type
     - **template** - Used only for ERC721/ERC998
-    - **tokenId** - Used only for ERC1155
     - **amount** - Used only for ERC20/ERC1155
 - **reward token**
     - **token type** - One of possible token types for reward.
     - **contract** - Selected collection from that type
     - **template** - Used only for ERC721/ERC998, depending on collection type token would be minted as **_COMMON TOKEN_**, **_RANDOM TOKEN_** or **_MYSTERYBOX_**
-    - **tokenId** - Used only for ERC1155
     - **amount** - Used only for ERC20/ERC1155
-- **duration** - duration of the staking period, set in days
+- **duration** - Duration of the staking period, set in days
 - **penalty** - Early termination fee, if any (default 0)
-- **max per user** - Limits a number of deposits from one account, if any (default unlimited)
+- **is recurrent** - A boolean flag indicating whether the staking rule allows for recurring rewards, meaning that if the user does not withdraw their deposit and continues staking, they will continue to receive rewards.
 
+![](/img/complex-mechanics/staking_rules.png)
