@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Craft
 
-Craft is a mechanic used to produce new tokens by exchanging exiting tokens for new ones in proportions.
+Craft is a mechanic used to produce new tokens by exchanging existing tokens for new ones in proportions.
 
 Here are some common scenarios for crafting:
 
