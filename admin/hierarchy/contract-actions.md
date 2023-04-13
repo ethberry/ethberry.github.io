@@ -11,10 +11,14 @@ Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-
     - **Revoke role** - Revokes a specific role from a specified Ethereum address. (The caller must have Admin role)
     - **Renounce role** - Removes a specific role from the Ethereum address that currently holds it. (The caller must have a Role that is being relinquished)
 - **Access List:**
-    - **Add to blacklist**: Adds a specified Ethereum address to the blacklist. (Available only if contract have Blacklist feature)
+    - **Add to blacklist** - Adds a specified Ethereum address to the blacklist. (Available only if contract have Blacklist feature)
     - **Remove from blacklist** - Removes a specified Ethereum address from the blacklist. (Available only if contract have Blacklist feature)
+    - **Add to whitelist** - Adds a specified Ethereum address to the whitelist. (Available only if contract have Whitelist feature)
+    - **Remove from whitelist** - Removes a specified Ethereum address from the whitelist. (Available only if contract have Whitelist feature)
 - **Misc:**
     - **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
+    - **Transfer** - Transfers tokens from one Ethereum address to another.
+    - **Approve** - Approves a third-party address to spend a specified amount of tokens on behalf of the token owner.
     - **Snapshot** - Creates a snapshot of the current state of the contract and its variables.
 - **Dev:**
     - **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for developers)
