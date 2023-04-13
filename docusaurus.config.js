@@ -93,7 +93,7 @@ const config = {
           label: "API",
         },
         {
-          href: "https://github.com/GemunIon/framework",
+          href: "https://github.com/gemunion/",
           label: "GitHub",
           position: "right",
         },
