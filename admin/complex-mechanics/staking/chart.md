@@ -15,7 +15,7 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **Recent deposits**: the number of recent deposits made per day and their total amount.
 
 **`All deposits`**
-![](/img/complex-mechanics/staking_chart.png)
+![](/img/complex-mechanics/staking/chart.png)
 
 ## Filter
 
@@ -35,7 +35,7 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **End date**: The date until which deposits will be displayed.
 
 **`Recent deposits`**
-![](/img/complex-mechanics/staking_chart_filter.png)
+![](/img/complex-mechanics/staking/chart_filter.png)
 <!-- - **Column**: indicate the number of deposits being deposited per date. -->
 <!-- - **Lines**:  indicate the amount of deposits being deposited per date. -->
 <!-- - **Column**: indicate the number of active deposits per date. -->

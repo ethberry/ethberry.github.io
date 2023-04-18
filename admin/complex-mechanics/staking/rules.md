@@ -21,4 +21,4 @@ Each rule is configured in Admin panel and later loaded to the Staking contract 
 - **penalty** - Early termination fee, if any (default 0)
 - **is recurrent** - A boolean flag indicating whether the staking rule allows for recurring rewards, meaning that if the user does not withdraw their deposit and continues staking, they will continue to receive rewards.
 
-![](/img/complex-mechanics/staking_rules.png)
+![](/img/complex-mechanics/staking/rules.png)

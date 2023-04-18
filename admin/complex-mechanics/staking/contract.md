@@ -25,4 +25,4 @@ This will make user to want to have 10 Heroes instead of 5.
 
 Staking contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/). If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/staking).
 
-![](/img/complex-mechanics/staking_contract.png)
+![](/img/complex-mechanics/staking/contract.png)
