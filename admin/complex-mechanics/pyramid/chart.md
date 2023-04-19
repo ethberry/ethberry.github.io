@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Chart
@@ -10,13 +10,12 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **Columns**: for the number of deposits 
 - **Lines**: for the total amount of deposits 
 
-<!-- **The depth of the chart can determine:** -->
 **Depth chart:**
 - **All deposits**: by the number of all active deposits and their total amount for all deposits
 - **Recent deposits**: the number of recent deposits made per day and their total amount.
 
 **`All deposits`**
-![](/img/complex-mechanics/staking/chart.png)
+![](/img/complex-mechanics/pyramid/chart.png)
 
 ## Filter
 
@@ -36,8 +35,4 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **End date**: The date until which deposits will be displayed.
 
 **`Recent deposits`**
-![](/img/complex-mechanics/staking/chart_filter.png)
-<!-- - **Column**: indicate the number of deposits being deposited per date. -->
-<!-- - **Lines**:  indicate the amount of deposits being deposited per date. -->
-<!-- - **Column**: indicate the number of active deposits per date. -->
-<!-- - **Lines**: indicate the total amount of active deposits per date. -->
+![](/img/complex-mechanics/pyramid/chart_filter.png)

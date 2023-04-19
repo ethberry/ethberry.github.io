@@ -7,7 +7,7 @@ Exchange is the one of core contracts that serves the mechanics around the token
 This contract enables the exchange of tokens in a flexible manner, with various exchange mechanics available such as **[Claim](/admin/simple-mechanics/claim/)**, **[Grade](/admin/simple-mechanics/grade/)**, **Purchase**, etc. This functionality allows users to exchange one or multiple assets. However, to prevent unauthorized transactions, a trusted source (Server) must sign the transaction before it can be executed on the blockchain. Once the signature and additional information from the Server response are obtained, they can be combined with the Asset information to execute the exchange on the blockchain.
 
 #### Workflow of Purchase mechanics.
-![](/img/exchange_diagram.jpeg)
+![](/img/exchange/diagram.jpeg)
 
 
 ### Signing a Purchase Transaction:
