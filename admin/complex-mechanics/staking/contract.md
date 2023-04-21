@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Staking
+# Contract
 
 Staking is a mechanic which allows user to deposit one kind of token and gain an interest over time in some other token. This could be compared with a bank deposit. 
 
@@ -25,29 +25,4 @@ This will make user to want to have 10 Heroes instead of 5.
 
 Staking contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/). If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/staking).
 
-
-### Configuration
-
-Staking contract can have multiple staking rules.
-Each rule is configured in Admin panel and later loaded to the Staking contract by executing transaction
-
-
-### Configuration options
-
-- **title** - This is how Staking rule appears on the site.
-- **description** - General description, deposit terms or the story about unique weapon or mine/sawmill
-- **deposit token**
-    - **token type** - One of possible token types for deposit.
-    - **contract** - Selected collection from that type
-    - **template** - Used only for ERC721/ERC998
-    - **amount** - Used only for ERC20/ERC1155
-- **reward token**
-    - **token type** - One of possible token types for reward.
-    - **contract** - Selected collection from that type
-    - **template** - Used only for ERC721/ERC998, depending on collection type token would be minted as **_COMMON TOKEN_**, **_RANDOM TOKEN_** or **_MYSTERYBOX_**
-    - **amount** - Used only for ERC20/ERC1155
-- **duration** - Duration of the staking period, set in days
-- **penalty** - Early termination fee, if any (default 0)
-- **is recurrent** - A boolean flag indicating whether the staking rule allows for recurring rewards, meaning that if the user does not withdraw their deposit and continues staking, they will continue to receive rewards.
-
-![](/img/complex-mechanics/staking_rules.png)
+![](/img/complex-mechanics/staking/contract.png)
