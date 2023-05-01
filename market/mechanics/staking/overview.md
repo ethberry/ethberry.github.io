@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Staking
+# Overview
 
 This page describes the staking feature on the platform and provides an overview of how it works. It allows users to make deposits using different deposit rules, view the details of each deposit rule, and manage their deposits. 
 
