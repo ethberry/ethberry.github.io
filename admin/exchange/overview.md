@@ -6,23 +6,27 @@ sidebar_position: 1
 
 Exchange contract allows users to exchange their [assets](/admin/miscellaneous/asset) for other [assets](/admin/miscellaneous/asset), depending on the specific mechanics used in the contract. The table below provides an overview of several common mechanics that use exchange functionality:
 
-| Mechanics       | CLAIM | GRADE | CRAFT | PURCHASE | Staking |
-|-----------------|-------|-------|-------|----------|---------|
-| Give items      |   ✖️   |   ✔️   |   ✔️   |     ✔️    |    ✔️    |
-| Receive items   |   ✔️   |   ✖️   |   ✔️   |     ✔️    |    ✔️    |
-| Change metadata |   ✖️   |   ✔️   |   ✖️   |     ✖️    |    ✖️    |
-| Time delay      |   ✖️   |   ✖️   |   ✖️   |     ✖️    |    ✔️    |
+| Mechanics  | Give items | Receive items | Change metadata  | Time delay  | Random  |
+|------------|----------|-------------|------------------|-------------|---------|
+| BREED      |      ✖️  |       ✔️    | ✖️               | ✖️          | ✔️      |
+| CLAIM      |      ✖️  |       ✔️    | ✖️               | ✖️          | ✖️      |
+| CRAFT      |      ✔️  |       ✔️    | ✖️               | ✖️          | ✖️      |
+| GRADE      |      ✔️  |       ✖️    | ✔️               | ✖️          | ✖️      |
+| MYSTERYBOX |      ✖️  |       ✔️    | ✖️               | ✖️          | ✔️      |
+| PURCHASE   |      ✔️  |       ✔️    | ✖️               | ✖️          | ✖️      |
+| RENT       |      ✖️  |       ✖️    | ✔️               | ✖️          | ✖️      |
 
 This list is not exhaustive, but it provides an idea of how exchange functionality is used in different mechanics. Here are some examples:
 
-- **CLAIM** - mechanics allow users to claim an item without giving anything to the system, and there is no time delay.
-- **GRADE** - mechanics upgrade the metadata in an NFT, and require users to give an item. The upgrade is instant.
-- **PURCHASE** - mechanics take something from the user (usually it's a Native or ERC20 tokens) and give them something else in return.
-- **CRAFT** - mechanics are similar to Purchase but usually is used to take from User all kind of tokens (Native, ERC20, ERC721, etc.)
-- **STAKING** - mechanics are similar to craft and exchange mechanics, but users receive something after a certain period of time.
+- **BREED** - mechanics involve the reproduction of NFT tokens by mixing the character's traits. This process is akin to genetic breeding, where the metadata of tokens is encrypted into genes from a mother and father. By mixing the traits of two existing tokens, a new token with mixed traits is created. The breeding mechanic adds an element of creativity and diversity to the token ecosystem, allowing for the generation of new and distinct tokens through the blending of existing ones.
+- **CLAIM** - mechanics allow users to receive items from the system for free. One common use case of claim mechanics is the transfer of balances from an off-chain environment to an on-chain environment. This way user can redeem his in-game balance to his on-chain wallet. This mechanic is also used for distributing gifts and rewards from other mechanics such as Achievements.
+- **CRAFT** - mechanic is similar to Purchase but could be used to spend all kind of tokens, not only currency. It is typically used to craft NFT items from semi-NFT resources
+- **GRADE** - instantly changes token's metadata in exchange for currency tokens. Could be used for increase character's skills and item's level
+- **MYSTERYBOX** - Mystery box adding an element of anticipation and surprise to the game. The item received from the box is predetermined but has random rarity.
+- **PURCHASE** - mechanics is used for minting new NFT tokens in exchange for currency tokens
 
-> **It's important to note** that if the user receives an **ERC721**, **ERC1155**, or **ERC998** token, it will be **minted**, while if they receive **Native** or **ERC20** tokens, it will be **deducted** from the mechanic contract's balance.
+> **It's important to note** that if the user receives an **ERC721**, **ERC998**, or **ERC1155** token, it will be **minted**, while if they receive **Native** or **ERC20** tokens, it will be **spend** from the exchange contract's balance.
 
 ### Security
 
-All transactions must be signed by the server and validated before being executed on the blockchain. The server creates a signature containing the specific exchange details, including what the user should receive and what they should pay. The Exchange contract then verifies the signature and ensures that the signer has the necessary permissions and that the input arguments match the signature. If any of these checks fail, the transaction will be reverted. 
+All transactions must be signed off by the server before being executed on the blockchain. The server creates a signature containing the specific exchange details, including what the user should spend and what they should receive. The Exchange contract then verifies the signature and ensures that the signer has the necessary permissions and that the input arguments match the signature. If any of these checks fail, the transaction will be reverted. 
