@@ -13,4 +13,4 @@ As one investor can have more than one vesting contract assigned to him with dif
 list of available contracts with action buttons. These buttons allow to view contract details, transfer contract
 ownership to another account and release vested funds.
 
-NOTE: Vested funds can be used for [governance](/market/mechanics/governance/) 
+NOTE: Vested funds can be used for [governance](/market/complex-mechanics/governance/) 
