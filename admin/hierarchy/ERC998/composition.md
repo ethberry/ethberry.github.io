@@ -28,4 +28,4 @@ We offer a filter to apply custom rules to restrict children.
 NOTE: operations of adding and removing rules are performed directly on blockchain and reflected in database after
 transaction is complete
 
-![ERC998 composition create dialog](/img/hierarchy/erc998/erc998_composition_create_dialog.png)
+![ERC998 composition create dialog](/img/admin/hierarchy/erc998/erc998_composition_create_dialog.png)

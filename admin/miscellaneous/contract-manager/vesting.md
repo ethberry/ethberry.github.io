@@ -15,4 +15,4 @@ VestingContractManager is a contract that facilitates the deployment and managem
 
 The contract validates the input and creates a new vesting contract on the blockchain. Once the contract is deployed, the tokens are locked and will be released to the beneficiary over the vesting period.
 
-![](/img/miscellaneous/contract-manager/vesting_deploy.png)
+![](/img/admin/miscellaneous/contract-manager/vesting_deploy.png)

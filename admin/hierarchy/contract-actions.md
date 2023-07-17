@@ -31,4 +31,4 @@ available in all contracts deployed via the Contract Manager:
     developers)
   - **Remove ETH listeners** - Disables the ETH listener feature on the contract. (Only for developers)
 
-![hierarchy contract action menu](/img/hierarchy/contract_actions.png)
+![hierarchy contract action menu](/img/admin/hierarchy/contract_actions.png)

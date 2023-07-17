@@ -10,4 +10,5 @@ The renter and owner need to agree on the rental terms in advance, before the NF
 
 During the rental period, the renter can use the NFT within the ecosystem, such as playing a game and earning rewards or breeding and receiving new offspring. It's important to note that the renter cannot transfer the NFT or use it in ways outside of the ecosystem. 
 
-![](/img/market/mechanics/rent/form.png)
+![](/img/market/mechanics-simple/rent/form.png)
+

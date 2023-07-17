@@ -11,4 +11,4 @@ transferring tokens between addresses within our ecosystem.
 
 Each time you select **Item** or **Price** in mechanics - you select template-asset
 
-![](/img/miscellaneous/asset.png)
+![](/img/admin/miscellaneous/asset.png)

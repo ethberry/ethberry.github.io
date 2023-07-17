@@ -14,7 +14,7 @@ sidebar_position: 2
 
 **Approving** tokens requires the owner to call the approve function and specify **contract** address that will be able to transfer **[asset](/admin/miscellaneous/asset/)**. This authorization is necessary for the specified contract to transfer the tokens on the owner's behalf.
 
-![](/img/miscellaneous/approve.jpg)
+![](/img/market/miscellaneous/approve.jpg)
 
 
 ### Functionality of the Approve Process

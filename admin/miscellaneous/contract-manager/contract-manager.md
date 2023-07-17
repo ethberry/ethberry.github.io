@@ -14,4 +14,4 @@ The Contract Manager is a smart contract that provides a centralized way to keep
 2. **Connecting deployed contracts to our system:**
     - Whenever a contract is deployed via the Contract Manager, it emits an event that our Server listens to. This allows the Server to connect the deployed contract to the system and track its status in our database.
 
-![](/img/miscellaneous/contract-manager/contract_manager_diagram.jpeg)
+![](/img/admin/miscellaneous/contract-manager/contract_manager_diagram.jpeg)

@@ -20,7 +20,7 @@ sidebar_position: 5
 - **Item**:  Show `Symbol` `Amount` of the token being purchased.
 - **Price**: Shows `Symbol` `Amount` of tokens used as payment.
 
-![](/img/exchange/report.png)
+![](/img/admin/exchange/report.png)
 
 ## Filter
 
@@ -31,4 +31,4 @@ sidebar_position: 5
 - **Contract**: The [contract](/admin/hierarchy/ERC721/contract) of the token being purchased.
 - **Template**: The [template](/admin/hierarchy/ERC721/template) of the token being purchased.
 
-![](/img/exchange/report_filter.png)
+![](/img/admin/exchange/report_filter.png)

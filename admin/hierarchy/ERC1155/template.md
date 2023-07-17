@@ -19,12 +19,12 @@ To start selling tokens you have to configure them first
 - **amount** - amount of similar token to be sold on marketplace
 - **status** -
     - **ACTIVE** - Active templates are available for purchase on marketplace
-    - **HIDDEN** - Hidden templates are removed from marketplace, but available for some other mechanics such as [Drop](/admin/simple-mechanics/drop/)
+    - **HIDDEN** - Hidden templates are removed from marketplace, but available for some other mechanics such as [Drop](/admindialog.pngdrop/)
     - **INACTIVE** - Deleted templates exists for reference and history purposes
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces
 
 Template is an abstraction level to create a blueprint of the item, i.e. particular resources
 
-![ERC1155 template edit dialog](/img/hierarchy/erc1155/erc1155_template_edit_dialog.png)
+![ERC1155 template edit dialog](/img/admin/hierarchy/erc1155/erc1155_template_edit_dialog.png)
 

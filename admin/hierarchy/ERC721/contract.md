@@ -20,7 +20,7 @@ These values are passed directly to blockchain
 - **base token url** - point to the server with metadata
 - **royalty** - royalty percentage on secondary sales 
 
-![ERC721 contract deploy dialog](/img/hierarchy/erc721/erc721_contract_deploy_dialog.png)
+![ERC721 contract deploy dialog](/img/admin/hierarchy/erc721/erc721_contract_deploy_dialog.png)
 
 ## Configuration
 
@@ -38,7 +38,7 @@ While deployment options are used as default values there are still things to co
   - **INACTIVE** - Inactive tokens are not available for selection
 - **image** - Cover image, that is displayed on market
 
-![ERC721 contract edit dialog](/img/hierarchy/erc721/erc721_contract_edit_dialog.png)
+![ERC721 contract edit dialog](/img/admin/hierarchy/erc721/erc721_contract_edit_dialog.png)
 
 ## Contracts actions
 

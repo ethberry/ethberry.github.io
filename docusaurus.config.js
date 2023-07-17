@@ -88,7 +88,7 @@ const config = {
         },
         {
           type: "doc",
-          docId: "installation",
+          docId: "overview",
           docsPluginId: "api",
           label: "API",
         },

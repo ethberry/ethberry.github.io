@@ -18,7 +18,7 @@ These values are passed directly to blockchain
 - **base token url** - point to the server with metadata
 - **royalty** - royalty percentage on secondary sales
 
-![ERC1155 contract deploy dialog](/img/hierarchy/erc1155/erc1155_contract_deploy_dialog.png)
+![ERC1155 contract deploy dialog](/img/admin/hierarchy/erc1155/erc1155_contract_deploy_dialog.png)
 
 ## Configuration
 
@@ -36,7 +36,7 @@ While deployment options are used as default values, there are still things to c
   - **INACTIVE** - Inactive tokens are not available for selection
 - **image** - Cover image, that is displayed on market
 
-![ERC1155 contract edit dialog](/img/hierarchy/erc1155/erc1155_contract_edit_dialog.png)
+![ERC1155 contract edit dialog](/img/admin/hierarchy/erc1155/erc1155_contract_edit_dialog.png)
 
 ## Contracts actions
 

@@ -16,4 +16,4 @@ sidebar_position: 6
 
 The contract validates the input and creates a new Staking contract on the blockchain.
 
-![](/img/miscellaneous/contract-manager/staking_deploy.png)
+![](/img/admin/miscellaneous/contract-manager/staking_deploy.png)

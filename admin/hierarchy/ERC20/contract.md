@@ -21,7 +21,7 @@ These values are passed directly to blockchain
 - **symbol** - token ticker on the market
 - **cap** - max amount of tokens ever possible to mint
 
-![ERC20 contract deploy dialog](/img/hierarchy/erc20/erc20_contract_deploy_dialog.png)
+![ERC20 contract deploy dialog](/img/admin/hierarchy/erc20/erc20_contract_deploy_dialog.png)
 
 ## Configuration
 
@@ -39,7 +39,7 @@ While deployment options are used as default values, there are still things to c
     - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
     - **INACTIVE** - Inactive tokens are not available for selection
 
-![ERC20 contract edit dialog](/img/hierarchy/erc20/erc20_contract_edit_dialog.png)
+![ERC20 contract edit dialog](/img/admin/hierarchy/erc20/erc20_contract_edit_dialog.png)
 
 ## Creation
 
@@ -53,7 +53,7 @@ As an alternative you can use already deployed 3rd party contracts like USDT, BU
 - **description** - General description. Supports Markdown format.
 - **address** - Address of the existing token
 
-![ERC20 contract create dialog](/img/hierarchy/erc20/erc20_contract_create_dialog.png)
+![ERC20 contract create dialog](/img/admin/hierarchy/erc20/erc20_contract_create_dialog.png)
 
 ## Contracts actions
 

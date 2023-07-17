@@ -22,8 +22,9 @@ To make a deposit, the user needs to choose a **deposit rule** they want to use.
     - **Is recurent?**: A `yes` or `no` indicating whether the staking rule allows for recurring rewards. If the user does not withdraw their deposit and continues staking, they will continue to receive rewards.
     - **Contract**: The **address** of the staking contract.
 
-![](/img/market/mechanics/staking/deposit_rules_view.png)
-![](/img/market/mechanics/staking/deposit_rules_allowance.png)
+![](/img/market/complex-mechanics/staking/deposit_rules_view.png)
+![](/img/market/complex-mechanics/staking/deposit_rules_allowance.png)
+
 
 ## My Deposits
 
@@ -39,6 +40,6 @@ To receive rewards and/or withdraw tokens from the staking contract, users click
 
 If the 'Withdraw deposit' switch is turned on, it withdraws the deposit. However, if the **Duration** period has not passed, a penalty is deducted. Clicking OK proceeds with the transaction on the blockchain. If users have available rewards, they withdraw them to their account.
 
-![](/img/market/mechanics/staking/myDeposits_reward.png)
+![](/img/market/complex-mechanics/staking/myDeposits_reward.png)
 
 <!-- ## Leader board -->
