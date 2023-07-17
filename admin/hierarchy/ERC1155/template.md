@@ -26,5 +26,5 @@ To start selling tokens you have to configure them first
 
 Template is an abstraction level to create a blueprint of the item, i.e. particular resources
 
-![](/img/hierarchy/erc1155/erc1155_template_edit_modal.png)
+![ERC1155 template edit dialog](/img/hierarchy/erc1155/erc1155_template_edit_dialog.png)
 

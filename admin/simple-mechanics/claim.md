@@ -1,55 +1,45 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Claim
 
-Claim Mechanic Claim is a basic mechanic in the world of NFTs. 
-Its primary purpose is to reward users for certain actions, such as participating in marketing campaigns. Claims are given out for free, with the only cost being the transaction fee.
+Claim is a basic mechanic in the world of NFTs to give away an [asset](/admin/miscellaneous/asset/)
+for the cost of transaction.
 
-Claims are pre-signed transactions that users can execute to receive their reward. 
-A single claim can contain multiple items of different types, including [mystery boxes](/admin/simple-mechanics/mystery/box). This makes it an ideal solution for giving out rewards in various marketing campaigns and promotions.
+Claims are a great way to reward users for their participation in various activities. For example:
+- For participation in marketing campaigns
+- For killing minions and other in-game events
+- Can be used to redeem off-chain balance
 
-## Configuration
+Claim can be combined with [vesting](/admin/simple-mechanics/vesting), [mystery boxes](/admin/simple-mechanics/mystery/box) and achievements
 
-In order to start using Claims, you will need to create [templates](/admin/hierarchy/ERC721/template/) first. 
-There are a few configuration options that you will need to specify. 
+> **NOTE!** When the user receives a **ERC721**, **ERC998**, or **ERC1155** token, it will be
+> **minted**, while **NATIVE** or **ERC20** tokens will be **spent** from the merchants balance.
 
-### Configuration options
+## Create
+
+In order to start using Claims, you will need to create [templates](/admin/hierarchy/ERC721/template/) first.
+
+### Create options
 
 - **account** - The address of beneficiary
-- **item** - The item (or items) to be claimed (see [asset](/admin/miscellaneous/asset/))
+- **item** - The item(s) to be claimed (see [asset](/admin/miscellaneous/asset/))
 - **end date** - The expiration date of the transaction
 
-## Example of usage
+![claim create dialog](/img/simple-mechanics/claim/claim_create_dialog.png)
 
-Claims are a great way to reward users for their participation in various activities. For example, 
-players can win rewards (kill the minion) in a game and the game server can communicate with our API to pre-sign the transaction so the player can claim their NFT. In another example, an admin can give out NFTs to users regardless of the stability of the web server. There are many other possible use cases for Claims, and this mechanic is an effective and flexible way to reward users.
+## Upload
 
-### How to pre-sign transaction for signle/multiple accounts:
+As an alternative you can upload CSV with data
 
-#### Creating a Pre-Signed Transaction for a single Account
+### Upload options
 
-1. Navigate to the **Claim** section on the dashboard.
-2. Click on the **Create** button.
-3. Fill in the required information for the claim, including the beneficiary's address and the NFTs to be claimed. <br/>*(You can add multiple NFTs by clicking the **+** button).*
-4. Click the **Ok** button to complete the process.
+- **account** - receiver
+- **tokenType** - one of the supported token types (NATIVE, ERC20, ERC721, ERC998, ERC1155)
+- **address** - address of the token being sent, (0x0...0 for NATIVE)
+- **templateId** - template id (0 for NATIVE, ERC20)
+- **amount** - amount of tokens
+- **end date** - the expiration date of the transaction
 
-#### Creating a Pre-Signed Transaction for Multiple Accounts
-
-1. Navigate to the **Claim** section on the dashboard.
-2. Click on the **Upload** button.
-3. Insert a **CSV** file with the following columns: account, endTimestamp, tokenType, contractId, templateId, and amount.
-4. Click the **Ok** button to complete the process.
-
-<br/>Note: Please refer to the attached screenshots for a visual representation of these steps. <br/>
-
-
-###### Claim page
-![](/img/simple-mechanics/claim/claim_actions.jpeg)
-
-###### Claim -> Create
-![](/img/simple-mechanics/claim/claim_create.jpeg)
-
-###### Claim -> Upload
-![](/img/simple-mechanics/claim/claim_upload.jpeg)
+![claim upload dialog](/img/simple-mechanics/claim/claim_upload_dialog.png)

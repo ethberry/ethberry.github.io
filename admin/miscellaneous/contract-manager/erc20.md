@@ -15,4 +15,5 @@ ERC20ContractManager is a contract that facilitates the deployment and managemen
 
 The contract validates the input and creates a new ERC20 token contract on the blockchain.
 
-![](/img/miscellaneous/contract-manager/erc20_contract_deploy_modal.png)
+![](/img/miscellaneous/contract-manager/erc20_contract_deploy_dialog.png)
+

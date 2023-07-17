@@ -4,7 +4,9 @@ sidebar_position: 0
 
 # Hierarchy
 
-Hierarchy of entities consists of 4 levels, some entities does not make sense, so they are virtual
+Hierarchy is one of the pillars of our architecture, it defines abstraction on top of all supported token standards
+
+Hierarchy of entities consists of 5 levels, some entities does not make sense, so they are virtual
 
 |             | NATIVE | ERC20 | ERC721 | ERC998 | ERC1155 |
 |-------------|--------|-------|--------|--------|---------|

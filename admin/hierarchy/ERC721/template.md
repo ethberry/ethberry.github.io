@@ -19,9 +19,9 @@ To start selling tokens you have to configure them first
 - **amount** - amount of similar token to be sold on marketplace
 - **status** - 
   - **ACTIVE** - Active templates are available for purchase on marketplace
-  - **HIDDEN** - Hidden templates are removed from marketplace, but available for some other mechanics such as [Drop](/admin/simple-mechanics/drop/)
   - **INACTIVE** - Deleted templates exists for reference and history purposes
+  - **HIDDEN** - Hidden templates are removed from marketplace, but available for other mechanics such as [Drop](/admin/simple-mechanics/drop/)
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces
 
-![](/img/hierarchy/erc721/erc721_template_edit_modal.png)
+![ERC721 template edit dialog](/img/hierarchy/erc721/erc721_template_edit_dialog.png)

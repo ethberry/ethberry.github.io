@@ -14,7 +14,14 @@ ERC20 token contracts are being deployed using [Contract Manager](/admin/miscell
 
 ### Deployment options
 
-The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc20).
+These values are passed directly to blockchain
+
+- **template** - predefined set of features for this contract
+- **name** - token name
+- **symbol** - token ticker on the market
+- **cap** - max amount of tokens ever possible to mint
+
+![ERC20 contract deploy dialog](/img/hierarchy/erc20/erc20_contract_deploy_dialog.png)
 
 ## Configuration
 
@@ -32,13 +39,11 @@ While deployment options are used as default values, there are still things to c
     - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
     - **INACTIVE** - Inactive tokens are not available for selection
 
-![](/img/hierarchy/erc20/erc20_contract_edit_modal.png)
-
+![ERC20 contract edit dialog](/img/hierarchy/erc20/erc20_contract_edit_dialog.png)
 
 ## Creation
 
 As an alternative you can use already deployed 3rd party contracts like USDT, BUSD, WETH. 
-<!-- TODO Add additiona description for verified coins as USDT, BUSD, WETH -->
 
 ### Creation options
 
@@ -48,25 +53,8 @@ As an alternative you can use already deployed 3rd party contracts like USDT, BU
 - **description** - General description. Supports Markdown format.
 - **address** - Address of the existing token
 
-![](/img/hierarchy/erc20/erc20_contract_create.png)
-![](/img/hierarchy/erc20/erc20_contract_create_modal.png)
-
+![ERC20 contract create dialog](/img/hierarchy/erc20/erc20_contract_create_dialog.png)
 
 ## Contracts actions
 
 ERC20 Contracts have extra actions that can be performed from admin panale. <br/>You can find more details for all actions [here](/admin/hierarchy/contract-actions).
-
-![](/img/hierarchy/erc20/erc20_contract_actions.png)
-<!-- Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager) has additional actions that can be performed from the Admin panel. While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are available in all contracts deployed via the Contract Manager:
-
-- **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
-- **Snapshot** - Creates a snapshot of the current state of the contract and its variables.
-- **Grant role** - Grants a specific role to a specified Ethereum address. (The caller must have Admin role)
-- **Revoke role** - Revokes a specific role from a specified Ethereum address. (The caller must have Admin role)
-- **Renounce role** - Removes a specific role from the Ethereum address that currently holds it. (The caller must have a Role that is being relinquished)
-- **Add to blacklist**: Adds a specified Ethereum address to the blacklist. (Available only if contract hafe Blacklist feature)
-- **Remove from blacklist** - Removes a specified Ethereum address from the blacklist. (Available only if contract hafe Blacklist feature)
-- **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for developers)
-- **Remove ETH listeners** - Disables the ETH listener feature on the contract. (Only for developers)
-
-![](/img/hierarchy/erc20/erc20_contract_actions.png) -->

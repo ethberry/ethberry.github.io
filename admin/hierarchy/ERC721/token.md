@@ -11,4 +11,5 @@ item, it's attributes and transaction history.
 
 Token has no configuration because initial information comes from blockchain.
 
-![](/img/hierarchy/erc721/erc721_tokens.png)
+![ERC721 token list](/img/hierarchy/erc721/erc721_token_list.png)
+![ERC721 token view dialog](/img/hierarchy/erc721/erc721_token_view_dialog.png)

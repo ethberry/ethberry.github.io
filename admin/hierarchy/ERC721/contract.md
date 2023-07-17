@@ -12,7 +12,15 @@ ERC721 contracts are being deployed using [Contract Manager](/admin/miscellaneou
 
 ### Deployment options
 
-The [Contract Manager](/admin/miscellaneous/contract-manager/) handles the deployment process. If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/erc721).
+These values are passed directly to blockchain
+
+- **template** - predefined set of features for this contract
+- **name** - token name
+- **symbol** - token ticker on the market
+- **base token url** - point to the server with metadata
+- **royalty** - royalty percentage on secondary sales 
+
+![ERC721 contract deploy dialog](/img/hierarchy/erc721/erc721_contract_deploy_dialog.png)
 
 ## Configuration
 
@@ -30,10 +38,8 @@ While deployment options are used as default values there are still things to co
   - **INACTIVE** - Inactive tokens are not available for selection
 - **image** - Cover image, that is displayed on market
 
-![](/img/hierarchy/erc721/erc721_contract_edit_modal.png)
+![ERC721 contract edit dialog](/img/hierarchy/erc721/erc721_contract_edit_dialog.png)
 
 ## Contracts actions
 
 ERC721 Contracts have extra actions that can be performed from admin panale. <br/>You can find more details for all actions [here](/admin/hierarchy/contract-actions).
-
-![](/img/hierarchy/erc721/erc721_contract_actions.png)
