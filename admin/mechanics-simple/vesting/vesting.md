@@ -8,13 +8,10 @@ Vesting is usually used to lock investors funds and unlock them using time-base 
 use their bound to gain profit by selling it as a derivative or by using it for 
 [governance](/admin/mechanics-complex/governance/) but can't just sell tokens on the DEX.
 
-
 # Contract actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has
-additional actions that can be performed from the Admin panel. While some of these actions may depend on the
-specific [features](/admin/hierarchy/ERC20/features) of the contract, there are several standard features that are
-available in all contracts deployed via the Contract Manager:
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has 
+action menu with relevant blockchain actions
 
 - **Misc:**
     - **Allowance** - Approves a third-party address to spend a specified amount of tokens on behalf of the token owner.
