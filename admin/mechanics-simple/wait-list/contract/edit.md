@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Edit
 
-After the wait list contract is deployed it can be edited
+After the wait list contract is deployed it has to be edited
 
 ## Edit options
 

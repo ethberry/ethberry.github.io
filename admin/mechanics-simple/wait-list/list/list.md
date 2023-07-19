@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # List
 
-Game can have several wait lists on one contract, thats why there is no need to deploy more than one contract per game
+Game can have several wait lists on one contract, that's why there is no need to deploy more than one contract per game
 
 # List actions
 
@@ -14,7 +14,7 @@ action menu with relevant blockchain actions
 - **Misc:**
     - **Add** - Adds new account to the list
     - **Upload** - Uploads a CSV file with accounts
-    - **Submit** - Generates Merkle Proof and uploads it to blockchain
+    - **Submit** - Generates Merkle Proof and submit it to the blockchain
 
 ![waitlist list action menu](/img/admin/mechanics-simple/wait-list/waitlist_list_actions.png)
 
