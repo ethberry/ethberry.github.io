@@ -2,15 +2,11 @@
 sidebar_position: 2
 ---
 
-# Template
-
-Template is an abstraction level to create a blueprint of the item. 
-
-## Configuration
+# Configuration
 
 To start selling tokens you have to configure them first
 
-### Configuration options
+## Configuration options
 
 - **title** - This is how template is displayed on site, especially on marketplace
 - **description** - General description in markdown format.
@@ -24,4 +20,4 @@ To start selling tokens you have to configure them first
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces
 
-![ERC721 template edit dialog](/img/admin/hierarchy/erc721/erc721_template_edit_dialog.png)
+![ERC721 template edit dialog](/img/admin/hierarchy/erc721/template_edit_dialog.png)

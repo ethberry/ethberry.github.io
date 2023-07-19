@@ -22,4 +22,4 @@ When a user receives a reward, the following steps are taken:
 3. If the staking rule is recurrent, the contract will update the time of the user's last received reward to the current timestamp. If the user does not withdraw their deposited tokens, they will be able to continue receiving rewards, and they will be able to withdraw the full amount of their deposited tokens at any time.
 
 > **NOTE** <br/>
-> If a transaction does not involve either receiving a reward or withdrawing deposited tokens, the transaction will be reverted.
+> If a transaction does not involve either receiving of reward or withdrawing deposited tokens, the transaction will be reverted.

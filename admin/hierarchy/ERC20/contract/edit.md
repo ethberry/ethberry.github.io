@@ -2,18 +2,20 @@
 sidebar_position: 3
 ---
 
-# Edit
+# Configuration
 
 After the contract is deployed it has to be manually edited before becoming visible on the market
 
-## Edit options
+## Configuration options
 
-- **title** - This is how collection is displayed on site or marketplace
+While deployment options are used as default values, there are still things to configure
+
+- **title** - This is how token is displayed on site, mostly in autocomplete fields for other actions
 - **description** - General description. Supports Markdown format. Optional and present mostly for compatibility with other tokens
-- **status**
+- **token status**
     - **NEW** - Default status after contract deployment, should be manually changed to **ACTIVE**
     - **ACTIVE** - Active tokens are displayed on site and available for selection for other actions
     - **INACTIVE** - Inactive tokens are not available for selection
-- **image** - Cover image, that is displayed on market
 
-![waitlist contract edit dialog](/img/admin/mechanics-simple/wait-list/waitlist_contract_edit_dialog.png)
+![ERC20 contract edit dialog](/img/admin/hierarchy/erc20/contract_edit_dialog.png)
+
