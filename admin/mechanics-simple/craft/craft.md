@@ -15,15 +15,7 @@ Here are some common scenarios for crafting:
 3. Crafting mechanic could be configured the other way around allowing user to dismantle items.
    This way a sword could become an Y iron ingots
 
-## Configuration
+To start crafting items you have to create [resources](/admin/hierarchy/ERC1155/template/) first
 
-To start crafting items you have to create these items first, [see](/admin/hierarchy/ERC1155/template/)
-
-### Configuration options
-
-- **item** - An [item](/admin/miscellaneous/asset/) to be crafted/dismantled
-- **ingredients** - A list of tokens that are required to craft (or produced from) the [item](/admin/miscellaneous/asset/). 
-
-NOTE: While you can add ETH and ERC20 as ingredients to the mix or use only them, this mechanic is not meant for direct purchase
-
-![](/img/admin/mechanics-simple/craft_create.png)
+> **NOTE!** In standalone application merchant can configure craft to use 3rd party tokens and
+> exchange say [CryptoKitties](https://www.cryptokitties.co/) for their own tokens

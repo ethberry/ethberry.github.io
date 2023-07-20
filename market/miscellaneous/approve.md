@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **Approving tokens** such as [ERC20](/market/category/erc20/), [ERC721](/market/category/erc721/), [ERC1155](/market/category/erc1155/), [ERC998](/market/category/erc998/) and [MYSTERY-BOX](/admin/category/mystery/)  is a key step in using these tokens in decentralized finance. The approve function enables you to set the maximum amount of tokens that a specific smart contract can use.
 
-**Without approval**, the Exchange, Staking and Pyramid Contracts wouldn't be able to transfer the tokens (ERC20, ERC721, ERC1155, ERC998) from one address to another, thus making the transaction impossible.
+**Without approval**, the Exchange, Staking Contracts wouldn't be able to transfer the tokens (ERC20, ERC721, ERC1155, ERC998) from one address to another, thus making the transaction impossible.
 
 **With Approval**, transactions such as buying or selling on a Marketplace, staking tokens for rewards, and more can be smoothly completed. This crucial step ensures that trusted contracts can transfer and use tokens on behalf of the owner, making it a key aspect of decentralized finance.
 
