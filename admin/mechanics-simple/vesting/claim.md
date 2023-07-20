@@ -20,7 +20,7 @@ or [ERC20](/admin/hierarchy/ERC20/contract/) first
 - **monthly release** - how many percents of locked amount to release every month
 - **item** - the token to be used as funds
 
-![vesting claim create dialog](/img/admin/mechanics-simple/vesting/versting_claim_create_dialog.png)
+![vesting claim create dialog](/img/admin/mechanics-simple/vesting/claim_create_dialog.png)
 
 ## Upload
 
@@ -37,5 +37,5 @@ As an alternative you can upload CSV with data
 - **templateId** - template id (0 for NATIVE, ERC20)
 - **amount** - amount of tokens
 
-![vesting claim upload dialog](/img/admin/mechanics-simple/vesting/versting_claim_upload_dialog.png)
+![vesting claim upload dialog](/img/admin/mechanics-simple/vesting/claim_upload_dialog.png)
 

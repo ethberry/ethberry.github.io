@@ -8,4 +8,4 @@ As one investor can have more than one vesting contract assigned to him with dif
 list of available contracts with action buttons. These buttons allow to view contract details, transfer contract
 ownership to another account and release vested funds.
 
-![vesting search](/img/market/mechanics-simple/vesting/vesting_search.png)
+![vesting search](/img/market/mechanics-simple/vesting/contract_search.png)

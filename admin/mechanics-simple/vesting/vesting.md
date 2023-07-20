@@ -27,7 +27,7 @@ To view the main information for each vesting contract, click on the `VIEW` butt
 - **duration** - total amount of month needs to release all funds
 - **monthly release** - how many percents of locked amount to release every month
 -
-![vesting contract view dialog](/img/admin/mechanics-simple/vesting/vesting_contract_view_dialog.png)
+![vesting contract view dialog](/img/admin/mechanics-simple/vesting/contract_view_dialog.png)
 
 ### References
 

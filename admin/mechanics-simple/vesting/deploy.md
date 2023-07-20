@@ -20,5 +20,5 @@ You can create empty vesting contract and TopUp it later.
 - **cliff in month** - how many month to wait until first unlock
 - **monthly release** - how many percents of locked amount to release every month
 
-![vesting contract deploy dialog](/img/admin/mechanics-simple/vesting/vesting_contract_deploy_dialog.png)
+![vesting contract deploy dialog](/img/admin/mechanics-simple/vesting/contract_deploy_dialog.png)
 
