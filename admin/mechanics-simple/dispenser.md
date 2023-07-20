@@ -19,5 +19,5 @@ for example `address`), we do not validate amount of transactions, and you may s
 - **templateId** - template id (0 for NATIVE, ERC20)
 - **amount** - amount of tokens
 
-![](/img/admin/mechanics-simple/dispenser/dispenser_upload_dialog.png)
+![Dispenser upload dialog](/img/admin/mechanics-simple/dispenser/dispenser_upload_dialog.png)
 
