@@ -6,7 +6,7 @@ sidebar_position: 1
 
 To start using mystery boxes you have to create [templates](/admin/hierarchy/ERC721/template/) first.
 
-You also have to fund a contract with [LINK](/admin/integrations/chain-link/) token to use
+Merchant has to fund a contract with [LINK](/admin/integrations/chain-link/) token to use
 ChainLink's [VRF](https://docs.chain.link/vrf/v2/introduction).
 
 ## Configuration options

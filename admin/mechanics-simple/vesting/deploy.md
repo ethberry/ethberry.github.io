@@ -15,6 +15,8 @@ You can create empty vesting contract and TopUp it later.
 
 ### Deployment options
 
+These values are passed directly to blockchain
+
 - **beneficiary** - the address of the beneficiary
 - **start date** - the date from which deposits will be displayed
 - **cliff in month** - how many month to wait until first unlock

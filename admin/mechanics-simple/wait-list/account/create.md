@@ -11,4 +11,4 @@ Simple way to add account to wait list
 - **address** - the address of beneficiary
 - **list** - wait list
 
-![waitlist account create dialog](/img/admin/mechanics-simple/wait-list/waitlist_account_create_dialog.png)
+![waitlist account create dialog](/img/admin/mechanics-simple/wait-list/account_create_dialog.png)

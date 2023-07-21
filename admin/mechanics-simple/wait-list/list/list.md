@@ -16,5 +16,5 @@ action menu with relevant blockchain actions
     - **Upload** - Uploads a CSV file with accounts
     - **Submit** - Generates Merkle Proof and submit it to the blockchain
 
-![waitlist list action menu](/img/admin/mechanics-simple/wait-list/waitlist_list_actions.png)
+![waitlist list action menu](/img/admin/mechanics-simple/wait-list/list_actions.png)
 

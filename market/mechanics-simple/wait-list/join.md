@@ -6,6 +6,6 @@ sidebar_position: 2
 
 A simple way to join new airdrop. Only public airdrops are listed.
 
-![waitlist join dialog](/img/market/mechanics-simple/wait-list/waitlist_join_dialog.png)
+![waitlist join dialog](/img/market/mechanics-simple/wait-list/list_join_dialog.png)
 
 

@@ -14,4 +14,4 @@ After the wait list contract is deployed a list can be created
 - **contract** - contract which this list belongs to
 - **private** - determines if users can see this list on market and join
 
-![waitlist list create dialog](/img/admin/mechanics-simple/wait-list/waitlist_list_create_dialog.png)
+![waitlist list create dialog](/img/admin/mechanics-simple/wait-list/list_create_dialog.png)

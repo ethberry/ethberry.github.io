@@ -21,5 +21,5 @@ When a user receives a reward, the following steps are taken:
 2. The reward amount, multiplied by the total number of full staking periods (for non-recurrent staking, this can only be 1), will be transferred to the user's account.
 3. If the staking rule is recurrent, the contract will update the time of the user's last received reward to the current timestamp. If the user does not withdraw their deposited tokens, they will be able to continue receiving rewards, and they will be able to withdraw the full amount of their deposited tokens at any time.
 
-> **NOTE** <br/>
+> **NOTE!** <br/>
 > If a transaction does not involve either receiving of reward or withdrawing deposited tokens, the transaction will be reverted.

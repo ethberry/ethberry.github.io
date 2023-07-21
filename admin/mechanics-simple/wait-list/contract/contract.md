@@ -18,5 +18,5 @@ action menu with relevant blockchain actions
 - **Misc:**
     - **Pause** - Temporary suspense contract
 
-![waitlist contract action menu](/img/admin/mechanics-simple/wait-list/waitlist_contract_actions.png)
+![waitlist contract action menu](/img/admin/mechanics-simple/wait-list/contract_actions.png)
 

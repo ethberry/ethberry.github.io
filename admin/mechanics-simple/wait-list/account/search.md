@@ -11,4 +11,4 @@ Accounts can be searched/filtered
 - **address** - the address of beneficiary
 - **list** - wait list
 
-![waitlist account search](/img/admin/mechanics-simple/wait-list/waitlist_account_search.png)
+![waitlist account search](/img/admin/mechanics-simple/wait-list/account_search.png)

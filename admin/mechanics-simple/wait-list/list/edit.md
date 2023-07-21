@@ -12,4 +12,4 @@ certain asset and changing this asset may disappoint users
 - **title** - This is how list is displayed on marketplace
 - **description** - General description in draft.js format
 
-![waitlist list edit dialog](/img/admin/mechanics-simple/wait-list/waitlist_list_edit_dialog.png)
+![waitlist list edit dialog](/img/admin/mechanics-simple/wait-list/list_edit_dialog.png)
