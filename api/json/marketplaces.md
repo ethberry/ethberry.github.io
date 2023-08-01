@@ -16,7 +16,7 @@ with [Metamask](https://metamask.zendesk.com/hc/en-us/articles/360058238591-NFT-
 
 ## Example
 
-Here is an example of metadata for [RANDOM](/admin/integrations/chain-link/), [UPGRADABLE](/admindialog.pnggrade/) [ERC998](/admin/category/erc998/) token
+Here is an example of metadata for [RANDOM](/admin/integrations/chain-link/), [UPGRADABLE](/admin/mechanics-simple/grade/) [ERC998](/admin/category/erc998/) token
 
 ```json
 {

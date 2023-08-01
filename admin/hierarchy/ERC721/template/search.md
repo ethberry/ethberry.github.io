@@ -13,7 +13,7 @@ Templates can be searched/filtered
 - **status** -
     - **ACTIVE** - Active box are available for purchase on marketplace
     - **INACTIVE** - Deleted box exists for reference and history purposes
-    - **HIDDEN** - Hidden templates are removed from marketplace, but available for other mechanics such as [Drop](/admindialog.pngdrop/)
+    - **HIDDEN** - Hidden templates are removed from marketplace, but available for other mechanics such as [Drop](/admin/mechanics-simple/drop/)
 
 
 ![ERC721 template search](/img/admin/hierarchy/erc721/template_search.png)

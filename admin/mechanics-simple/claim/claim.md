@@ -12,7 +12,7 @@ Claims are a great way to reward users for their participation in various activi
 - For killing minions and other in-game actions
 - Can be used to redeem off-chain balance on-chain
 
-Claim can be combined with [vesting](/admindialog.pngvesting), [mystery boxes](/admindialog.pngmystery/box) and achievements
+Claim can be combined with [vesting](/admin/mechanics-simple/vesting), [mystery boxes](/admin/mechanics-simple/mystery/box) and achievements
 
 > **NOTE!** When the user receives a **ERC721**, **ERC998**, or **ERC1155** token, it will be
 > **minted**, while **NATIVE** or **ERC20** tokens will be **spent** from the merchants balance.

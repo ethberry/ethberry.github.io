@@ -11,7 +11,7 @@ On middle and late stages it could be used for passive income
 
 ## Use case examples
 
-1. The project could configure Staking contract to accept [ERC20](/admin/category/erc20/) and give unique [token in the box](/admindialog.pngmystery/box) as an interest.
+1. The project could configure Staking contract to accept [ERC20](/admin/category/erc20/) and give unique [token in the box](/admin/mechanics-simple/mystery/box) as an interest.
 
 2. Imagine user got 10 [Heroes](/admin/category/erc998/), but he can use only 5 in his squad. What can he do with the rest? 
 Of course, he can sell redundant NFTs, but he also can make them work in a mine to gain passive income. 
