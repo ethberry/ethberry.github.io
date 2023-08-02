@@ -11,7 +11,7 @@ The cost of upgrading to the next level is calculated using a formula specific t
 ## Creation options
 
 - **contract** - the contract to update (readonly)
-- **attribute** - attribute name, 32 chars, uppercase
+- **attribute** - attribute name, (32 chars long, uppercase, alphanumeric, starts with letter)
 - **grade strategy** - how the price for the next level is calculated
   - **FLAT** - the cost remains the same each time. The cost formula for this strategy is
   > **cost = amount**
