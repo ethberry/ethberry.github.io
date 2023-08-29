@@ -13,4 +13,4 @@ Craft recipes can be searched/filtered
     - **ACTIVE** - Active recipes are available for grade on marketplace
     - **INACTIVE** - Deleted recipes exists for reference and history purposes
 
-![Craft search](/img/admin/mechanics-simple/craft/craft_search.png)
+![Craft search](/img/admin/mechanics-simple/recipes/craft/craft_search.png)

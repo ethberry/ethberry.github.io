@@ -15,7 +15,7 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **Recent deposits**: the number of recent deposits made per day and their total amount.
 
 **`All deposits`**
-![](/img/admin/mechanics-complex/pyramid/chart.png)
+![](/img/admin/mechanics-complex/ponzi/chart.png)
 
 ## Filter
 
@@ -35,4 +35,4 @@ The chart represents the **number** and **amount** of deposits for each date. It
 - **End date**: The date until which deposits will be displayed.
 
 **`Recent deposits`**
-![](/img/admin/mechanics-complex/pyramid/chart_filter.png)
+![](/img/admin/mechanics-complex/ponzi/chart_filter.png)

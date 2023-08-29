@@ -12,5 +12,5 @@ new and old items crafted from the same recipe.
 - **item** - An [item(s)](/admin/miscellaneous/asset/) to be crafted
 - **price** - A list of [item(s)](/admin/miscellaneous/asset/) that are required to craft (item being dismantled)
 
-![Craft edit dialog](/img/admin/mechanics-simple/craft/craft_edit_dialog.png)
+![Craft edit dialog](/img/admin/mechanics-simple/recipes/craft/craft_edit_dialog.png)
 

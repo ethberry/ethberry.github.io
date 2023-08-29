@@ -17,3 +17,8 @@ Claims can be searched/filtered
     - **VESTING** - claim that contains vesting contract
 
 ![claim search](/img/market/mechanics-simple/claim/claim_search.png)
+
+## Actions
+
+- Deploy button is available only for contracts and deploys contract on behalf of game server.
+- Redeem button is available only for assets and mint NFT or transfers currency tokens from merchant's account

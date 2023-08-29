@@ -4,15 +4,15 @@ sidebar_position: 1
 
 # Report
 
-#### This report shows all deposits made for Pyramid contract. Each deposit contains the following columns:
+#### This report shows all deposits made for Ponzi contract. Each deposit contains the following columns:
 
 - **ID**: The unique identifier of deposit.
 - **Account**: The **address** of the depositer.
 - **Deposit**: Show `Symbol` `Amount` of token being deposit.
-- **Pyramid Rule**: Show `Deposit TokenType` > `Reward TokenType` of the pyramid rule used for the deposit.
+- **Ponzi Rule**: Show `Deposit TokenType` > `Reward TokenType` of the ponzi rule used for the deposit.
 - **Created**: The date and time the deposit occurred.
 
-![](/img/admin/mechanics-complex/pyramid/report.png)
+![](/img/admin/mechanics-complex/ponzi/report.png)
 
 ## Filter
 
@@ -33,4 +33,4 @@ sidebar_position: 1
 - **Start date**: The date from which deposits will be displayed.
 - **End date**: The date until which deposits will be displayed.
 
-![](/img/admin/mechanics-complex/pyramid/report_filter.png)
+![](/img/admin/mechanics-complex/ponzi/report_filter.png)

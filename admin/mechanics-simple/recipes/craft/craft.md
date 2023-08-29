@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # Craft
@@ -12,10 +12,8 @@ Here are some common scenarios for crafting:
    This way X iron ore can be refined to Y iron ingots.
 2. Craft items from resources. User can craft ERC721 token from several others ERC1155 tokens. 
    This way X iron ingot becomes a sword
-3. Crafting mechanic could be configured the other way around allowing user to dismantle items.
-   This way a sword could become an Y iron ingots
 
-To start crafting items you have to create [resources](/admin/hierarchy/ERC1155/template/) first
+To start crafting items you have to create [items](/admin/hierarchy/ERC721/template/) and [resources](/admin/hierarchy/ERC1155/template/) first
 
 > **NOTE!** In standalone application merchant can configure craft to use 3rd party tokens and
 > exchange say [CryptoKitties](https://www.cryptokitties.co/) for their own tokens

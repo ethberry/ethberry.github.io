@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Approve
 
-**Approving tokens** such as [ERC20](/market/category/erc20/), [ERC721](/market/category/erc721/), [ERC1155](/market/category/erc1155/), [ERC998](/market/category/erc998/) and [MYSTERY-BOX](/admin/category/mystery/)  is a key step in using these tokens in decentralized finance. The approve function enables you to set the maximum amount of tokens that a specific smart contract can use.
+**Approving tokens** such as [ERC20](/market/category/erc20/), [ERC721](/market/category/erc721/), [ERC1155](/market/category/erc1155/), [ERC998](/market/category/erc998/) and [MYSTERY-BOX](/admin/mechanics-simple/mystery/)  is a key step in using these tokens in decentralized finance. The approve function enables you to set the maximum amount of tokens that a specific smart contract can use.
 
 **Without approval**, the Exchange, Staking Contracts wouldn't be able to transfer the tokens (ERC20, ERC721, ERC1155, ERC998) from one address to another, thus making the transaction impossible.
 
