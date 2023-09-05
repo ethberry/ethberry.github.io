@@ -30,3 +30,7 @@ The **SOULBOUND** feature is a valuable addition to NFTs, providing security and
 
 The use of the SOULBOUND feature with the SUPPLY feature, where a limited supply of NFTs are created and tied to specific individuals, ensures that the rarity and value of each token is maintained. This is useful for NFTs that have a limited production run, such as rare artwork or unique collectibles.
 
+
+### EXTERNAL
+
+**External** contracts are only available in [Self-Hosted version](https://gemunion.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.

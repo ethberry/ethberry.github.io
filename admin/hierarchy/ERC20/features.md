@@ -19,9 +19,19 @@ Overall, the SIMPLE feature provides a comprehensive set of tools for the creati
 
 
 ### BLACKLIST
+
 The **Blacklist** feature is a security mechanism that **restricts** certain addresses from **transferring ERC20 tokens**. These addresses are typically considered to be bad actors and are unable to use the tokens they possess if they are added to the blacklist. This helps to maintain the integrity of the contract and ensure that tokens are not being used maliciously.
 
 
 ### WHITELIST
 
 The **Whitelist** feature in ERC20 tokens works as the opposite of the **Blacklist**. While the Blacklist restricts specific addresses from transferring the tokens, the Whitelist allows only a specific set of addresses to transfer the tokens.
+
+
+### EXTERNAL
+
+**External** contracts are only available in [Self-Hosted version](https://gemunion.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.
+
+### STABLE_COIN
+
+**Stable Coins** are special cases of **External** contracts and are well tokens such as USDT and BUSD

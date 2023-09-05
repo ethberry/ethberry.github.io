@@ -53,6 +53,7 @@ You can also combine RANDOM with other features such as **MYSTERY BOX**, and thi
 
 The use of RANDOM in NFT projects, such as in gaming, can greatly add to the value and desirability of the NFTs, leading to a more active and thriving community and economy.
 
+
 ### GENES
 
 The **Genes** feature allows for the creation and management of unique, inheritable traits within NFTs. This allows for a new level of complexity and depth in the NFT ecosystem, creating new opportunities for collectibility and gameplay. The GENES feature has been utilized by popular NFT projects such as [Axie Infinity](https://axieinfinity.com/) and [CryptoKitties](https://www.cryptokitties.co/), where players can breed and trade creatures with unique traits. One more example is [Derace](https://derace.com/) that allow for the creation of rare and valuable horses NFTs, where the traits of the horses can be passed down through generations. The addition of the GENES feature opens up new possibilities for NFT creators, collectors, and gamers.
@@ -63,6 +64,7 @@ The **Genes** feature allows for the creation and management of unique, inherita
 **RENTABLE** feature is a popular way for individuals to access assets that may not available for purchase or they might not want to purchase outright. Rentable NFTs, as the name suggests, allow users to rent NFTs for a certain period of time, rather than having to purchase them outright. This is made possible through the use of the [ERC4907](https://eips.ethereum.org/EIPS/eip-4907) extension, which enables NFTs to be rented and leased out to other users.
 
 One of the key benefits of the Rentable feature is that it enables NFT owners to generate additional income from their assets, while also giving users who may not be able to afford the full purchase price the ability to access and use the NFT for a limited time. For example, if a player mint an NFT, he can allow others to use it for a fee. This can help the player generate additional revenue from their NFT, while also making it more accessible to a wider audience.
+
 
 ### VOTING
 
@@ -77,4 +79,9 @@ One of the main benefits of voting is that it can greatly improve the [governanc
 The **SOULBOUND** feature is a valuable addition to NFTs, providing security and control to the distribution and ownership of these tokens. By tying ownership to a specific individual, the SOULBOUND feature ensures that the NFT remains in the hands of its intended owner, rather than being traded or passed on to others. This is particularly useful for NFTs with important or high-value attributes, such as **Governance tokens** used for voting purposes.
 
 The use of the **SOULBOUND** feature with **VOTING** feature, where NFT is a voting pass in [governance](/admin/mechanics-complex/governance/) systems ensures that each vote is **securely tied** to an individual voter, preventing fraudulent or duplicated voting. This provides a level of trust and accountability to the [governance](/admin/mechanics-complex/governance/) process, ensuring that the outcome accurately reflects the will of the voters.
+
+
+### EXTERNAL
+
+**External** contracts are only available in [Self-Hosted version](https://gemunion.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.
 
