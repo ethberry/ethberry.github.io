@@ -36,9 +36,9 @@ The **Pausable** feature in smart contracts allows the contract owner or authori
 One practical example of its use is in the sale of mystery boxes. If the NFTs within the mystery boxes are not yet available, the contract can be paused until they are ready. This ensures that the users cannot access the NFTs until the contract is ready, allowing the marketing team to win time for developers or something like this. The Pausable feature of ERC721 contracts allows for greater flexibility and control, making it an important component for any project utilizing NFTs.
 
 
-### UPGRADEABLE
+### DISCRETE
 
-The **Upgradeable** feature allows NFTs to be upgraded with attributes such as level, power, stamina, etc. It provides a new level of functionality to NFTs by allowing owners to enhance their assets. This can increase the value and desirability of NFTs, making them more appealing to buyers and investors.
+The **Discrete** feature allows NFTs to be upgraded with attributes such as level, power, stamina, etc. It provides a new level of functionality to NFTs by allowing owners to enhance their assets. This can increase the value and desirability of NFTs, making them more appealing to buyers and investors.
 
 In a gaming platform, for example, players can upgrade their NFTs to improve their in-game abilities or earn more in-game currency. This not only enhances the user's experience but also positively influences the overall economy of the token as upgraded tokens may hold a higher value.
 

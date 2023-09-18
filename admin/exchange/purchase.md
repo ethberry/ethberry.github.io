@@ -19,5 +19,5 @@ created and the `status` is set to
 ACTIVE, the asset will be visible on the [marketplace](/market/hierarchy/ERC721/template/) and would be available for
 purchasing. Important to note that if you
 set Status to 'HIDDEN', it would not be available for use in **Purchase** but would be available on *
-*[Drop](/admin/mechanics-simple/drop)** mechanic.
+*[Promo](/admin/mechanics-simple/promo)** mechanic.
 

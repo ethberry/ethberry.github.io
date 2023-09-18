@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Creation
 
-By default, all contract with **Upgradeable** feature created without any attributes, merchant has to manually create
+By default, all contract with **Discrete** feature created without any attributes, merchant has to manually create
 attributes after deployment. There are three grade strategies available: **FLAT**, **LINEAR**, and **EXPONENTIAL**.
 The cost of upgrading to the next level is calculated using a formula specific to each strategy.
 
