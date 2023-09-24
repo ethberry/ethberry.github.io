@@ -4,10 +4,10 @@ sidebar_position: 2
 
 # GAME microservice
 
-GAME-microservice is intended as a gateway between game's server and the blockchain. It is not meant to be accessed from
-Unity/Unreal app. To access it from Unity/Unreal app the developer has to proxy all calls through game server and hide the API key
+`GAME-MS` is intended as a gateway between `game server` and the blockchain. It is not meant to be accessed from
+Unity/Unreal app. To access it from Unity/Unreal app the developer has to proxy all calls through game server and hide the API key.
 
-The game server can connect to the GAME-microservice using API key as a Bearer token in request header.
+The `game server` can connect to the `GAME-MS` using API key as a Bearer token in request header.
 
 Request example
 

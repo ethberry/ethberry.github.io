@@ -4,8 +4,8 @@ sidebar_position: 1
 
 # Marketplaces
 
-All non-fungible tokens created by framework could be traded on 3rd party marketplaces. To make this experience smoth
-and pleasant we created JSON-microservice. Main goal af this service to display information about tokens in compliant
+All non-fungible tokens created by framework could be traded on 3rd party marketplaces. To make this experience smooth
+and pleasant we created JSON-microservice. Main goal of this service to display information about tokens in compliant
 format.
 
 [ERC721](https://eips.ethereum.org/EIPS/eip-721) doesn't describe data structure at all
@@ -26,11 +26,11 @@ Here is an example of metadata for [RANDOM](/admin/integrations/chain-link/), [U
   "name": "Warrior",
   "attributes": [
     {
-      "trait_type": "grade",
+      "trait_type": "LEVEL",
       "value": "1"
     },
     {
-      "trait_type": "rarity",
+      "trait_type": "RARITY",
       "value": "RARE"
     }
   ]
