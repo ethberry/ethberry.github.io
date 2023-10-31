@@ -55,7 +55,9 @@ Example: 0-4; common, uncommon, rare, epic, legendary
 - it can't be created as attribute in [Grade](/admin/mechanics-simple/grade/) mechanic for templates that contains
   Genes and Discrete features
 
+```
 Example: 5846006549663894039973362281908193186987844304901; { a1: 4, a2: 1, a3: 3, a4: 2, a5: 1, a6: 5 }
+```
 
 ### TRAITS
 
@@ -64,5 +66,6 @@ Example: 5846006549663894039973362281908193186987844304901; { a1: 4, a2: 1, a3: 
 - this attribute is displayed on token page in decoded format
 - can't be changed by any mechanic
 
+```
 Example: 5846006549663894039973362281908193186987844304901; { a1: 4, a2: 1, a3: 3, a4: 2, a5: 1, a6: 5 }
-
+```
