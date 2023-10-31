@@ -9,9 +9,9 @@ sidebar_position: 4
 The SIMPLE contract is a foundational component of all features offered by our platform. It includes all the basic functions necessary for the creation and management NFTs, such as **minting**, **burning**, and **transferring**.
 
 #### Consist of several extensions:
-- **Access Control** - provides the ability to restrict or grant permission for specific addresses to interact with a smart contract. _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/access-control))_
-- **Burnable** -  allows for a token to be destroyed, reducing the overall supply and potentially increasing the value of remaining tokens _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Burnable))_
-- **Enumerable** - allows the contract to be queried for a list of all token holders and their token balances _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721Enumerable))_
+- **Access Control** - provides the ability to restrict or grant permission for specific addresses to interact with a smart contract. _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/5.x/access-control))_
+- **Burnable** -  allows for a token to be destroyed, reducing the overall supply and potentially increasing the value of remaining tokens _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/5.x/api/token/erc721#ERC721Burnable))_
+- **Enumerable** - allows the contract to be queried for a list of all token holders and their token balances _(see [OpenZeppelin](https://docs.openzeppelin.com/contracts/5.x/api/token/erc721#ERC721Enumerable))_
 - **Royalty** - allows for a portion of the sale price to be paid to the original creator of the NFT each time it is resold _(see [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981))_
 - **BaseUrl** - allows the NFTs to have a URI pointing to a public location where additional information and resources can be stored _(see [JSON-microservice](/api/category/json-microservice/))_
 - **MetaData** - provides tiny key/values storage for metadata associated with an NFT. 

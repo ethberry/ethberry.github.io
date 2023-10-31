@@ -12,4 +12,4 @@ can be posted for small transaction cost.
 ### References
 
 You can read more about Merkle Tree
-[here](https://docs.openzeppelin.com/contracts/4.x/api/utils#MerkleProof)
+[here](https://docs.openzeppelin.com/contracts/5.x/api/utils#MerkleProof)

@@ -32,5 +32,5 @@ To view the main information for each vesting contract, click on the `VIEW` butt
 ### References
 
 You can read more about how to create your own vesting schedule
-[here](https://docs.openzeppelin.com/contracts/4.x/api/finance#VestingWallet)
+[here](https://docs.openzeppelin.com/contracts/5.x/api/finance#VestingWallet)
 
