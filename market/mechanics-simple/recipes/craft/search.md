@@ -10,4 +10,4 @@ Craft recipes can be searched/filtered
 
 - **query** - item contract's title and description
 
-![Craft search](/img/market/mechanics-simple/craft/craft_search.png)
+![Craft search](/img/market/mechanics-simple/recipes/craft/craft_search.png)

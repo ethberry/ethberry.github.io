@@ -19,8 +19,8 @@ the network limit.
 
 ## Creation options
 
-- **item** - An [item](/admin/miscellaneous/asset/) being dismantled
-- **price** - A list of [items](/admin/miscellaneous/asset/) produced as the result of the dismantle operation
+- **item** - A list of [items](/admin/miscellaneous/asset/) being created
+- **price** - An [item](/admin/miscellaneous/asset/) being dismantled
 
 ![Craft create dialog](/img/admin/mechanics-simple/recipes/dismantle/dismantle_create_dialog.png)
 
