@@ -13,7 +13,7 @@ ChainLink's [VRF](https://docs.chain.link/vrf/v2/introduction).
 ## Configuration options
 
 - **title** - This is how template is displayed on site, especially on marketplace
-- **description** - General description in markdown format.
+- **description** - General description in Markdown format.
 - **item** - The template (or templates) to be hidden inside the box (see [asset](/admin/miscellaneous/asset/))
 - **price** - The price on the marketplace (see [asset](/admin/miscellaneous/asset/))
 - **status** - Defines whether item is sellable on marketplace (only available for existing items)

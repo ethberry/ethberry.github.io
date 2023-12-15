@@ -10,7 +10,7 @@ To start selling tokens you have to configure them first
 ## Configuration options
 
 - **title** - This is how template is displayed on site, especially on marketplace
-- **description** - General description in markdown format.
+- **description** - General description in Markdown format.
 - **attributes** - attributes from blockchain and the game such as rarity, durability, level, HP
 - **price** - a price on marketplace
 - **amount** - amount of similar token to be sold on marketplace

@@ -9,7 +9,7 @@ Raffle contract is an entry point to blockchain actions.
 
 ## Contract actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager.md) has
 action menu with relevant blockchain actions
 
 Merchant has to fund a contract with [LINK](/admin/integrations/chain-link/) token to use

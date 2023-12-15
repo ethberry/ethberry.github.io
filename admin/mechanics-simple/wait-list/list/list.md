@@ -9,7 +9,7 @@ Game can have several wait lists on one contract, that's why there is no need to
 
 # List actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager.md) has
 action menu with relevant blockchain actions
 
 - **Misc:**

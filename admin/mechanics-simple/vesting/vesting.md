@@ -11,7 +11,7 @@ use their bound to gain profit by selling it as a derivative or by using it for
 
 # Contract actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has 
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager.md) has 
 action menu with relevant blockchain actions
 
 - **Misc:**

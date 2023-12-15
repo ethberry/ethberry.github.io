@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Contract actions
 
-Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager/contract-manager.md) has
+Each contract deployed via the [Contract Manager](/admin/miscellaneous/contract-manager.md) has
 action menu with relevant blockchain actions.
 
 While some of these actions may depend on the specific [features](/admin/hierarchy/ERC20/features) of the contract,
