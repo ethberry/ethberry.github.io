@@ -22,8 +22,3 @@ This will make user to want to have 10 Heroes instead of 5.
 
 3. Staking can also be used to offer users off-chain benefits in addition to on-chain rewards. For example, a user could deposit game tokens into a Staking contract and receive a bonus off-chain, such as a higher drop of in-game resources. The Staking contract would only modify on-chain data to record the deposit and emit an event, while the off-chain benefits would be handled by the game server. This allows for more flexible rewards and a better user experience.
 
-## Deployment
-
-Staking contracts are being deployed using [Contract Manager](/admin/miscellaneous/contract-manager/). If you would like more information about deployment options, please refer to the relevant [page](/admin/miscellaneous/contract-manager/staking).
-
-![](/img/admin/mechanics-complex/staking/contract.png)
