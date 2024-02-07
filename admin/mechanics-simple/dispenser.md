@@ -3,7 +3,7 @@ hide_table_of_contents: true
 sidebar_position: 1
 ---
 
-# Disperse
+# Dispenser
 
 This mechanic allows to mass-transact tokens to the list of addresses.
 
