@@ -16,7 +16,7 @@ To start selling tokens you have to configure them first
 - **amount** - amount of similar token to be sold on marketplace
 - **status** -
   - **ACTIVE** - Active templates are available for purchase on marketplace
-  - **HIDDEN** - Hidden templates are removed from marketplace, but available for some other mechanics such as [Promo](/admin/mechanics-simple/promo/)
+  - **HIDDEN** - Hidden templates are removed from marketplace, but available for some other mechanics such as [Promo](/admin/mechanics-marketing/promo/)
   - **INACTIVE** - Deleted templates exists for reference and history purposes
 - **contract** - collection which this item belongs to
 - **image** - image to be shown on internal and external marketplaces

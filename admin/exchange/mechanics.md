@@ -5,14 +5,14 @@ sidebar_position: 3
 
 # Mechanics
 
-Exchange is used for some [simple mechanics](/admin/mechanics-simple/):
+Exchange is used for some [simple mechanics](/admin/mechanics-marketing/):
 
-- [Claim](/admin/mechanics-simple/claim/)
-- [Grade](/admin/mechanics-simple/grade/)
-- [Craft](/admin/mechanics-simple/recipes/craft/)
-- [Dismantle](/admin/mechanics-simple/recipes/dismantle/)
-- [Mystery](/admin/mechanics-simple/mystery/)
-- [Raffle](/admin/mechanics-simple/raffle/)
+- [Claim](/admin/mechanics-marketing/claim/)
+- [Grade](/admin/mechanics-marketing/grade/)
+- [Craft](/admin/mechanics-marketing/recipes/craft/)
+- [Dismantle](/admin/mechanics-marketing/recipes/dismantle/)
+- [Mystery](/admin/mechanics-marketing/mystery/)
+- [Raffle](/admin/mechanics-gambling/raffle/)
 
-and some [complex mechanics](/admin/mechanics-complex/):
-- [Lottery](/admin/mechanics-complex/lottery/)
+and some [complex mechanics](/admin/mechanics-gambling/):
+- [Lottery](/admin/mechanics-gambling/lottery/)
