@@ -21,13 +21,13 @@ Read more about asset [here](/admin/miscellaneous/asset)
 
 #### Validation model reference
 
-NftDto = ERC721, ERC998
-SemiNftDto = ERC721, ERC998, ERC1155
-CoinDto = NATIVE, ERC20
-SemiCoinDto = NATIVE, ERC20, ERC1155
-NativeDto = NATIVE
-NotNativeDto = ERC20, ERC721, ERC998, ERC1155
-AllTypesDto = NATIVE, ERC20, ERC721, ERC998, ERC1155
+- NftDto = ERC721, ERC998
+- SemiNftDto = ERC721, ERC998, ERC1155
+- CoinDto = NATIVE, ERC20
+- SemiCoinDto = NATIVE, ERC20, ERC1155
+- NativeDto = NATIVE
+- NotNativeDto = ERC20, ERC721, ERC998, ERC1155
+- AllTypesDto = NATIVE, ERC20, ERC721, ERC998, ERC1155
 
 #### Common validation rules
 
