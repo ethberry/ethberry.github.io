@@ -33,20 +33,21 @@ Read more about asset [here](/admin/miscellaneous/asset)
 
 ### Blockchain validation rules
 
-| Mechanics     | Item          | Price       |
-|---------------|---------------|-------------|
-| TEMPLATE      | N/A           | SemiCoinDto |
-| MYSTERYBOX    | NotNativeDto  | SemiCoinDto |
-| CLAIM         | AllTypesDto   | N/A         |
-| VESTING       | CoinDto       | N/A         |
-| WAIT LIST     | SemiNftDto    | N/A         |
-| GRADE         | N/A           | SemiCoinDto |
-| CRAFT         | SemiNftDto  ️ | AllTypesDto |
-| MERGE         | NftDto ️      | NftDto      |
-| DISMANTLE     | NotNativeDto  | NftDto      |
-| RENT          | N/A           | SemiCoinDto |
-| ASSET PROMO   | SemiNftDto    | CoinDto     |
-| STAKING       | N/A           | N/A         |
+| Mechanics   | Item          | Price       |
+|-------------|---------------|-------------|
+| TEMPLATE    | N/A           | SemiCoinDto |
+| MYSTERY BOX | NftDto        | SemiCoinDto |
+| LOOT BOX    | NotNativeDto  | SemiCoinDto |
+| CLAIM       | AllTypesDto   | N/A         |
+| VESTING     | CoinDto       | N/A         |
+| WAIT LIST   | SemiNftDto    | N/A         |
+| GRADE       | N/A           | SemiCoinDto |
+| CRAFT       | SemiNftDto  ️ | AllTypesDto |
+| MERGE       | NftDto ️      | NftDto      |
+| DISMANTLE   | NotNativeDto  | NftDto      |
+| RENT        | N/A           | SemiCoinDto |
+| ASSET PROMO | SemiNftDto    | CoinDto     |
+| STAKING     | N/A           | N/A         |
 
 ### Ecommerce validation rules
 
