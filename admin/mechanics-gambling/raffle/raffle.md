@@ -12,7 +12,7 @@ provide a fun and accessible way for individuals to potentially obtain rewards o
 ### How it works:
 
 1. **Starting a New Round**: The admin initiates a new round.
-2. **Ticket Sales**: Tickets are sold to users through the [Exchange Contract](https://).
+2. **Ticket Sales**: Tickets are sold to users through the [Exchange Contract](/admin/category/exchange/).
 3. **Ending the Round**: The admin concludes the current round, emitting an event for the ChainLink contract to generate a random number and select a winner.
 4. **Collecting Funds**: The admin collects all funds received during the round.
 5. **Prize**: Winners gain the opportunity to invoke the getPrize function, which updates the metadata of their winning ticket. (not necessary if prize would be received off-chain)
