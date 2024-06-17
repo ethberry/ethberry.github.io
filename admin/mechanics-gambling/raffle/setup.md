@@ -14,7 +14,7 @@ To set up the Raffle Contract, follow these steps:
 
 Let's dive into each step:
 ### Deploy the Raffle Contract
-<!-- All our smart contracts that are deployed in our system is deployed via [Contract Manager Contract](https://). It help us to update our db according to smart contracts that deployed in project ecosystem. -->
+<!-- All our smart contracts that are deployed in our system is deployed via [Contract Manager Contract](/admin/miscellaneous/contract-manager/). It help us to update our db according to smart contracts that deployed in project ecosystem. -->
   1. Go to **Dashboard > Raffle > Contract** and click the **Deploy button**. Confirm by clicking **OK**.
       > ![](/img/admin/mechanics-gambling/raffle/contract_deploy_dialog.png)
   2. Wait for the transaction to process. Once displayed on the screen, you should see the contract name `Raffle` and three buttons (edit, delete, and actions).
@@ -30,7 +30,7 @@ Let's dive into each step:
       > Without this permission, the **Raffle** contract would not be able to mint any tokens from **Ticket** contract.
       1. Go to Dashboard > Raffle > Tickets and find the created ticket Gemunion Raffle Ticket.
       2. Go to **Dashboard > Raffle > Tickets** and find the created ticket `Gemunion Raffle Ticket`
-      3. Click `•••` **[action button](https://)** and click **Grant Role**
+      3. Click `•••` **[action button]** and click **Grant Role**
       4. Choose `MINTER_ROLE` in the **Role** field and search for `Raffle` or enter its `address` in the **Address** field. 
       5. Search for **Raffle Contract Title** not for ~~Raffle Ticket Title~~
       6. And click **OK** Button
