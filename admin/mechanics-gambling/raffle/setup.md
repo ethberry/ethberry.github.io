@@ -38,7 +38,7 @@ Let's dive into each step:
      
 ### Grant MINTER_ROLE to Exchange Contract
 The **Exchange contract** is used for selling tickets, so it needs the `MINTER_ROLE` from the **Raffle Contract** to mint and sell tickets.
-1. Go to **Dashborad > Raffle > Contract**, click the `•••` **[action button](https://)** and select `Grant Role`
+1. Go to **Dashborad > Raffle > Contract**, click the `•••` **action button** and select `Grant Role`
 2. Choose `MINTER_ROLE` in the **Role** field
 3. Search for `Exchange` in the **Address** field. Select the contract on the same network as the Raffle contract. 
 4. Click **Ok**.
