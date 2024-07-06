@@ -24,7 +24,6 @@ there are several standard features that are available in all contracts from hie
   - **Mint tokens** - Allows the contract owner to mint new tokens and add them to the supply.
   - **Transfer** - Transfers tokens from one Ethereum address to another.
   - **Allowance** - Approves a third-party address to spend a specified amount of tokens on behalf of the token owner.
-  - **Snapshot** - Creates a snapshot of the current state of the contract and its variables. (Only for [ERC20](/admin/category/erc20/))
   - **Royalty** - Updates royalty contract-wise. (Only for [ERC721](/admin/category/erc721/), [ERC998](/admin/category/erc998/), [ERC1155](/admin/category/erc1155/))
 - **Dev:**
   - **Add ETH listeners** - Enables the contract to listen for ETH deposits to the contract address. (Only for

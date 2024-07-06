@@ -10,7 +10,6 @@ sidebar_position: 2
 The SIMPLE contract is a foundational component of all features offered by our platform. It includes all the basic functions necessary for the creation and management NFTs, such as **minting**, **burning**, and **transferring**.
 
 #### Consist of several extensions:
-- **ERC20Snapshot** - This extension adds the ability to create and manage snapshots of the token's state. ([OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/api/token/erc20#ERC20Snapshot))
 - **ERC20Capped** -  This extension adds a cap to the maximum supply of the token ([OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/api/token/erc20#ERC20Capped))
 - **ERC20Burnable** - This extension adds the ability for token holders to burn their tokens ([OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/api/token/erc20#ERC20Burnable))
 - **AccessControl** - This extension adds role-based access control to the token ([OpenZeppelin](https://docs.openzeppelin.com/contracts/3.x/access-control#role-based-access-control))
