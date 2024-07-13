@@ -47,6 +47,7 @@ Read more about asset [here](/admin/miscellaneous/asset)
 | DISMANTLE   | NotNativeDto  | NftDto       |
 | RENT        | N/A           | SemiCoinDto  |
 | ASSET PROMO | SemiNftDto    | CoinDto      |
+| WRAPPER     | AllTypesDto   | N/A          |
 
 ### Vault validation rules
 
