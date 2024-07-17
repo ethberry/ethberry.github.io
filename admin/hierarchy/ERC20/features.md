@@ -27,11 +27,11 @@ The **Blacklist** feature is a security mechanism that **restricts** certain add
 
 The **Whitelist** feature in ERC20 tokens works as the opposite of the **Blacklist**. While the Blacklist restricts specific addresses from transferring the tokens, the Whitelist allows only a specific set of addresses to transfer the tokens.
 
+### VOTES
+
+The **Votes** is an extension of ERC20 to support compound-like voting and delegation. This is a type of token to use with DAO mechanism
 
 ### EXTERNAL
 
 **External** contracts are only available in [Self-Hosted version](https://gemunion.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.
 
-### STABLE_COIN
-
-**Stable Coins** are special cases of **External** contracts and are well tokens such as USDT and BUSD
