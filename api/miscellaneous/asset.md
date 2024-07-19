@@ -21,7 +21,7 @@ Read more about asset [here](/admin/miscellaneous/asset)
 
 # Validation
 
-### Validation model reference
+## Validation model reference
 
 - NativeDto = NATIVE
 - CoinDto = NATIVE, ERC20
@@ -31,32 +31,48 @@ Read more about asset [here](/admin/miscellaneous/asset)
 - NotNativeDto = ERC20, ERC721, ERC998, ERC1155
 - AllTypesDto = NATIVE, ERC20, ERC721, ERC998, ERC1155
 
-### General validation rules
+## General validation rules
+
+### Market
+
+| Purchase       | Price         |
+|----------------|---------------|
+| TEMPLATE       | SemiCoinDto   |
+| LOTTERY TICKET | SemiCoinDto   |
+| RAFFLE TICKET  | SemiCoinDto   |
+| LOOT BOX       | SemiCoinDto   |
+| MYSTERY BOX    | SemiCoinDto   |
+
+### Mechanic
 
 | Mechanics   | Item          | Price        |
 |-------------|---------------|--------------|
-| TEMPLATE    | N/A           | SemiCoinDto  |
-| MYSTERY BOX | NftDto        | SemiCoinDto  |
-| LOOT BOX    | NotNativeDto  | SemiCoinDto  |
 | CLAIM       | NotNativeDto  | N/A          |
 | VESTING     | CoinDto       | N/A          |
 | WAIT LIST   | SemiNftDto    | N/A          |
-| GRADE       | N/A           | SemiCoinDto  |
+| DISCRETE    | N/A           | SemiCoinDto  |
 | CRAFT       | SemiNftDto  ️ | NotNativeDto |
 | MERGE       | NftDto ️      | NftDto       |
 | DISMANTLE   | NotNativeDto  | NftDto       |
 | RENT        | N/A           | SemiCoinDto  |
 | ASSET PROMO | SemiNftDto    | CoinDto      |
-| WRAPPER     | AllTypesDto   | N/A          |
 
-### Vault validation rules
+### Boxes
 
-| Mechanics | Deposit      | Reward       |
-|-----------|--------------|--------------|
-| STAKING   | AllTypesDto  | AllTypesDto  |
-| PONZI     | AllTypesDto  | AllTypesDto  |
+| Mechanics   | Content      | Price        |
+|-------------|--------------|--------------|
+| MYSTERY BOX | NftDto       | SemiCoinDto  |
+| LOOT BOX    | NotNativeDto | SemiCoinDto  |
+| WRAPPER     | AllTypesDto  | N/A          |
 
-### Ecommerce validation rules
+### Finance
+
+| Mechanics | Deposit     | Reward      |
+|-----------|-------------|-------------|
+| STAKING   | AllTypesDto | AllTypesDto |
+| PONZI     | CoinDto     | CoinDto     |
+
+### Ecommerce
 
 | Mechanics     | Item          | Price     |
 |---------------|---------------|-----------|
