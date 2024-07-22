@@ -45,17 +45,19 @@ Read more about asset [here](/admin/miscellaneous/asset)
 
 ### Mechanic
 
-| Mechanics   | Item          | Price        |
-|-------------|---------------|--------------|
-| CLAIM       | NotNativeDto  | N/A          |
-| VESTING     | CoinDto       | N/A          |
-| WAIT LIST   | SemiNftDto    | N/A          |
-| DISCRETE    | N/A           | SemiCoinDto  |
-| CRAFT       | SemiNftDto  ️ | NotNativeDto |
-| MERGE       | NftDto ️      | NftDto       |
-| DISMANTLE   | NotNativeDto  | NftDto       |
-| RENT        | N/A           | SemiCoinDto  |
-| ASSET PROMO | SemiNftDto    | CoinDto      |
+| Mechanics      | Item          | Price        |
+|----------------|---------------|--------------|
+| CLAIM TEMPLATE | SemiNftDto    | N/A          |
+| CLAIM TOKEN    | NotNativeDto  | N/A          |
+| CLAIM VESTING  | ERC20         | N/A          |
+| VESTING        | CoinDto       | N/A          |
+| WAIT LIST      | SemiNftDto    | N/A          |
+| DISCRETE       | N/A           | SemiCoinDto  |
+| CRAFT          | SemiNftDto  ️ | NotNativeDto |
+| MERGE          | NftDto ️      | NftDto       |
+| DISMANTLE      | NotNativeDto  | NftDto       |
+| RENT           | N/A           | SemiCoinDto  |
+| ASSET PROMO    | SemiNftDto    | CoinDto      |
 
 ### Boxes
 
