@@ -43,7 +43,7 @@ Read more about asset [here](/admin/miscellaneous/asset)
 | LOOT BOX       | SemiCoinDto   |
 | MYSTERY BOX    | SemiCoinDto   |
 
-### Mechanic
+### Admin Mechanic
 
 | Mechanics      | Item          | Price        |
 |----------------|---------------|--------------|
@@ -59,13 +59,19 @@ Read more about asset [here](/admin/miscellaneous/asset)
 | RENT           | N/A           | SemiCoinDto  |
 | ASSET PROMO    | SemiNftDto    | CoinDto      |
 
+### User Mechanics
+
+| Mechanics    | Item        | Price       |
+|--------------|-------------|-------------|
+| RENT         | N/A         | SemiCoinDto |
+| WRAPPER      | AllTypesDto | N/A         |
+
 ### Boxes
 
 | Mechanics   | Content      | Price        |
 |-------------|--------------|--------------|
 | MYSTERY BOX | NftDto       | SemiCoinDto  |
 | LOOT BOX    | NotNativeDto | SemiCoinDto  |
-| WRAPPER     | AllTypesDto  | N/A          |
 
 ### Finance
 
