@@ -10,15 +10,21 @@ upgrade [metadata](/admin/miscellaneous/metadata/), depending on the specific me
 The table below provides an overview of several common mechanics that use exchange functionality:
 
 
-| Mechanics  | Gives asset | Takes asset | Change metadata | Time delay | Random |
-|------------|-------------|-------------|-----------------|------------|--------|
-| BREED      | ✔️          | ✔️          | ✖️              | ✖️         | ✔️     |
-| CLAIM      | ✖️          | ✔️          | ✖️              | ✖️         | ✖️     |
-| CRAFT      | ✔️          | ✔️          | ✖️              | ✖️         | ✖️     |
-| GRADE      | ✔️          | ✖️          | ✔️              | ✖️         | ✖️     |
-| MYSTERYBOX | ✖️          | ✔️          | ✖️              | ✖️         | ✔️     |
-| PURCHASE   | ✔️          | ✔️          | ✖️              | ✖️         | ✖️     |
-| RENT       | ✖️          | ✖️          | ✔️              | ✖️         | ✖️     |
+| Mechanics   | Gives asset | Takes asset  | Change metadata | Time delay | Random |
+|-------------|-------------|--------------|-----------------|------------|--------|
+| CLAIM       | ✖️          | ✔️           | ✖️              | ✖️         | ✖️     |
+| PURCHASE    | ✔️          | ✔️           | ✖️              | ✖️         | ✖️     |
+| VESTING     | ✔️          | ✖️           | ✖️              | ✔️         | ✖️     |
+| STAKING     | ✔️          | ✔️           | ✖️              | ✔️         | ✖️     |
+| PONZI       | ✔️          | ✔️           | ✖️              | ✔️         | ✖️     |
+| BREED       | ✔️          | ✔️           | ✖️              | ✖️         | ✔️     |
+| CRAFT       | ✔️          | ✔️           | ✖️              | ✖️         | ✖️     |
+| DISMANTLE   | ✔️          | ✔️           | ✖️              | ✖️         | ✖️     |
+| MERGE       | ✔️          | ✔️           | ✖️              | ✖️         | ✖️     |
+| GRADE       | ✔️          | ✖️           | ✔️              | ✖️         | ✖️     |
+| MYSTERY BOX | ✔️          | ✖️           | ✖️              | ✖️         | ✔️     |
+| LOOT BOX    | ✔️          | ✖️           | ✖️              | ✖️         | ✔️     |
+| RENT        | ✖️          | ✖️           | ✔️              | ✖️         | ✖️     |
 
 This list is not exhaustive, but it provides an idea of how exchange functionality is used in different mechanics.
 Here are some examples:
