@@ -15,14 +15,14 @@ For now only 5 types are stored on-chain:
 
 All tokens have this attribute, it refers to the item template id in the database
 
-- it can't be created as attribute in [Grade](/admin/mechanics-marketing/grade/) mechanic for any template
+- it can't be created as attribute in [Grade](/admin/mechanics-gaming/grade/) mechanic for any template
 - can't be changed by any mechanic
 
 Example: 1-2147483647; int4
 
 ### LEVEL
 
-**LEVEL** is the default attribute for the [Grade](/admin/mechanics-marketing/grade/) mechanic
+**LEVEL** is the default attribute for the [Grade](/admin/mechanics-gaming/grade/) mechanic
 and [Discrete](/admin/hierarchy/ERC721/features/#discrete) feature.
 
 - tokens can be searched by this attribute
@@ -41,19 +41,19 @@ and [Random](/admin/hierarchy/ERC721/features/#random) feature.
 - there is page with statistic over this attribute
 - this attribute is displayed on token page
 - can't be changed by any mechanic
-- it can't be created as attribute in [Grade](/admin/mechanics-marketing/grade/) mechanic for templates that contains
+- it can't be created as attribute in [Grade](/admin/mechanics-gaming/grade/) mechanic for templates that contains
   Random and Discrete features
 
 Example: 0-4; common, uncommon, rare, epic, legendary
 
 ### GENES
 
-**GENES** is the default attribute for the [Breeding](/admin/mechanics-marketing/breeding/) mechanic
+**GENES** is the default attribute for the [Breeding](/admin/mechanics-gaming/breeding/) mechanic
    and [Genes](/admin/hierarchy/ERC721/features/#genes) feature.
 
 - this attribute is displayed on token page in decoded format
 - can't be changed by any mechanic
-- it can't be created as attribute in [Grade](/admin/mechanics-marketing/grade/) mechanic for templates that contains
+- it can't be created as attribute in [Grade](/admin/mechanics-gaming/grade/) mechanic for templates that contains
   Genes and Discrete features
 
 ```

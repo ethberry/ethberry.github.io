@@ -10,7 +10,7 @@ Exchange is the one of core contracts that serves the mechanics around the token
 ### Overview of Exchange Functionality:
 
 This contract enables the exchange of tokens in a flexible manner, with various exchange mechanics available such as *
-*[Claim](/admin/mechanics-marketing/claim/)**, **[Grade](/admin/mechanics-marketing/grade/)**, **Purchase**, etc. This functionality allows
+*[Claim](/admin/mechanics-marketing/claim/)**, **[Grade](/admin/mechanics-gaming/grade/)**, **Purchase**, etc. This functionality allows
 users to exchange one or multiple assets. However, to prevent unauthorized transactions, a trusted source (Server) must
 sign the transaction before it can be executed on the blockchain. Once the signature and additional information from the
 Server response are obtained, they can be combined with the Asset information to execute the exchange on the blockchain.

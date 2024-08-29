@@ -14,7 +14,7 @@ Templates can be searched/filtered
 - **status** -
     - **ACTIVE** - Active box are available for purchase on marketplace
     - **INACTIVE** - Deleted box exists for reference and history purposes
-    - **HIDDEN** - Hidden templates are removed from marketplace, but available for other mechanics such as [Promo](/admin/mechanics-marketing/promo/)
+    - **HIDDEN** - Hidden templates are removed from marketplace, but available for other mechanics such as [Promo](/admin/mechanics-meta/promo/)
 
 
 ![ERC1155 template search](/img/admin/hierarchy/erc1155/template_search.png)
