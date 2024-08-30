@@ -1,7 +1,15 @@
----
-sidebar_position: 7
----
-
+import LinearVestingPlot, { linearVestingConfig } from "@site/src/components/LinearVestingPlot";
+import LinearCliffVestingPlot, { linearCliffVestingConfig } from "@site/src/components/LinearCliffVestingPlot";
+import LinearImmediateUnlockPlot, { linearImmediateUnlockConfig } from "@site/src/components/LinearImmediateUnlockPlot";
+import LinearCliffUnlockPlot, { linearCliffUnlockConfig } from "@site/src/components/LinearCliffUnlockPlot";
+import ExponentialVestingPlot, { exponentialVestingConfig } from "@site/src/components/ExponentialVestingPlot";
+import ExponentialCliffVestingPlot, { exponentialCliffVestingConfig } from "@site/src/components/ExponentialCliffVestingPlot";
+import ExponentialCliffUnlockPlot, { exponentialCliffUnlockConfig } from "@site/src/components/ExponentialCliffUnlockPlot";
+import ExponentialImmediateUnlockPlot, { exponentialImmediateUnlockConfig } from "@site/src/components/ExponentialImmediateUnlockPlot";
+import HyperbolicVestingPlot, { hyperbolicVestingConfig } from "@site/src/components/HyperbolicVestingPlot";
+import HyperbolicCliffVestingPlot, { hyperbolicCliffVestingConfig } from "@site/src/components/HyperbolicCliffVestingPlot";
+import HyperbolicImmediateUnlockPlot, { hyperbolicImmediateUnlockConfig } from "@site/src/components/HyperbolicImmediateUnlockPlot";
+import HyperbolicCliffUnlockPlot, { hyperbolicCliffUnlockConfig } from "@site/src/components/HyperbolicCliffUnlockPlot";
 import FunctionPlot from "@site/src/components/FunctionPlot";
 
 # Vesting
@@ -19,332 +27,100 @@ ownership to another account and release vested funds.
 
 Linear vesting is the simplest type of vesting. The amount of assets released over time follows a straight line, meaning the same fraction of the total amount is released every second.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [{ fn: "x / 365 * 100", color: "#f77423" }] }}
-/>
+<LinearVestingPlot config={linearVestingConfig} />
 
-```javascript
-const linearVestingConfig = {
-  functionType: FunctionType.LINEAR, // LINEAR
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days in seconds
-  period: 1, // Release every second
-  afterCliffBasisPoints: 0, // No immediate release
-};
-```
+> {JSON.stringify(linearVestingConfig)}
 
-### Linear Vesting with Cliff
+### Linear Vesting with Cliff Delay
 
 A cliff can be added to linear vesting, setting a cut-off point before which no assets are released. After the cliff, assets start releasing linearly.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 91.25], color: "#f77423" },
-      { fn: "(x - 91.25) / (365 - 91.25) * 100", range: [91.25, 365], color: "#f77423" },
-    ],
-  }}
-/>
+<LinearCliffVestingPlot config={linearCliffVestingConfig} />
 
-```javascript
-const linearCliffVestingConfig = {
-  functionType: FunctionType.LINEAR, // LINEAR
-  cliff: 91.25 * 24 * 60 * 60, // 91.25 days cliff
-  duration: 273.75 * 24 * 60 * 60, // Total duration of 273.75 days after cliff
-  period: 1, // Release every second
-  afterCliffBasisPoints: 0, // No immediate release
-};
-```
+> {JSON.stringify(linearCliffVestingConfig)}
 
 ### Linear Vesting with Immediate Unlock
 
 This type of vesting releases a portion of the assets immediately and then releases the remaining assets linearly over time.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [{ fn: "25 + (x / 365) * 75", color: "#f77423" }],
-  }}
-/>
+<LinearImmediateUnlockPlot config={linearImmediateUnlockConfig} />
 
-```javascript
-const linearImmediateUnlockConfig = {
-  functionType: FunctionType.LINEAR, // LINEAR
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 1, // Release every second
-  afterCliffBasisPoints: 2500, // Immediate release of 25% (2500 basis points)
-  growthRate: 1n, // Not used in linear vesting
-};
-```
+> {JSON.stringify(linearImmediateUnlockConfig)}
 
 ### Linear Vesting with Cliff Unlock
 
 This type of vesting releases a portion of the assets immediately after a cliff period and then releases the remaining assets linearly over time.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 182.5], color: "#f77423" },
-      { fn: "(x - 182.5) / (365 - 182.5) * 75 + 25", range: [182.5, 365], color: "#f77423" },
-      {
-        points: [
-          [182.5, 0],
-          [182.5, 25],
-        ],
-        fnType: "points",
-        graphType: "polyline",
-        color: "#f77423",
-      },
-    ],
-  }}
-/>
+<LinearCliffUnlockPlot config={linearCliffUnlockConfig} />
 
-```javascript
-const linearCliffUnlockConfig = {
-  functionType: FunctionType.LINEAR, // LINEAR
-  cliff: 182.5 * 24 * 60 * 60, // 182.5 days cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 1, // Release every second
-  afterCliffPercent: 25, // Immediate release of 25% after cliff
-  growthRate: 1n, // Not used in linear vesting
-};
-```
-
-### Linear Vesting in Steps
-
-import StepVestingPlot from "@site/src/components/StepVestingPlot";
-
-<StepVestingPlot config={{
-  functionType: FunctionType.LINEAR, // LINEAR
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 30 * 24 * 60 * 60, // Release every day
-  afterCliffBasisPoints: 0, // No immediate release
-  growthRate: 1n, // Not used in linear vesting
-}} />
+> {JSON.stringify(linearCliffUnlockConfig)}
 
 ## Exponential Vesting
 
 In exponential vesting, the amount of assets released increases exponentially over time.
 
-<FunctionPlot options={{ 
-    xAxisLabel: "Days", 
-    yAxisLabel: "% - Tokens", 
-    xDomainLimit: 365, 
-    yDomainLimit: 100, 
-    data: [{ fn: "(x / 365)^2 * 100", color: "#f77423" }] 
-}} />
+<ExponentialVestingPlot config={exponentialVestingConfig} />
 
-```javascript
-const exponentialVestingConfig = {
-  functionType: FunctionType.EXPONENTIAL, // EXPONENTIAL
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 1, // Release every second
-  afterCliffPercent: 0, // No immediate release
-  growthRate: 2, // Exponential growth rate
-};
-```
+> {JSON.stringify(exponentialVestingConfig)}
 
-### Exponential Vesting with Cliff
+### Exponential Vesting with Cliff Delay
 
 A cliff can be added to exponential vesting, setting a cut-off point before which no assets are released. After the cliff, assets start releasing exponentially.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 91.25], color: "#f77423" },
-      { fn: "((x - 91.25) / (365 - 91.25))^2 * 100", range: [91.25, 365], color: "#f77423" },
-    ],
-  }}
-/>
+<ExponentialCliffVestingPlot config={exponentialCliffVestingConfig} />
 
-```javascript
-const exponentialCliffVestingConfig = {
-  functionType: FunctionType.EXPONENTIAL, // EXPONENTIAL
-  cliff: 91.25 * 24 * 60 * 60, // 91.25 days cliff
-  duration: 273.75 * 24 * 60 * 60, // Total duration of 273.75 days after cliff
-  period: 1, // Release every second
-  afterCliffPercent: 0, // No immediate release
-  growthRate: 2, // Exponential growth rate
-};
-```
-
-### Exponential Vesting with Immediate Unlock
-
-This type of vesting releases a portion of the assets immediately and then releases the remaining assets exponentially over time.
-
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "25", range: [0, 54.75], color: "#f77423" },
-      { fn: "25 + 75 * ((x - 54.75) / (365 - 54.75))^2", range: [54.75, 365], color: "#f77423" },
-      {
-        points: [
-          [54.75, 0],
-          [54.75, 25],
-        ],
-        fnType: "points",
-        graphType: "polyline",
-        color: "#f77423",
-      },
-    ],
-  }}
-/>
-
-```javascript
-const exponentialImmediateUnlockConfig = {
-  functionType: FunctionType.EXPONENTIAL, // EXPONENTIAL
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 1, // Release every second
-  afterCliffPercent: 25, // Immediate release of 25%
-  growthRate: 2, // Exponential growth rate
-};
-```
+> {JSON.stringify(exponentialCliffVestingConfig)}
 
 ### Exponential Vesting with Cliff Unlock
 
 This type of vesting releases a portion of the assets immediately after a cliff period and then releases the remaining assets exponentially over time.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 182.5], color: "#f77423" },
-      { fn: "25 + 75 * ((x - 182.5) / (365 - 182.5))^2", range: [182.5, 365], color: "#f77423" },
-      {
-        points: [
-          [182.5, 0],
-          [182.5, 25],
-        ],
-        fnType: "points",
-        graphType: "polyline",
-        color: "#f77423",
-      },
-    ],
-  }}
-/>
+<ExponentialCliffUnlockPlot config={exponentialCliffUnlockConfig} />
 
-```javascript
-const exponentialCliffUnlockConfig = {
-  functionType: FunctionType.EXPONENTIAL, // EXPONENTIAL
-  cliff: 182.5 * 24 * 60 * 60, // 182.5 days cliff
-  duration: 182.5 * 24 * 60 * 60, // Total duration of 182.5 days after cliff
-  period: 1, // Release every second
-  afterCliffPercent: 25, // Immediate release of 25% after cliff
-  growthRate: 2, // Exponential growth rate
-};
-```
+> {JSON.stringify(exponentialCliffUnlockConfig)}
+
+### Exponential Vesting with Immediate Unlock
+
+This type of vesting releases a portion of the assets immediately and then releases the remaining assets exponentially over time.
+
+<ExponentialImmediateUnlockPlot config={exponentialImmediateUnlockConfig} />
+
+> {JSON.stringify(exponentialImmediateUnlockConfig)}
 
 ## Hyperbolic Vesting
 
 In hyperbolic vesting, the amount of assets released increases quickly at the beginning and then slows down over time.
 
-<FunctionPlot options={{ 
-    xAxisLabel: "Days", 
-    yAxisLabel: "% - Tokens", 
-    xDomainLimit: 365, 
-    yDomainLimit: 100, 
-    data: [{ fn: "x / (x + 1) * 100", color: "#f77423" }] 
-}} />
+<HyperbolicVestingPlot config={hyperbolicVestingConfig} />
 
-```javascript
-const hyperbolicVestingConfig = {
-  functionType: FunctionType.HYPERBOLIC, // HYPERBOLIC
-  cliff: 0, // No cliff
-  duration: 365 * 24 * 60 * 60, // Total duration of 365 days
-  period: 1, // Release every second
-  afterCliffPercent: 0, // No immediate release
-};
-```
+> {JSON.stringify(hyperbolicVestingConfig)}
 
-### Hyperbolic Vesting with Cliff
+### Hyperbolic Vesting with Cliff Delay
 
 A cliff can be added to hyperbolic vesting, setting a cut-off point before which no assets are released. After the cliff, assets start releasing hyperbolically.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 91.25], color: "#f77423" },
-      { fn: "(x - 91.25) / (x - 91.25 + 1) * 100", range: [91.25, 365], color: "#f77423" },
-    ],
-  }}
-/>
+<HyperbolicCliffVestingPlot config={hyperbolicCliffVestingConfig} />
 
-```javascript
-const hyperbolicCliffVestingConfig = {
-  functionType: FunctionType.HYPERBOLIC, // HYPERBOLIC
-  cliff: 91.25 * 24 * 60 * 60, // 91.25 days cliff
-  duration: 273.75 * 24 * 60 * 60, // Total duration of 273.75 days after cliff
-  period: 1, // Release every second
-  afterCliffPercent: 0, // No immediate release
-};
-```
+> {JSON.stringify(hyperbolicCliffVestingConfig)}
+
+### Hyperbolic Vesting with Immediate Unlock
+
+This type of vesting releases a portion of the assets immediately and then releases the remaining assets hyperbolically over time.
+
+<HyperbolicImmediateUnlockPlot config={hyperbolicImmediateUnlockConfig} />
+
+> {JSON.stringify(hyperbolicImmediateUnlockConfig)}
 
 ### Hyperbolic Vesting with Cliff Unlock
 
 This type of vesting releases a portion of the assets immediately after a cliff period and then releases the remaining assets hyperbolically over time.
 
-<FunctionPlot options={{
-    xAxisLabel: "Days",
-    yAxisLabel: "% - Tokens",
-    xDomainLimit: 365,
-    yDomainLimit: 100,
-    data: [
-      { fn: "0", range: [0, 182.5], color: "#f77423" },
-      { fn: "25 + (x - 182.5) / (x - 182.5 + 1) * 75", range: [182.5, 365], color: "#f77423" },
-      {
-        points: [
-          [182.5, 0],
-          [182.5, 25],
-        ],
-        fnType: "points",
-        graphType: "polyline",
-        color: "#f77423",
-      },
-    ],
-  }}
-/>
+<HyperbolicCliffUnlockPlot config={hyperbolicCliffUnlockConfig} />
 
-```javascript
-const hyperbolicCliffUnlockConfig = {
-  functionType: FunctionType.HYPERBOLIC, // HYPERBOLIC
-  cliff: 182.5 * 24 * 60 * 60, // 182.5 days cliff
-  duration: 182.5 * 24 * 60 * 60, // Total duration of 182.5 days after cliff
-  period: 1, // Release every second
-  afterCliffPercent: 25, // Immediate release of 25% after cliff
-};
-```
+> {JSON.stringify(hyperbolicCliffUnlockConfig)}
 
 ## Notes
 
-- "afterCliffPercent" can be increased to 100% to implement a simple "Timelock Vesting"
-
-- "period" can be increased to to implement Weekly, Monthly, or Vesting of any custom period in step tranches
-
+- "afterCliffBasisPoints" can be increased to 10000 to implement a simple "Timelock Vesting"
+- "period" can be increased to implement Weekly, Monthly, or Vesting of any custom period in step tranches
 - "start" must be passed to schedule vesting activation, cliff period only begins counting after start timestamp

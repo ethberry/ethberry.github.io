@@ -13,7 +13,12 @@ const generateSteppedData = (config) => {
   for (let i = 0; i <= steps; i++) {
     const x = i * stepSize;
     const y = immediateRelease + i * stepIncrement;
+    // Add horizontal line for the step
     data.push([x, y * 100]);
+    if (i < steps) {
+      const nextX = (i + 1) * stepSize;
+      data.push([nextX, y * 100]);
+    }
   }
 
   return data;
