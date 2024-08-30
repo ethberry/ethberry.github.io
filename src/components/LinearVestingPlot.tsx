@@ -15,7 +15,7 @@ const LinearVestingPlot = ({ config }) => (
     yAxisLabel: "% - Tokens",
     xDomainLimit: config.duration / (24 * 60 * 60),
     yDomainLimit: 100,
-    data: [{ fn: `x / ${config.duration / (24 * 60 * 60)} * 100`, color: "#f77423" }]
+    data: [{ fn: `x / ${config.duration / (24 * 60 * 60)} * 100`, color: "#65a3ff" }]
   }} />
 );
 

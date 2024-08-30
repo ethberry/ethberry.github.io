@@ -38,7 +38,7 @@ const StepVestingPlot = ({ config }) => {
             points: data,
             fnType: 'points',
             graphType: 'polyline',
-            color: '#f77423',
+            color: '#65a3ff',
           },
         ],
       }}

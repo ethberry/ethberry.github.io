@@ -22,7 +22,7 @@ const ExponentialVestingPlot = ({ config }) => {
         yAxisLabel: "% - Tokens",
         xDomainLimit: durationDays,
         yDomainLimit: 100,
-        data: [{ fn: vestingFunction, color: "#f77423" }],
+        data: [{ fn: vestingFunction, color: "#65a3ff" }],
       }}
     />
   );

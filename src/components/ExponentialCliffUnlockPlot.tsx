@@ -25,8 +25,8 @@ const ExponentialCliffUnlockPlot = ({ config }) => {
         xDomainLimit: durationDays,
         yDomainLimit: 100,
         data: [
-          { fn: "0", range: [0, cliffDays], color: "#f77423" },
-          { fn: vestingFunction, range: [cliffDays, durationDays], color: "#f77423" },
+          { fn: "0", range: [0, cliffDays], color: "#65a3ff" },
+          { fn: vestingFunction, range: [cliffDays, durationDays], color: "#65a3ff" },
 		      {
 		        points: [
 		          [cliffDays, 0],
@@ -34,7 +34,7 @@ const ExponentialCliffUnlockPlot = ({ config }) => {
 		        ],
 		        fnType: "points",
 		        graphType: "polyline",
-		        color: "#f77423",
+		        color: "#65a3ff",
 		      },
         ],
       }}
