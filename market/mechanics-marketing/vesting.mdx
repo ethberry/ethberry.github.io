@@ -10,7 +10,9 @@ import HyperbolicVestingPlot, { hyperbolicVestingConfig } from "@site/src/compon
 import HyperbolicCliffVestingPlot, { hyperbolicCliffVestingConfig } from "@site/src/components/HyperbolicCliffVestingPlot";
 import HyperbolicImmediateUnlockPlot, { hyperbolicImmediateUnlockConfig } from "@site/src/components/HyperbolicImmediateUnlockPlot";
 import HyperbolicCliffUnlockPlot, { hyperbolicCliffUnlockConfig } from "@site/src/components/HyperbolicCliffUnlockPlot";
-import FunctionPlot from "@site/src/components/FunctionPlot";
+import MonthlyExponentialPlot, { monthlyExponentialConfig } from "@site/src/components/MonthlyExponentialPlot";
+import MonthlyHyperbolicPlot, { monthlyHyperbolicConfig } from "@site/src/components/MonthlyHyperbolicPlot";
+import MonthlyLinearPlot, { monthlyLinearConfig } from "@site/src/components/MonthlyLinearPlot";
 
 # Vesting
 
@@ -119,8 +121,34 @@ This type of vesting releases a portion of the assets immediately after a cliff 
 
 > {JSON.stringify(hyperbolicCliffUnlockConfig)}
 
+## Monthly Linear Vesting
+
+Monthly linear vesting releases a portion of the assets at the beginning of each month assuming each months equals 30 days.
+
+<MonthlyLinearPlot config={monthlyLinearConfig} />
+
+> {JSON.stringify(monthlyLinearConfig)}
+
+### Monthly Exponential Vesting
+
+Monthly exponential vesting releases a portion of the assets at the beginning of each month, with the amount released increasing exponentially.
+
+<MonthlyExponentialPlot config={monthlyExponentialConfig} />
+
+> {JSON.stringify(monthlyExponentialConfig)}
+
+### Monthly Hyperbolic Vesting
+
+Monthly hyperbolic vesting releases a portion of the assets at the beginning of each month, with the amount released following a hyperbolic curve.
+
+<MonthlyHyperbolicPlot config={monthlyHyperbolicConfig} />
+
+> {JSON.stringify(monthlyHyperbolicConfig)}
+
 ## Notes
 
 - "afterCliffBasisPoints" can be increased to 10000 to implement a simple "Timelock Vesting"
 - "period" can be increased to implement Weekly, Monthly, or Vesting of any custom period in step tranches
 - "start" must be passed to schedule vesting activation, cliff period only begins counting after start timestamp
+- "growthRate" only applies to exponential schedule, but must be passed in all schedules with default value
+- "cliff" can be also applied to schedules with monthly steps and others
