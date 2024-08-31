@@ -25,8 +25,8 @@ Admin-ui
 6. Create Dismantle rule (Price - ERC721 Template, Item - 10 ERC20 Tokens)
 
 Market-ui
-7. On the ERC721 Token page - click Dismantle button
-8. Confirm approve token spend for ERC721 token
-9. Confirm Dismantle of ERC721 token
-10. Check 2 things: ERC721 token burned, ERC20 balance doesn't change
+1. On the ERC721 Token page - click Dismantle button 
+2. Confirm approve token spend for ERC721 token 
+3. Confirm Dismantle of ERC721 token 
+4. Check 2 things: ERC721 token burned, ERC20 balance doesn't change
     (as 10 ERC20 Tokens will be transferred from Owner to Owner)
