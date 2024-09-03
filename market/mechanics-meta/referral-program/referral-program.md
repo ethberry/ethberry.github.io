@@ -16,4 +16,4 @@ For example:
 - Game server stores cumulative amount spend by referrals and grants access to uniq items by creating a
   claim itself.
 
-Anyway this mechanics has to be combined with [claim](/market/mechanics-marketing/claim/)
+Anyway this mechanics has to be combined with [claim](/admin/mechanics-marketing/claim/)

@@ -10,8 +10,8 @@ sidebar_position: 6
 Smart contract can't get any information from off-chain by itself thus required information must be passed to it from
 off-chain by executing transaction. This is what ChainLink does. One of the data type which they can pass to blockchain
 is random number. We use it in different mechanics
-like [Mystery Boxes](/admin/mechanics-marketing/mystery/), [Lottery](/admin/integrations/lottery/)
-and [Raffle](/admin/integrations/raffle/).
+like [Mystery Boxes](/admin/mechanics-marketing/mystery/), [Lottery](/admin/mechanics-gambling/lottery/)
+and [Raffle](/admin/mechanics-gambling/raffle/).
 
 More information about how it works can be found [here](https://docs.chain.link/docs/chainlink-vrf/)
 

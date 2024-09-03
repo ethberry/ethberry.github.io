@@ -17,6 +17,4 @@ The system assigns required roles to users.
 - **MANAGER** - Users with rights to deploy contracts, mint tokens etc.
 - **CUSTOMER** - Regular users with access to marketplace only.
 
-Admins can add or revoke any role for specific user via [office actions](/users).
-
-![](/img/admin/miscellaneous/user_roles.png)
+Admins can add or revoke any role for specific user
