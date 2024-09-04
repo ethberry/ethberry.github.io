@@ -13,6 +13,7 @@ import HyperbolicCliffUnlockPlot, { hyperbolicCliffUnlockConfig } from "@site/sr
 import MonthlyExponentialPlot, { monthlyExponentialConfig } from "@site/src/components/MonthlyExponentialPlot";
 import MonthlyHyperbolicPlot, { monthlyHyperbolicConfig } from "@site/src/components/MonthlyHyperbolicPlot";
 import MonthlyLinearPlot, { monthlyLinearConfig } from "@site/src/components/MonthlyLinearPlot";
+import Config from "@site/src/components/Config";
 
 # Vesting
 
@@ -31,7 +32,7 @@ Linear vesting is the simplest type of vesting. The amount of assets released ov
 
 <LinearVestingPlot config={linearVestingConfig} />
 
-> {JSON.stringify(linearVestingConfig)}
+<Config config={linearVestingConfig} />
 
 ### Linear Vesting with Cliff Delay
 
@@ -39,7 +40,7 @@ A cliff can be added to linear vesting, setting a cut-off point before which no 
 
 <LinearCliffVestingPlot config={linearCliffVestingConfig} />
 
-> {JSON.stringify(linearCliffVestingConfig)}
+<Config config={linearCliffVestingConfig} />
 
 ### Linear Vesting with Immediate Unlock
 
@@ -47,7 +48,7 @@ This type of vesting releases a portion of the assets immediately and then relea
 
 <LinearImmediateUnlockPlot config={linearImmediateUnlockConfig} />
 
-> {JSON.stringify(linearImmediateUnlockConfig)}
+<Config config={linearImmediateUnlockConfig} />
 
 ### Linear Vesting with Cliff Unlock
 
@@ -55,7 +56,7 @@ This type of vesting releases a portion of the assets immediately after a cliff 
 
 <LinearCliffUnlockPlot config={linearCliffUnlockConfig} />
 
-> {JSON.stringify(linearCliffUnlockConfig)}
+<Config config={linearCliffUnlockConfig} />
 
 ## Exponential Vesting
 
@@ -63,7 +64,7 @@ In exponential vesting, the amount of assets released increases exponentially ov
 
 <ExponentialVestingPlot config={exponentialVestingConfig} />
 
-> {JSON.stringify(exponentialVestingConfig)}
+<Config config={exponentialVestingConfig} />
 
 ### Exponential Vesting with Cliff Delay
 
@@ -71,7 +72,7 @@ A cliff can be added to exponential vesting, setting a cut-off point before whic
 
 <ExponentialCliffVestingPlot config={exponentialCliffVestingConfig} />
 
-> {JSON.stringify(exponentialCliffVestingConfig)}
+<Config config={exponentialCliffVestingConfig} />
 
 ### Exponential Vesting with Cliff Unlock
 
@@ -79,7 +80,7 @@ This type of vesting releases a portion of the assets immediately after a cliff 
 
 <ExponentialCliffUnlockPlot config={exponentialCliffUnlockConfig} />
 
-> {JSON.stringify(exponentialCliffUnlockConfig)}
+<Config config={exponentialCliffUnlockConfig} />
 
 ### Exponential Vesting with Immediate Unlock
 
@@ -87,7 +88,7 @@ This type of vesting releases a portion of the assets immediately and then relea
 
 <ExponentialImmediateUnlockPlot config={exponentialImmediateUnlockConfig} />
 
-> {JSON.stringify(exponentialImmediateUnlockConfig)}
+<Config config={exponentialImmediateUnlockConfig} />
 
 ## Hyperbolic Vesting
 
@@ -95,7 +96,7 @@ In hyperbolic vesting, the amount of assets released increases quickly at the be
 
 <HyperbolicVestingPlot config={hyperbolicVestingConfig} />
 
-> {JSON.stringify(hyperbolicVestingConfig)}
+<Config config={hyperbolicVestingConfig} />
 
 ### Hyperbolic Vesting with Cliff Delay
 
@@ -103,7 +104,7 @@ A cliff can be added to hyperbolic vesting, setting a cut-off point before which
 
 <HyperbolicCliffVestingPlot config={hyperbolicCliffVestingConfig} />
 
-> {JSON.stringify(hyperbolicCliffVestingConfig)}
+<Config config={hyperbolicCliffVestingConfig} />
 
 ### Hyperbolic Vesting with Immediate Unlock
 
@@ -111,7 +112,7 @@ This type of vesting releases a portion of the assets immediately and then relea
 
 <HyperbolicImmediateUnlockPlot config={hyperbolicImmediateUnlockConfig} />
 
-> {JSON.stringify(hyperbolicImmediateUnlockConfig)}
+<Config config={hyperbolicImmediateUnlockConfig} />
 
 ### Hyperbolic Vesting with Cliff Unlock
 
@@ -119,7 +120,7 @@ This type of vesting releases a portion of the assets immediately after a cliff 
 
 <HyperbolicCliffUnlockPlot config={hyperbolicCliffUnlockConfig} />
 
-> {JSON.stringify(hyperbolicCliffUnlockConfig)}
+<Config config={hyperbolicCliffUnlockConfig} />
 
 ## Monthly Linear Vesting
 
@@ -127,7 +128,7 @@ Monthly linear vesting releases a portion of the assets at the beginning of each
 
 <MonthlyLinearPlot config={monthlyLinearConfig} />
 
-> {JSON.stringify(monthlyLinearConfig)}
+<Config config={monthlyLinearConfig} />
 
 ### Monthly Exponential Vesting
 
@@ -135,7 +136,7 @@ Monthly exponential vesting releases a portion of the assets at the beginning of
 
 <MonthlyExponentialPlot config={monthlyExponentialConfig} />
 
-> {JSON.stringify(monthlyExponentialConfig)}
+<Config config={monthlyExponentialConfig} />
 
 ### Monthly Hyperbolic Vesting
 
@@ -143,7 +144,7 @@ Monthly hyperbolic vesting releases a portion of the assets at the beginning of 
 
 <MonthlyHyperbolicPlot config={monthlyHyperbolicConfig} />
 
-> {JSON.stringify(monthlyHyperbolicConfig)}
+<Config config={monthlyHyperbolicConfig} />
 
 ## Notes
 
