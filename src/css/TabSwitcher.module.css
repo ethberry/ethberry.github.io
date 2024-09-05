@@ -9,17 +9,17 @@
 .tabButton {
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: #1D1C1C;
+  border: 1px solid #52504E;
   transition: background-color 0.3s;
 }
 
 .tabButton:hover {
-  background-color: #e0e0e0;
+  background-color: #29292A;
 }
 
 .tabButton.active {
-  background-color: #d0d0d0;
+  background-color: #29292A;
   font-weight: bold;
 }
 
