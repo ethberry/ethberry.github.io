@@ -27,7 +27,7 @@
     "@tsconfig/docusaurus": "2.0.3",
     "typescript": "5.6.2"
   },
-  "name": "gemunion.github.io",
+  "name": "ethberry.github.io",
   "private": true,
   "scripts": {
     "build": "docusaurus build",

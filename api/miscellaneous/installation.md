@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Installation
 
-Welcome to [GEMUNION](https://www.gemunion.io/) framework 
+Welcome to [ETHBERRY](https://www.ethberry.io/) framework 
 
 This monorepo is powered by Lerna. You can read about what is monorepo and how Lerna
 works [here](https://github.com/lerna/lerna)

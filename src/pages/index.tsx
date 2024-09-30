@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.title}`}
       description="An advanced framework for building decentralized games">
       <main>
-        <img src={require("@site/static/img/logo.png").default} alt="GEMUNION" className={styles.logo} />
+        <img src={require("@site/static/img/logo.png").default} alt="ETHBERRY" className={styles.logo} />
       </main>
     </Layout>
   );

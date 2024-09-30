@@ -10,4 +10,4 @@ Unity/Unreal app. To access it from Unity/Unreal app the developer has to proxy 
 
 The `game server` can connect to the `GAME-MS` using API key as a Bearer token in request header.
 
-Full list of endpoints available at [swagger documentation](https://game-api.gemunion.io/swagger)
+Full list of endpoints available at [swagger documentation](https://game-api.ethberry.io/swagger)

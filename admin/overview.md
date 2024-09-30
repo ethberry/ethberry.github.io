@@ -5,6 +5,6 @@ sidebar_position: 0
 
 # Overview
 
-Welcome to Gemunion - An advanced framework for building decentralized games.
+Welcome to EthBerry - An advanced framework for building decentralized applications.
 
 [Download presentation](https://docsend.com/view/psaci7zcgh88h2pt)

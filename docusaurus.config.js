@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
-  title: "Gemunion Framework",
+  title: "EthBerry Framework",
   tagline: "An advanced framework for building decentralized games",
-  url: "https://gemunion.io",
+  url: "https://ethberry.io",
   baseUrl: "/",
   trailingSlash: true,
   onBrokenLinks: "throw",
@@ -17,8 +17,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "gemunion", // Usually your GitHub org/user name.
-  projectName: "gemunion.github.io", // Usually your repo name.
+  organizationName: "ethberry", // Usually your GitHub org/user name.
+  projectName: "ethberry.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -68,9 +68,9 @@ const config = {
     },
     metadata: [{ name: "twitter:card", content: "summary" }],
     navbar: {
-      title: "GEMUNION",
+      title: "ETHBERRY",
       logo: {
-        alt: "Gemunion Framework",
+        alt: "EthBerry Framework",
         src: "img/logo.png",
       },
       items: [
@@ -93,7 +93,7 @@ const config = {
           label: "API",
         },
         {
-          href: "https://github.com/gemunion/",
+          href: "https://github.com/ethberry/",
           label: "GitHub",
           position: "right",
         },
@@ -102,7 +102,7 @@ const config = {
     footer: {
       style: "dark",
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} GEMUNION. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ETHBERRY. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

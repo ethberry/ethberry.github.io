@@ -25,26 +25,3 @@ jobs:
           build_dir: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
-#jobs:
-#  deploy:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: checkout
-#        uses: actions/checkout@v3
-#        with:
-#          ref: ${{ github.head_ref }}
-#          token: ${{ secrets.GITHUBTOKEN }}
-#
-#      - name: Install Packages
-#        run: npm i
-#
-#      - name: Docusaurus deploy
-#        run: |
-#          git config --global user.name ${{ secrets.GIT_USER }}
-#          git config --global user.email 'gemuniongroup@gmail.com'
-#          npm run deploy
-#        env:
-#          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
-#          GH_TOKEN: ${{ secrets.GITHUBTOKEN }}
-#          GIT_USER: ${{ secrets.GIT_USER }}
-#          GIT_TOKEN: ${{ secrets.GITHUBTOKEN }}

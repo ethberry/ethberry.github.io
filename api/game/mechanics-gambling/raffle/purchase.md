@@ -13,7 +13,7 @@ Request
 
 ```bash
 curl -X 'GET' \
-  'https://game-api.gemunion.io/raffle/contracts?skip=0&take=25&chainId=10001' \
+  'https://game-api.ethberry.io/raffle/contracts?skip=0&take=25&chainId=10001' \
   -H 'accept: */*' \
   -H 'Authorization: Bearer 11111111-2222-3333-4444-555555555555'
 ```
@@ -71,7 +71,7 @@ Request
 
 ```bash
 curl -X 'GET' \
-  'https://game-api.gemunion.io/rounds/current?contractId=12201' \
+  'https://game-api.ethberry.io/rounds/current?contractId=12201' \
   -H 'accept: */*' \
   -H 'Authorization: Bearer 11111111-2222-3333-4444-555555555555'
 ```
@@ -223,7 +223,7 @@ Request
 
 ```bash
 curl -X 'POST' \
-  'https://game-api.gemunion.io/raffle/ticket/sign' \
+  'https://game-api.ethberry.io/raffle/ticket/sign' \
   -H 'accept: */*' \
   -H 'Authorization: Bearer 11111111-2222-3333-4444-555555555555' \
   -H 'Content-Type: application/json' \
@@ -360,7 +360,7 @@ Purchase function ABI
 ```typescript
 import { BigNumber, Contract, utils, ZeroAddress } from "ethers";
 
-const instance = new Contract(GEMUNION_EXCHNAGE_ADDR, RafflePurchaseABI, Signer);
+const instance = new Contract(ETHBERRY_EXCHNAGE_ADDR, RafflePurchaseABI, Signer);
 
 const onClick = () => instance.purchaseRaffle(
   {

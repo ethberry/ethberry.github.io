@@ -16,7 +16,7 @@ Request
 
 ```bash
 curl -X 'GET' \
-  'https://game-api.gemunion.io/raffle/contracts?skip=0&take=25&chainId=10001' \
+  'https://game-api.ethberry.io/raffle/contracts?skip=0&take=25&chainId=10001' \
   -H 'accept: */*' \
   -H 'Authorization: Bearer 11111111-2222-3333-4444-555555555555'
 ```

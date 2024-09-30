@@ -84,5 +84,5 @@ The use of the **SOULBOUND** feature with **VOTING** feature, where NFT is a vot
 
 ### EXTERNAL
 
-**External** contracts are only available in [Self-Hosted version](https://gemunion.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.
+**External** contracts are only available in [Self-Hosted version](https://ethberry.io/pricing), these are contracts deployed by other developers but connected to the system to use in various mechanics. These contracts have disabled contract menu.
 

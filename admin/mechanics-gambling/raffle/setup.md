@@ -28,8 +28,8 @@ Let's dive into each step:
       > ![](/img/admin/mechanics-gambling/raffle/ticket_deploy_dialog.png)
   2. **Grant `MINTER_ROLE` to Raffle Contract**
       > Without this permission, the **Raffle** contract would not be able to mint any tokens from **Ticket** contract.
-      1. Go to Dashboard > Raffle > Tickets and find the created ticket Gemunion Raffle Ticket.
-      2. Go to **Dashboard > Raffle > Tickets** and find the created ticket `Gemunion Raffle Ticket`
+      1. Go to Dashboard > Raffle > Tickets and find the created ticket EthBerry Raffle Ticket.
+      2. Go to **Dashboard > Raffle > Tickets** and find the created ticket `EthBerry Raffle Ticket`
       3. Click `•••` **[action button]** and click **Grant Role**
       4. Choose `MINTER_ROLE` in the **Role** field and search for `Raffle` or enter its `address` in the **Address** field. 
       5. Search for **Raffle Contract Title** not for ~~Raffle Ticket Title~~
