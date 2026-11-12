@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { ReactNode, useState } from "react";
 import styles from "../css/TabSwitcher.module.css";
 
-const TabSwitcher = ({ tabs }) => {
+interface ITab {
+  label: ReactNode;
+  content: ReactNode;
+}
+
+const TabSwitcher = ({ tabs }: { tabs: ITab[] }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (

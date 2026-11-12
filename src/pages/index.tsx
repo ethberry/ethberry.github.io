@@ -4,7 +4,7 @@ import Layout from "@theme/Layout";
 
 import styles from './index.module.css';
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
