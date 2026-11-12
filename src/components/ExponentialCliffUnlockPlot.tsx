@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IExponentialVestingPlotProps } from "@site/src/components/types";
 
 export const exponentialCliffUnlockConfig = {
   functionType: 2,
@@ -10,7 +11,7 @@ export const exponentialCliffUnlockConfig = {
   growthRate: 200,
 };
 
-const ExponentialCliffUnlockPlot = ({ config }) => {
+const ExponentialCliffUnlockPlot = ({ config }: IExponentialVestingPlotProps) => {
   const cliffDays = config.cliff / (24 * 60 * 60);
   const durationDays = config.duration / (24 * 60 * 60);
   const immediateUnlockPercentage = config.afterCliffBasisPoints / 100;

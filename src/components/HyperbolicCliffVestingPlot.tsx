@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const hyperbolicCliffVestingConfig = {
   functionType: 1,
@@ -9,7 +10,7 @@ export const hyperbolicCliffVestingConfig = {
   afterCliffBasisPoints: 0, // No immediate release
 };
 
-const HyperbolicCliffVestingPlot = ({ config }) => {
+const HyperbolicCliffVestingPlot = ({ config }: IVestingPlotProps) => {
   const cliffDays = config.cliff / (24 * 60 * 60);
   const durationDays = config.duration / (24 * 60 * 60);
   const vestingFunction = `((x - ${cliffDays}) / (${durationDays} - ${cliffDays})) / ((x - ${cliffDays}) / (${durationDays} - ${cliffDays}) + 1) * 100 * 2`;

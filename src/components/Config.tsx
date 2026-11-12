@@ -1,9 +1,10 @@
 import React from 'react';
 import TabSwitcher from './TabSwitcher';
+import type { IVestingConfig, IVestingPlotProps } from './types';
 
 const functionTypeNames = ["Linear", "Exponential", "Hyperbolic"];
 
-const vestingFunctionName = (functionType) => {
+const vestingFunctionName = (functionType: number): string => {
   switch (functionType) {
     case 0: return 'Linear';
     case 1: return 'Exponential';
@@ -12,13 +13,13 @@ const vestingFunctionName = (functionType) => {
   }
 };
 
-const formatDuration = (seconds) => {
+const formatDuration = (seconds: number): string => {
   const days = seconds / (24 * 60 * 60);
   return `${days} days`;
 };
 
-const formatFieldName = (name) => {
-  const mapping = {
+const formatFieldName = (name: string): string => {
+  const mapping: Record<string, string> = {
     functionType: "Function Type",
     cliff: "Cliff (seconds)",
     duration: "Duration (days)",
@@ -29,7 +30,7 @@ const formatFieldName = (name) => {
   return mapping[name] || name;
 };
 
-const formatFieldValue = (name, value) => {
+const formatFieldValue = (name: keyof IVestingConfig, value: number): string | number => {
   if (name === "cliff" || name === "duration") {
     return formatDuration(value);
   }
@@ -39,13 +40,13 @@ const formatFieldValue = (name, value) => {
   return value;
 };
 
-export const FormattedJSON = ({ config }) => (
+export const FormattedJSON = ({ config }: IVestingPlotProps) => (
   <pre>
     <code>{JSON.stringify(config, null, 2)}</code>
   </pre>
 );
 
-export const FormattedTable = ({ config }) => {
+export const FormattedTable = ({ config }: IVestingPlotProps) => {
   const formattedConfig = {
     'Vesting Function': vestingFunctionName(config.functionType),
     'Cliff Duration': formatDuration(config.cliff),
@@ -75,7 +76,7 @@ export const FormattedTable = ({ config }) => {
   );
 };
 
-export const Config = ({ config }) => {
+export const Config = ({ config }: IVestingPlotProps) => {
   const tabs = [
     {
       label: 'Config',

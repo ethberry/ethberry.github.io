@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import functionPlot, { FunctionPlotOptions } from "function-plot";
 
-export interface ExtendedFunctionPlotOptions extends FunctionPlotOptions {
+export interface ExtendedFunctionPlotOptions extends Omit<FunctionPlotOptions, "target"> {
   xAxisLabel?: string;
   yAxisLabel?: string;
   xDomainLimit?: number;
@@ -14,9 +14,12 @@ export interface FunctionPlotProps {
 
 // See https://github.com/mauriciopoppe/function-plot
 const FunctionPlot: React.FC<FunctionPlotProps> = React.memo(function ({ options }: FunctionPlotProps) {
-  const rootEl = useRef(null);
+  const rootEl = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (!rootEl.current) {
+      return;
+    }
     try {
       functionPlot({
         ...options,

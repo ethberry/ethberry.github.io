@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const linearCliffUnlockConfig = {
   functionType: 0,
@@ -9,7 +10,7 @@ export const linearCliffUnlockConfig = {
   afterCliffBasisPoints: 2500, // 25% immediate unlock after cliff
 };
 
-const LinearCliffUnlockPlot = ({ config }) => {
+const LinearCliffUnlockPlot = ({ config }: IVestingPlotProps) => {
   const cliffDays = config.cliff / (24 * 60 * 60);
   const durationDays = config.duration / (24 * 60 * 60);
   const immediateUnlock = config.afterCliffBasisPoints / 10000 * 100;

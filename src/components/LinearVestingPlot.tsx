@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const linearVestingConfig = {
   functionType: 0,
@@ -9,7 +10,7 @@ export const linearVestingConfig = {
   afterCliffBasisPoints: 0,
 };
 
-const LinearVestingPlot = ({ config }) => (
+const LinearVestingPlot = ({ config }: IVestingPlotProps) => (
   <FunctionPlot options={{
     xAxisLabel: "Days",
     yAxisLabel: "% - Tokens",

@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IExponentialVestingPlotProps } from "@site/src/components/types";
 
 export const monthlyExponentialConfig = {
   functionType: 2,
@@ -10,11 +11,11 @@ export const monthlyExponentialConfig = {
   growthRate: 200, // Example growth rate
 };
 
-const MonthlyExponentialPlot = ({ config }) => {
+const MonthlyExponentialPlot = ({ config }: IExponentialVestingPlotProps) => {
   const durationMonths = config.duration / (30 * 24 * 60 * 60);
   const periodMonths = config.period / (30 * 24 * 60 * 60);
   const growthRate = config.growthRate / 100;
-  const steps = [];
+  const steps: { fn: string; range: [number, number] }[] = [];
 
   for (let i = 0; i <= durationMonths; i++) {
     const yValue = Math.pow((i + 1) / durationMonths, growthRate) * 100;
@@ -34,7 +35,7 @@ const MonthlyExponentialPlot = ({ config }) => {
         data: steps.map((step, index) => ({
           fn: step.fn,
           range: step.range,
-          closed: "left",
+          closed: true,
           color: "#65a3ff",
         })),
       }}

@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const monthlyLinearConfig = {
   functionType: 0,
@@ -9,10 +10,10 @@ export const monthlyLinearConfig = {
   afterCliffBasisPoints: 0,
 };
 
-const MonthlyLinearPlot = ({ config }) => {
+const MonthlyLinearPlot = ({ config }: IVestingPlotProps) => {
   const durationMonths = config.duration / (30 * 24 * 60 * 60);
   const periodMonths = config.period / (30 * 24 * 60 * 60);
-  const steps = [];
+  const steps: { fn: string; range: [number, number] }[] = [];
 
   for (let i = 0; i <= durationMonths; i++) {
     steps.push({
@@ -31,7 +32,7 @@ const MonthlyLinearPlot = ({ config }) => {
         data: steps.map((step, index) => ({
           fn: step.fn,
           range: step.range,
-          closed: "left",
+          closed: true,
           color: "#65a3ff",
         })),
       }}

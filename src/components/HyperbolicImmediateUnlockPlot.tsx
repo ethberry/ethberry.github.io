@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const hyperbolicImmediateUnlockConfig = {
   functionType: 1,
@@ -9,7 +10,7 @@ export const hyperbolicImmediateUnlockConfig = {
   afterCliffBasisPoints: 2500, // Immediate release of 25%
 };
 
-const HyperbolicImmediateUnlockPlot = ({ config }) => {
+const HyperbolicImmediateUnlockPlot = ({ config }: IVestingPlotProps) => {
   const durationDays = config.duration / (24 * 60 * 60);
   const immediateUnlockPercentage = config.afterCliffBasisPoints / 100;
   const vestingFunction = `${immediateUnlockPercentage} + (x / ${durationDays}) / (x / ${durationDays} + 1) * (100 - ${immediateUnlockPercentage}) * 2`;

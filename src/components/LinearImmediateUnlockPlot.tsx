@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const linearImmediateUnlockConfig = {
   functionType: 0,
@@ -9,7 +10,7 @@ export const linearImmediateUnlockConfig = {
   afterCliffBasisPoints: 2500,
 };
 
-const LinearImmediateUnlockPlot = ({ config }) => {
+const LinearImmediateUnlockPlot = ({ config }: IVestingPlotProps) => {
   const durationDays = config.duration / (24 * 60 * 60);
   const immediateUnlockPercentage = config.afterCliffBasisPoints / 100;
   const vestingFunction = `${immediateUnlockPercentage} + (x / ${durationDays}) * (100 - ${immediateUnlockPercentage})`;

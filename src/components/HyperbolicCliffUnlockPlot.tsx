@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const hyperbolicCliffUnlockConfig = {
   functionType: 1,
@@ -9,7 +10,7 @@ export const hyperbolicCliffUnlockConfig = {
   afterCliffBasisPoints: 2500, // Immediate release of 25% after cliff
 };
 
-const HyperbolicCliffUnlockPlot = ({ config }) => {
+const HyperbolicCliffUnlockPlot = ({ config }: IVestingPlotProps) => {
   const cliffDays = config.cliff / (24 * 60 * 60);
   const durationDays = config.duration / (24 * 60 * 60);
   const immediateUnlockPercentage = config.afterCliffBasisPoints / 100;
