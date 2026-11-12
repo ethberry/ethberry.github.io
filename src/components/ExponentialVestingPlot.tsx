@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IExponentialVestingPlotProps } from "@site/src/components/types";
 
 export const exponentialVestingConfig = {
   functionType: 2,
@@ -10,7 +11,7 @@ export const exponentialVestingConfig = {
   growthRate: 200,
 };
 
-const ExponentialVestingPlot = ({ config }) => {
+const ExponentialVestingPlot = ({ config }: IExponentialVestingPlotProps) => {
   const durationDays = config.duration / (24 * 60 * 60);
   const growthRate = config.growthRate / 100;
   const vestingFunction = `(x / ${durationDays}) ^ ${growthRate} * 100`;

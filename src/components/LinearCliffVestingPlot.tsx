@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const linearCliffVestingConfig = {
   functionType: 0,
@@ -9,7 +10,7 @@ export const linearCliffVestingConfig = {
   afterCliffBasisPoints: 0,
 };
 
-const LinearCliffVestingPlot = ({ config }) => {
+const LinearCliffVestingPlot = ({ config }: IVestingPlotProps) => {
   const cliffDays = config.cliff / (24 * 60 * 60);
   const durationDays = config.duration / (24 * 60 * 60);
   const vestingFunction = `(x - ${cliffDays}) / (${durationDays} - ${cliffDays}) * 100`;

@@ -1,5 +1,6 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingPlotProps } from "@site/src/components/types";
 
 export const monthlyHyperbolicConfig = {
   functionType: 1,
@@ -9,10 +10,10 @@ export const monthlyHyperbolicConfig = {
   afterCliffBasisPoints: 0,
 };
 
-const MonthlyHyperbolicPlot = ({ config }) => {
+const MonthlyHyperbolicPlot = ({ config }: IVestingPlotProps) => {
   const durationMonths = config.duration / (30 * 24 * 60 * 60);
   const periodMonths = config.period / (30 * 24 * 60 * 60);
-  const steps = [];
+  const steps: { fn: string; range: [number, number] }[] = [];
 
   for (let i = 0; i <= durationMonths; i++) {
     const yValue = ((i + 1) / durationMonths) / ((i + 1) / durationMonths + 1) * 100 * 2;
@@ -32,7 +33,7 @@ const MonthlyHyperbolicPlot = ({ config }) => {
         data: steps.map((step, index) => ({
           fn: step.fn,
           range: step.range,
-          closed: "left",
+          closed: true,
           color: "#65a3ff",
         })),
       }}

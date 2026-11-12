@@ -4,5 +4,14 @@
   ],
   "baseBranchPatterns": [
     "main"
+  ],
+  "packageRules": [
+    {
+      "description": "Docusaurus is on TypeScript 6 (the shared config keeps other repositories on 5); Docusaurus does not support 7 yet.",
+      "matchPackageNames": [
+        "typescript"
+      ],
+      "allowedVersions": "<7"
+    }
   ]
 }

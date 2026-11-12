@@ -1,7 +1,8 @@
 import React from "react";
 import FunctionPlot from "@site/src/components/FunctionPlot";
+import type { IVestingConfig, IVestingPlotProps } from "@site/src/components/types";
 
-const generateSteppedData = (config) => {
+const generateSteppedData = (config: IVestingConfig) => {
   const { duration, period, afterCliffBasisPoints } = config;
   const totalDays = duration / (24 * 60 * 60);
   const stepSize = period / (24 * 60 * 60);
@@ -9,7 +10,7 @@ const generateSteppedData = (config) => {
   const steps = Math.floor(totalDays / stepSize);
   const stepIncrement = (1 - immediateRelease) / steps;
 
-  let data = [];
+  const data: [number, number][] = [];
   for (let i = 0; i <= steps; i++) {
     const x = i * stepSize;
     const y = immediateRelease + i * stepIncrement;
@@ -24,7 +25,7 @@ const generateSteppedData = (config) => {
   return data;
 };
 
-const StepVestingPlot = ({ config }) => {
+const StepVestingPlot = ({ config }: IVestingPlotProps) => {
   const data = generateSteppedData(config);
   return (
     <FunctionPlot 
